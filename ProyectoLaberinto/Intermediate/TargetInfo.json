@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProyectoLaberinto",
+			"Path": "D:\\Escritorio\\Proyecto\\Proyecto-Laberinto-Grupo-1\\ProyectoLaberinto\\Source\\ProyectoLaberinto.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProyectoLaberintoEditor",
+			"Path": "D:\\Escritorio\\Proyecto\\Proyecto-Laberinto-Grupo-1\\ProyectoLaberinto\\Source\\ProyectoLaberintoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
