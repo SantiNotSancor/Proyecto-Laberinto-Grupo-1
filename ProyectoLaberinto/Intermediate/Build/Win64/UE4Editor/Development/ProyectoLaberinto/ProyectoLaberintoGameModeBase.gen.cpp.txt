@@ -1,9 +1,0 @@
-D:\Escritorio\Proyecto\Proyecto-Laberinto-Grupo-1\ProyectoLaberinto\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLaberinto\Definitions.ProyectoLaberinto.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Escritorio\Proyecto\Proyecto-Laberinto-Grupo-1\ProyectoLaberinto\Source\ProyectoLaberinto/ProyectoLaberintoGameModeBase.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Epic Games\Juegos epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Escritorio\Proyecto\Proyecto-Laberinto-Grupo-1\ProyectoLaberinto\Intermediate\Build\Win64\UE4Editor\Inc\ProyectoLaberinto\ProyectoLaberintoGameModeBase.generated.h
