@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ProyectoLabApps.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLabApps\PCH.ProyectoLabApps.h.obj"
+"C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLabApps\ProyectoLabApps.cpp.obj"
+"C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLabApps\ProyectoLabAppsGameModeBase.cpp.obj"
+"C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLabApps\ProyectoLabApps.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ProyectoLabApps\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ProyectoLabApps.lib"

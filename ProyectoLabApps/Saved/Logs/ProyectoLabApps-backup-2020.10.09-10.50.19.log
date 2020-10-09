@@ -1,0 +1,799 @@
+﻿Log file open, 10/08/20 18:52:01
+LogInit:Display: Running engine for game: ProyectoLabApps
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1935301306) SRandInit(1935301306).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 23.580600
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal  -epicusername="Belugapro41" -epicuserid=cfbc9b1d33724aa483afe77c3ecfcf1f -epiclocale=es
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.10.08-21.52.07:120][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.08-21.52.07:121][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.08-21.52.07:462][  0]LogInit: Computer: BELU
+[2020.10.08-21.52.07:462][  0]LogInit: User: Beluu
+[2020.10.08-21.52.07:462][  0]LogInit: CPU Page size=65536, Cores=2
+[2020.10.08-21.52.07:462][  0]LogInit: High frequency timer resolution =2.143574 MHz
+[2020.10.08-21.52.07:463][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2020.10.08-21.52.07:463][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.08-21.52.07:463][  0]LogMemory: Process Physical Memory: 263.31 MB used, 263.31 MB peak
+[2020.10.08-21.52.07:463][  0]LogMemory: Process Virtual Memory: 262.21 MB used, 262.21 MB peak
+[2020.10.08-21.52.07:463][  0]LogMemory: Physical Memory: 3048.29 MB used,  747.24 MB free, 3795.54 MB total
+[2020.10.08-21.52.07:463][  0]LogMemory: Virtual Memory: 643.32 MB used,  747.24 MB free, 134217728.00 MB total
+[2020.10.08-21.52.11:546][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
+[2020.10.08-21.52.59:417][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.08-21.52.59:432][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2020.10.08-21.52.59:432][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.08-21.52.59:438][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.08-21.52.59:438][  0]LogD3D11RHI:       0/0/1897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.08-21.52.59:438][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.08-21.52.59:458][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.08-21.52.59:458][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.08-21.52.59:458][  0]LogWindows: EnumDisplayDevices:
+[2020.10.08-21.52.59:459][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2020.10.08-21.52.59:460][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2020.10.08-21.52.59:460][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.10.08-21.52.59:460][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2020.10.08-21.52.59:460][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2020.10.08-21.52.59:460][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2020.10.08-21.52.59:460][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2020.10.08-21.52.59:470][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.08-21.53.00:023][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2020.10.08-21.53.00:457][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/3964/).
+[2020.10.08-21.53.00:511][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belci_3/AppData/Local/Temp/UnrealShaderWorkingDir/9FA5D2A148E9721320EFE0AC2A5612FF/'.
+[2020.10.08-21.53.00:511][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.10.08-21.53.32:736][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.08-21.53.33:208][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.10.08-21.53.33:697][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.08-21.53.34:131][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.10.08-21.53.34:892][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.10.08-21.53.35:431][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.08-21.53.35:889][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.08-21.53.36:268][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.08-21.53.36:619][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.10.08-21.53.37:090][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.10.08-21.53.37:442][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.10.08-21.53.40:774][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.10.08-21.53.41:498][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.10.08-21.53.42:168][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.10.08-21.53.42:439][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.10.08-21.53.43:196][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.10.08-21.53.43:196][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.10.08-21.53.43:446][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.10.08-21.53.45:411][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.10.08-21.53.46:337][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.10.08-21.53.47:695][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.08-21.53.48:491][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.08-21.53.49:298][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.08-21.53.50:047][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.10.08-21.53.50:048][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.10.08-21.53.58:864][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.10.08-21.54.12:507][  0]LogDerivedDataCache: Loaded boot cache 13.59s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.08-21.54.12:507][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.10.08-21.54.12:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.08-21.54.12:508][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.08-21.54.12:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.08-21.54.12:508][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.08-21.54.13:195][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.08-21.54.13:295][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belci_3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.08-21.54.13:616][  0]LogSlate: Using Freetype 2.6.0
+[2020.10.08-21.54.13:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.08-21.54.13:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.08-21.55.21:902][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.08-21.55.21:996][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.10.08-21.55.32:539][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.08-21.55.33:165][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.08-21.55.33:573][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.08-21.55.33:573][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.10.08-21.55.33:573][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.10.08-21.55.57:144][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
+[2020.10.08-21.55.57:416][  0]LogAssetRegistry: FAssetRegistry took 0.0233 seconds to start up
+[2020.10.08-21.55.57:780][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.251809 seconds
+[2020.10.08-21.55.57:825][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.10.08-21.55.57:825][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2020.10.08-21.55.57:825][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.08-21.55.58:203][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.10.08-21.57.19:073][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.08-21.57.19:312][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.08-21.57.27:791][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.10.08-21.57.29:751][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.08-21.57.29:785][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.08-21.57.30:082][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.08-21.57.30:311][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.08-21.57.40:214][  0]LogEngine: Initializing Engine...
+[2020.10.08-21.57.40:223][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.08-21.57.41:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.08-21.57.41:314][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.08-21.57.42:979][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.08-21.57.43:174][  0]LogInit: XAudio2 using 'Audífono de los auriculares con micrófono (Plantronics Blackwire 3210 Series)' : 1 channels at 48 kHz using 16 bits per sample (channel mask 0x0)
+[2020.10.08-21.57.43:399][  0]LogInit: FAudioDevice initialized.
+[2020.10.08-21.57.43:763][  0]LogDerivedDataCache: Saved boot cache 0.36s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.08-21.57.43:785][  0]LogInit: Texture streaming: Enabled
+[2020.10.08-21.57.44:704][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.08-21.57.45:469][  0]LogInit: Transaction tracking system initialized
+[2020.10.08-21.57.47:736][  0]BlueprintLog: New page: Cargar el editor
+[2020.10.08-21.58.00:459][  0]LocalizationService: Información Localization service is disabled
+[2020.10.08-21.58.08:805][  0]LogConsoleResponse:Display: 
+[2020.10.08-21.58.11:405][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.05s
+[2020.10.08-21.58.11:405][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.08-21.58.11:405][  0]LogCook:Display: Mobile HDR setting 1
+[2020.10.08-21.58.18:619][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.08-21.58.19:156][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.15/FeaturePacks/StarterContent.upack)
+[2020.10.08-21.58.19:525][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.10.08-21.58.19:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.10.08-21.58.19:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.10.08-21.58.19:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.10.08-21.58.19:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.10.08-21.58.19:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.10.08-21.58.19:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.10.08-21.58.19:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.10.08-21.58.20:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.10.08-21.58.20:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.10.08-21.58.20:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.10.08-21.58.20:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.10.08-21.58.20:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.10.08-21.58.20:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.10.08-21.58.20:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.10.08-21.58.20:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.10.08-21.58.20:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.10.08-21.58.20:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.10.08-21.58.21:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Fire01.uasset"
+[2020.10.08-21.58.21:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.10.08-21.58.21:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.10.08-21.58.21:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.10.08-21.58.21:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Light01.uasset"
+[2020.10.08-21.58.21:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.10.08-21.58.21:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Light02.uasset"
+[2020.10.08-21.58.21:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.10.08-21.58.22:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.10.08-21.58.22:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.10.08-21.58.22:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.10.08-21.58.22:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.10.08-21.58.23:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.10.08-21.58.23:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.10.08-21.58.24:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.10.08-21.58.24:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.10.08-21.58.25:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Steam01.uasset"
+[2020.10.08-21.58.25:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.10.08-21.58.25:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.10.08-21.58.25:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.10.08-21.58.25:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.10.08-21.58.25:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.10.08-21.58.25:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.10.08-21.58.25:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.10.08-21.58.25:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.10.08-21.58.25:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.10.08-21.58.25:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.10.08-21.58.25:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.10.08-21.58.25:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.10.08-21.58.25:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.10.08-21.58.25:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.10.08-21.58.25:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.10.08-21.58.25:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.10.08-21.58.26:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.10.08-21.58.30:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.10.08-21.58.30:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.10.08-21.58.30:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.10.08-21.58.30:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.10.08-21.58.30:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.10.08-21.58.31:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/StarterMap.umap"
+[2020.10.08-21.58.33:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.10.08-21.58.33:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.10.08-21.58.33:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.10.08-21.58.33:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.10.08-21.58.33:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.10.08-21.58.33:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.10.08-21.58.33:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.10.08-21.58.33:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.10.08-21.58.33:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.10.08-21.58.33:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.10.08-21.58.33:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.10.08-21.58.33:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.10.08-21.58.34:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.10.08-21.58.34:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.10.08-21.58.34:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.10.08-21.58.34:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.10.08-21.58.34:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.10.08-21.58.34:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.10.08-21.58.34:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.10.08-21.58.34:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.10.08-21.58.34:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.10.08-21.58.34:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.10.08-21.58.34:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.10.08-21.58.34:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.10.08-21.58.35:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.10.08-21.58.35:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.10.08-21.58.35:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.10.08-21.58.35:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.10.08-21.58.35:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.10.08-21.58.35:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.10.08-21.58.35:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.10.08-21.58.35:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.10.08-21.58.35:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.10.08-21.58.35:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.10.08-21.58.35:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.10.08-21.58.35:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.10.08-21.58.36:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.10.08-21.58.36:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.10.08-21.58.36:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.10.08-21.58.36:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.10.08-21.58.36:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.10.08-21.58.36:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.10.08-21.58.36:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.10.08-21.58.36:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.10.08-21.58.36:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.10.08-21.58.36:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.10.08-21.58.36:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.10.08-21.58.36:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.10.08-21.58.36:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.10.08-21.58.36:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.10.08-21.58.37:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.10.08-21.58.37:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.10.08-21.58.37:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.10.08-21.58.37:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.10.08-21.58.37:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.10.08-21.58.37:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.10.08-21.58.37:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.10.08-21.58.37:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.10.08-21.58.37:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.10.08-21.58.37:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.10.08-21.58.37:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.10.08-21.58.37:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.10.08-21.58.37:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.10.08-21.58.37:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.10.08-21.58.37:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.10.08-21.58.37:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Door.uasset"
+[2020.10.08-21.58.37:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.10.08-21.58.37:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.10.08-21.58.37:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.10.08-21.58.37:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.10.08-21.58.38:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.10.08-21.58.38:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.10.08-21.58.38:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.10.08-21.58.38:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.10.08-21.58.38:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.10.08-21.58.38:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.10.08-21.58.38:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.10.08-21.58.38:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.10.08-21.58.38:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.10.08-21.58.38:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.10.08-21.58.38:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.10.08-21.58.38:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.10.08-21.58.38:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.10.08-21.58.38:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.10.08-21.58.38:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.10.08-21.58.38:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.10.08-21.58.39:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.10.08-21.58.39:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.10.08-21.58.39:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.10.08-21.58.39:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.10.08-21.58.39:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.10.08-21.58.39:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.10.08-21.58.39:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.10.08-21.58.39:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.10.08-21.58.39:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.10.08-21.58.39:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.10.08-21.58.39:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.10.08-21.58.39:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.10.08-21.58.39:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.10.08-21.58.39:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.10.08-21.58.39:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.10.08-21.58.39:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.10.08-21.58.39:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.10.08-21.58.39:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.10.08-21.58.39:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.10.08-21.58.39:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.10.08-21.58.39:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.10.08-21.58.39:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.10.08-21.58.39:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.10.08-21.58.39:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.10.08-21.58.40:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.10.08-21.58.41:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.10.08-21.58.41:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.10.08-21.58.42:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.10.08-21.58.44:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.10.08-21.58.44:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.10.08-21.58.51:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.10.08-21.58.52:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.10.08-21.58.59:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.10.08-21.59.01:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.10.08-21.59.02:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.10.08-21.59.02:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.10.08-21.59.05:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.10.08-21.59.05:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.10.08-21.59.05:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.10.08-21.59.05:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.10.08-21.59.05:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.10.08-21.59.05:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.10.08-21.59.05:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.10.08-21.59.05:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.10.08-21.59.05:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.10.08-21.59.06:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.10.08-21.59.06:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.10.08-21.59.06:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.10.08-21.59.07:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.10.08-21.59.07:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.10.08-21.59.07:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.10.08-21.59.08:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.10.08-21.59.08:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.10.08-21.59.09:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.10.08-21.59.09:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.10.08-21.59.09:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.10.08-21.59.12:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.10.08-21.59.17:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.10.08-21.59.18:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.10.08-21.59.18:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.10.08-21.59.19:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.10.08-21.59.19:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.10.08-21.59.20:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.10.08-21.59.20:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.10.08-21.59.20:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.10.08-21.59.20:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.10.08-21.59.21:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.10.08-21.59.22:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.10.08-21.59.22:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.10.08-21.59.22:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.10.08-21.59.22:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.10.08-21.59.22:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.10.08-21.59.23:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.10.08-21.59.24:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.10.08-21.59.24:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.10.08-21.59.24:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.10.08-21.59.25:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.10.08-21.59.26:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.10.08-21.59.26:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.10.08-21.59.27:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.10.08-21.59.29:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.10.08-21.59.31:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.10.08-21.59.31:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.10.08-21.59.32:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.10.08-21.59.32:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.10.08-21.59.32:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.10.08-21.59.34:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.10.08-21.59.34:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.10.08-21.59.34:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.10.08-21.59.35:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.10.08-21.59.35:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.10.08-21.59.36:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.10.08-21.59.36:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.10.08-21.59.37:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.10.08-21.59.39:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.10.08-21.59.39:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.10.08-21.59.40:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.10.08-21.59.41:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.10.08-21.59.43:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.10.08-21.59.43:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.10.08-21.59.43:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.10.08-21.59.43:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.10.08-21.59.43:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.10.08-21.59.44:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.10.08-21.59.44:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.10.08-21.59.44:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.10.08-21.59.44:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.10.08-21.59.44:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.10.08-21.59.44:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.10.08-21.59.44:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.10.08-21.59.44:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.10.08-21.59.44:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.10.08-21.59.45:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.10.08-21.59.45:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.10.08-21.59.45:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.10.08-21.59.46:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.10.08-21.59.46:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.10.08-21.59.46:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.10.08-21.59.46:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.10.08-21.59.47:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.10.08-21.59.47:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.10.08-21.59.48:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.10.08-21.59.49:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.10.08-21.59.49:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.10.08-21.59.50:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.10.08-21.59.50:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.10.08-21.59.50:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.10.08-22.00.00:307][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2020.10.08-22.00.06:839][  0]LogSavePackage: Save=384.38ms
+[2020.10.08-22.00.06:839][  0]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Floor_400x400971A2CCD41942576CF7AF799658E8ABD.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.10.08-22.00.06:981][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2020.10.08-22.00.07:009][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2020.10.08-22.00.07:132][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.08-22.00.07:271][  0]LightingResults: New page: Diseñar la iluminación
+[2020.10.08-22.00.14:214][  0]MapCheck: New page: Revisión del mapa
+[2020.10.08-22.00.14:214][  0]LightingResults: New page: Diseñar la iluminación
+[2020.10.08-22.00.26:367][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.08-22.00.33:229][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.08-22.00.34:994][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.08-22.00.37:560][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 2.566,01ms to complete.
+[2020.10.08-22.00.37:617][  0]LogFileHelpers: Loading map 'Minimal_Default' took 30.586
+[2020.10.08-22.00.47:546][  0]LogCollectionManager: Loaded 0 collections in 0.002621 seconds
+[2020.10.08-22.00.50:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.05s
+[2020.10.08-22.00.50:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' took 0.01s
+[2020.10.08-22.00.50:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.01s
+[2020.10.08-22.00.50:194][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2020.10.08-22.00.50:707][  0]LogContentBrowser: Native class hierarchy populated in 0.3185 seconds. Added 2246 classes and 455 folders.
+[2020.10.08-22.00.53:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0051 seconds. Added 0 classes and 0 folders.
+[2020.10.08-22.01.02:526][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0115 seconds. Added 0 classes and 0 folders.
+[2020.10.08-22.01.07:446][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0041 seconds. Added 1 classes and 2 folders.
+[2020.10.08-22.01.14:196][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.10.08-22.01.20:371][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0054 seconds. Added 1 classes and 2 folders.
+[2020.10.08-22.01.20:387][  0]LogLoad: (Engine Initialization) Total time: 617.61 seconds
+[2020.10.08-22.01.20:387][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 3.19 seconds
+[2020.10.08-22.01.20:388][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.10.08-22.01.20:388][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.10.08-22.01.20:975][  0]LogOcInput: OculusInput pre-init called
+[2020.10.08-22.01.30:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.08-22.01.31:395][  0]LogSlate: Took 0.012021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.08-22.01.31:589][  0]LogSlate: Took 0.056682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.08-22.01.31:996][  0]LogSlate: Took 0.067623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.08-22.01.38:042][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:3).
+[2020.10.08-22.01.38:042][  0]LogSlate: Took 0.179170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.08-22.01.45:107][ 10]LogAssetRegistry: Asset discovery search completed in 347.7142 seconds
+[2020.10.08-22.01.45:185][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.069728 seconds (found 0 objects)
+[2020.10.08-22.01.45:185][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.078143 seconds (updated 0 objects)
+[2020.10.08-22.04.13:836][518]LogSlate: Took 0.001802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.08-22.04.22:410][577]LogSlate: Took 0.002975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.08-22.04.25:563][577]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2020.10.08-22.04.25:563][577]LogSynthBenchmark:Display: ===============
+[2020.10.08-22.04.25:563][577]LogSynthBenchmark:Display: Main Processor:
+[2020.10.08-22.04.25:757][577]LogSynthBenchmark:Display:          ... 0.087766 s/Run 'RayIntersect'
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:          ... 0.106344 s/Run 'Fractal'
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display: 
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   NumberOfCores (logical): 2
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   CPU Perf Index 0: 29.2 (weight 1.00)
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   CPU Perf Index 1: 26.9 (weight 1.50)
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:  
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display: Graphics:
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics'
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   Device Id: 0x106
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   Device Revision: 0x9
+[2020.10.08-22.04.25:758][577]LogSynthBenchmark:Display:   GPU Memory: 32/0/1632 MB
+[2020.10.08-22.04.26:353][577]LogSynthBenchmark:Display:   GPU first test: 0.16s
+[2020.10.08-22.04.26:353][577]LogSynthBenchmark:Display:          ... 0.064 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.071 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.061 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.349 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.015 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.086 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.302 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Final Results:
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.064 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.071 s/GigaPix, Confidence=89% 'TexHeavy'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.061 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.349 s/GigaPix, Confidence=89% 'FillOnly'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.015 s/GigaPix, Confidence=100% 'Bandwidth'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.086 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:          ... 0.302 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display: 
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 0: 1.4 (weight 1.00)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 1: 1.0 (weight 0.10)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 2: 1.6 (weight 0.10)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 3: 1.4 (weight 3.00)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 4: 1.4 (weight 1.00)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 5: 5.6 (weight 0.00)
+[2020.10.08-22.04.26:354][577]LogSynthBenchmark:Display:   GPU Perf Index 6: 17.1 (weight 0.00)
+[2020.10.08-22.04.26:403][577]LogSynthBenchmark:Display:   CPUIndex: 27.8
+[2020.10.08-22.04.26:403][577]LogSynthBenchmark:Display:   GPUIndex: 1.4
+[2020.10.08-22.04.26:403][577]LogSynthBenchmark:Display: 
+[2020.10.08-22.04.26:403][577]LogSynthBenchmark:Display:          ... Total Time: 0.840130 sec
+[2020.10.08-22.04.27:857][578]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:249).
+[2020.10.08-22.04.28:148][581]LogContentStreaming: Texture pool size now 400 MB
+[2020.10.08-22.31.30:703][284]Cmd: QUIT_EDITOR
+[2020.10.08-22.31.32:819][284]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.10.08-22.31.33:666][284]LogExit: Preparing to exit.
+[2020.10.08-22.31.55:403][284]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.08-22.31.58:000][284]LogExit: Editor shut down
+[2020.10.08-22.31.58:057][284]LogExit: Transaction tracking system shut down
+[2020.10.08-22.32.06:757][284]LogObj: Freed 0b from 0 cluster array pools.
+[2020.10.08-22.32.06:760][284]LogExit: Object subsystem successfully closed.
+[2020.10.08-22.32.08:713][284]LogD3D11RHI: Shutdown
+[2020.10.08-22.32.08:713][284]LogD3D11RHI: CleanupD3DDevice
+[2020.10.08-22.32.09:297][284]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.10.08-22.32.11:999][284]LogModuleManager: Shutting down and abandoning module SynthBenchmark (502)
+[2020.10.08-22.32.11:999][284]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2020.10.08-22.32.12:023][284]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2020.10.08-22.32.12:023][284]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2020.10.08-22.32.12:023][284]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2020.10.08-22.32.12:159][284]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2020.10.08-22.32.12:207][284]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2020.10.08-22.32.12:208][284]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2020.10.08-22.32.12:208][284]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2020.10.08-22.32.12:229][284]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' was aborted.
+[2020.10.08-22.32.12:229][284]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' was aborted.
+[2020.10.08-22.32.12:229][284]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' was aborted.
+[2020.10.08-22.32.12:230][284]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2020.10.08-22.32.12:257][284]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2020.10.08-22.32.12:284][284]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2020.10.08-22.32.12:383][284]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2020.10.08-22.32.12:383][284]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2020.10.08-22.32.12:383][284]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2020.10.08-22.32.12:390][284]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2020.10.08-22.32.12:390][284]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2020.10.08-22.32.12:404][284]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2020.10.08-22.32.12:413][284]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2020.10.08-22.32.12:421][284]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2020.10.08-22.32.12:436][284]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2020.10.08-22.32.12:453][284]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2020.10.08-22.32.12:673][284]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2020.10.08-22.32.12:673][284]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module Media (445)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2020.10.08-22.32.12:674][284]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2020.10.08-22.32.12:688][284]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2020.10.08-22.32.12:757][284]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2020.10.08-22.32.12:758][284]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2020.10.08-22.32.12:758][284]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2020.10.08-22.32.12:758][284]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2020.10.08-22.32.12:758][284]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2020.10.08-22.32.12:891][284]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2020.10.08-22.32.12:907][284]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2020.10.08-22.32.12:978][284]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2020.10.08-22.32.12:978][284]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2020.10.08-22.32.12:978][284]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2020.10.08-22.32.12:978][284]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2020.10.08-22.32.13:005][284]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2020.10.08-22.32.13:972][284]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2020.10.08-22.32.13:972][284]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2020.10.08-22.32.13:972][284]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2020.10.08-22.32.13:987][284]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2020.10.08-22.32.14:048][284]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2020.10.08-22.32.14:090][284]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2020.10.08-22.32.14:103][284]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2020.10.08-22.32.14:155][284]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2020.10.08-22.32.14:155][284]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2020.10.08-22.32.14:166][284]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2020.10.08-22.32.14:176][284]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2020.10.08-22.32.14:176][284]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2020.10.08-22.32.14:193][284]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2020.10.08-22.32.14:205][284]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2020.10.08-22.32.14:206][284]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2020.10.08-22.32.14:216][284]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2020.10.08-22.32.14:226][284]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2020.10.08-22.32.14:226][284]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2020.10.08-22.32.14:228][284]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2020.10.08-22.32.14:229][284]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2020.10.08-22.32.14:260][284]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2020.10.08-22.32.14:300][284]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2020.10.08-22.32.14:323][284]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2020.10.08-22.32.14:337][284]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2020.10.08-22.32.14:356][284]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2020.10.08-22.32.14:418][284]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2020.10.08-22.32.14:490][284]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2020.10.08-22.32.14:573][284]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2020.10.08-22.32.14:655][284]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2020.10.08-22.32.14:655][284]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2020.10.08-22.32.14:695][284]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2020.10.08-22.32.14:707][284]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2020.10.08-22.32.14:745][284]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2020.10.08-22.32.14:746][284]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2020.10.08-22.32.14:815][284]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2020.10.08-22.32.14:988][284]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2020.10.08-22.32.14:989][284]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2020.10.08-22.32.15:006][284]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2020.10.08-22.32.15:047][284]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2020.10.08-22.32.15:062][284]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2020.10.08-22.32.15:097][284]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2020.10.08-22.32.15:123][284]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2020.10.08-22.32.15:148][284]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2020.10.08-22.32.15:148][284]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2020.10.08-22.32.15:233][284]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2020.10.08-22.32.15:276][284]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2020.10.08-22.32.15:276][284]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2020.10.08-22.32.15:276][284]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2020.10.08-22.32.15:276][284]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2020.10.08-22.32.15:296][284]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2020.10.08-22.32.15:296][284]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2020.10.08-22.32.15:296][284]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2020.10.08-22.32.15:296][284]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2020.10.08-22.32.15:296][284]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2020.10.08-22.32.15:327][284]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2020.10.08-22.32.15:327][284]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2020.10.08-22.32.15:460][284]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2020.10.08-22.32.15:460][284]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2020.10.08-22.32.15:493][284]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2020.10.08-22.32.15:493][284]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2020.10.08-22.32.15:536][284]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2020.10.08-22.32.15:536][284]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2020.10.08-22.32.15:536][284]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2020.10.08-22.32.15:536][284]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2020.10.08-22.32.15:536][284]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2020.10.08-22.32.15:615][284]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2020.10.08-22.32.15:658][284]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2020.10.08-22.32.15:658][284]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2020.10.08-22.32.15:658][284]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2020.10.08-22.32.15:671][284]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2020.10.08-22.32.15:671][284]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2020.10.08-22.32.15:681][284]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2020.10.08-22.32.15:694][284]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2020.10.08-22.32.15:703][284]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2020.10.08-22.32.15:719][284]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2020.10.08-22.32.15:719][284]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2020.10.08-22.32.15:719][284]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2020.10.08-22.32.15:719][284]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2020.10.08-22.32.15:818][284]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2020.10.08-22.32.15:847][284]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2020.10.08-22.32.15:923][284]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2020.10.08-22.32.15:984][284]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2020.10.08-22.32.15:984][284]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2020.10.08-22.32.16:093][284]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Binaries/Win64' was aborted.
+[2020.10.08-22.32.16:194][284]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2020.10.08-22.32.16:205][284]LogModuleManager: Shutting down and abandoning module ProyectoLabApps (224)
+[2020.10.08-22.32.16:205][284]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2020.10.08-22.32.16:222][284]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2020.10.08-22.32.16:222][284]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2020.10.08-22.32.16:222][284]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2020.10.08-22.32.16:324][284]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2020.10.08-22.32.16:450][284]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2020.10.08-22.32.16:518][284]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2020.10.08-22.32.16:539][284]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2020.10.08-22.32.16:540][284]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2020.10.08-22.32.16:540][284]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2020.10.08-22.32.16:551][284]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2020.10.08-22.32.16:565][284]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2020.10.08-22.32.16:583][284]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2020.10.08-22.32.16:583][284]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2020.10.08-22.32.16:583][284]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2020.10.08-22.32.16:597][284]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2020.10.08-22.32.16:597][284]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2020.10.08-22.32.16:597][284]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2020.10.08-22.32.16:670][284]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2020.10.08-22.32.16:702][284]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2020.10.08-22.32.16:762][284]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2020.10.08-22.32.16:845][284]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2020.10.08-22.32.17:017][284]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2020.10.08-22.32.17:124][284]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2020.10.08-22.32.17:286][284]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2020.10.08-22.32.17:286][284]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2020.10.08-22.32.17:287][284]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2020.10.08-22.32.17:433][284]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2020.10.08-22.32.17:433][284]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module Core (154)
+[2020.10.08-22.32.17:799][284]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2020.10.08-22.32.18:269][284]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.10.08-22.32.18:271][284]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.08-22.32.18:271][284]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.10.08-22.32.18:299][284]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2020.10.08-22.32.18:331][284]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2020.10.08-22.32.18:331][284]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2020.10.08-22.32.18:331][284]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2020.10.08-22.32.18:352][284]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2020.10.08-22.32.18:370][284]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2020.10.08-22.32.18:370][284]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2020.10.08-22.32.18:380][284]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2020.10.08-22.32.18:400][284]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2020.10.08-22.32.18:444][284]LogDerivedDataCache: Shutdown
+[2020.10.08-22.32.18:445][284]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2020.10.08-22.32.18:495][284]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2020.10.08-22.32.18:522][284]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2020.10.08-22.32.18:534][284]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2020.10.08-22.32.18:545][284]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2020.10.08-22.32.18:568][284]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2020.10.08-22.32.18:568][284]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2020.10.08-22.32.18:568][284]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2020.10.08-22.32.18:636][284]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2020.10.08-22.32.18:836][284]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2020.10.08-22.32.18:836][284]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2020.10.08-22.32.18:836][284]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2020.10.08-22.32.18:836][284]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2020.10.08-22.32.18:867][284]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2020.10.08-22.32.18:867][284]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2020.10.08-22.32.18:867][284]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2020.10.08-22.32.18:867][284]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2020.10.08-22.32.18:924][284]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2020.10.08-22.32.18:952][284]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2020.10.08-22.32.18:979][284]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2020.10.08-22.32.18:979][284]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2020.10.08-22.32.18:980][284]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2020.10.08-22.32.19:012][284]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2020.10.08-22.32.19:042][284]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2020.10.08-22.32.19:042][284]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2020.10.08-22.32.19:042][284]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2020.10.08-22.32.19:112][284]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2020.10.08-22.32.19:250][284]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2020.10.08-22.32.19:296][284]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2020.10.08-22.32.19:296][284]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2020.10.08-22.32.19:296][284]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2020.10.08-22.32.19:344][284]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2020.10.08-22.32.19:393][284]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2020.10.08-22.32.19:393][284]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2020.10.08-22.32.19:394][284]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2020.10.08-22.32.19:394][284]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2020.10.08-22.32.19:394][284]LogOnline:Display: Unloading online subsystem: NULL
+[2020.10.08-22.32.19:595][284]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2020.10.08-22.32.19:907][284]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2020.10.08-22.32.20:039][284]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.10.08-22.32.20:039][284]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAE839B87-42DD-6D61-0A17-FE8EFC40388D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=fb0aaafe49dc5d8fb39af0b03369a559%7Ccfbc9b1d33724aa483afe77c3ecfcf1f%7Cf34cba58-f82d-49bc-a440-7e1a7a229efc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.08-22.32.20:247][284]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2020.10.08-22.32.20:398][284]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.10.08-22.32.20:529][284]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.10.08-22.32.21:009][284]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.10.08-22.32.21:009][284]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.10.08-22.32.21:009][284]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.10.08-22.32.21:142][284]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.10.08-22.32.21:191][284]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.10.08-22.32.21:191][284]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.10.08-22.32.21:207][284]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.10.08-22.32.21:207][284]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.10.08-22.32.21:207][284]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.10.08-22.32.21:207][284]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.10.08-22.32.21:250][284]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.10.08-22.32.21:265][284]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.10.08-22.32.21:359][284]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.10.08-22.32.21:556][284]LogExit: Exiting.
+[2020.10.08-22.32.22:451][284]Log file closed, 10/08/20 19:32:22
