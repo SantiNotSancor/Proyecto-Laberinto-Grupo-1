@@ -1,0 +1,410 @@
+﻿Log file open, 10/24/20 13:46:27
+LogInit:Display: Running engine for game: ProyectoLabApps
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1687165538) SRandInit(-1687165538).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.497376
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.10.24-16.46.30:244][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.24-16.46.30:244][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.24-16.46.30:285][  0]LogInit: Computer: BELU
+[2020.10.24-16.46.30:285][  0]LogInit: User: Beluu
+[2020.10.24-16.46.30:285][  0]LogInit: CPU Page size=65536, Cores=2
+[2020.10.24-16.46.30:285][  0]LogInit: High frequency timer resolution =2.143579 MHz
+[2020.10.24-16.46.30:285][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2020.10.24-16.46.30:285][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.24-16.46.30:285][  0]LogMemory: Process Physical Memory: 263.19 MB used, 263.19 MB peak
+[2020.10.24-16.46.30:285][  0]LogMemory: Process Virtual Memory: 262.30 MB used, 262.30 MB peak
+[2020.10.24-16.46.30:285][  0]LogMemory: Physical Memory: 2041.27 MB used,  1754.27 MB free, 3795.54 MB total
+[2020.10.24-16.46.30:286][  0]LogMemory: Virtual Memory: 643.31 MB used,  1754.27 MB free, 134217728.00 MB total
+[2020.10.24-16.46.30:740][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
+[2020.10.24-16.46.33:163][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.24-16.46.33:174][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2020.10.24-16.46.33:174][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.24-16.46.33:180][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.24-16.46.33:180][  0]LogD3D11RHI:       0/0/1897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.24-16.46.33:180][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.24-16.46.33:193][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.24-16.46.33:193][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.24-16.46.33:193][  0]LogWindows: EnumDisplayDevices:
+[2020.10.24-16.46.33:194][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2020.10.24-16.46.33:195][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2020.10.24-16.46.33:195][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.10.24-16.46.33:195][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2020.10.24-16.46.33:195][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2020.10.24-16.46.33:195][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2020.10.24-16.46.33:195][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2020.10.24-16.46.33:202][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.24-16.46.33:238][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2020.10.24-16.46.33:241][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/7096/).
+[2020.10.24-16.46.33:241][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belci_3/AppData/Local/Temp/UnrealShaderWorkingDir/14C7FD524B65CD37ADFEE190DAFDA0D3/'.
+[2020.10.24-16.46.33:241][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.10.24-16.46.38:425][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.24-16.46.38:737][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.10.24-16.46.39:027][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.24-16.46.39:311][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.10.24-16.46.39:600][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.10.24-16.46.39:887][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.24-16.46.40:169][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.24-16.46.40:454][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.24-16.46.40:709][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.10.24-16.46.40:997][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.10.24-16.46.41:283][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.10.24-16.46.41:568][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.10.24-16.46.41:848][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.10.24-16.46.42:132][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.10.24-16.46.42:377][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.10.24-16.46.42:849][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.10.24-16.46.42:849][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.10.24-16.46.43:033][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.10.24-16.46.43:391][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.10.24-16.46.43:539][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.10.24-16.46.43:774][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.24-16.46.44:008][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.24-16.46.44:216][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.24-16.46.44:425][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.10.24-16.46.44:425][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.10.24-16.46.46:888][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.10.24-16.46.47:086][  0]LogDerivedDataCache: Loaded boot cache 0.20s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.24-16.46.47:087][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.24-16.46.47:178][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.24-16.46.47:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belci_3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.24-16.46.47:226][  0]LogSlate: Using Freetype 2.6.0
+[2020.10.24-16.46.47:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.24-16.46.47:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.24-16.46.48:546][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.24-16.46.48:558][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.10.24-16.46.49:423][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.24-16.46.49:622][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.24-16.46.49:811][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.24-16.46.49:811][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.10.24-16.46.49:811][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.10.24-16.46.51:349][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
+[2020.10.24-16.46.51:442][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
+[2020.10.24-16.46.51:588][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.072132 seconds
+[2020.10.24-16.46.51:598][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.10.24-16.46.51:598][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2020.10.24-16.46.51:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.24-16.46.51:788][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.10.24-16.46.56:215][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.24-16.46.56:305][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.24-16.46.57:955][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.10.24-16.46.59:052][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.24-16.46.59:054][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.24-16.46.59:185][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.24-16.46.59:317][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.24-16.47.02:937][  0]LogEngine: Initializing Engine...
+[2020.10.24-16.47.02:939][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.24-16.47.03:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.24-16.47.03:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.24-16.47.03:537][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.24-16.47.03:552][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-16.47.03:606][  0]LogInit: FAudioDevice initialized.
+[2020.10.24-16.47.03:678][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.24-16.47.03:686][  0]LogInit: Texture streaming: Enabled
+[2020.10.24-16.47.03:996][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.24-16.47.04:247][  0]LogInit: Transaction tracking system initialized
+[2020.10.24-16.47.05:338][  0]BlueprintLog: New page: Cargar el editor
+[2020.10.24-16.47.08:096][  0]LocalizationService: Información Localization service is disabled
+[2020.10.24-16.47.10:479][  0]LogConsoleResponse:Display: 
+[2020.10.24-16.47.10:902][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.24-16.47.10:902][  0]LogCook:Display: Mobile HDR setting 1
+[2020.10.24-16.47.12:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.02s
+[2020.10.24-16.47.14:619][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.24-16.47.14:620][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.24-16.47.14:620][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.10.24-16.47.14:620][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-16.47.14:745][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 124,896ms to complete.
+[2020.10.24-16.47.14:745][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.126
+[2020.10.24-16.47.14:987][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.10.24-16.47.15:240][  0]LogCollectionManager: Loaded 0 collections in 0.002836 seconds
+[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.01s
+[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' took 0.01s
+[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.01s
+[2020.10.24-16.47.15:403][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.10.24-16.47.15:420][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2246 classes and 455 folders.
+[2020.10.24-16.47.15:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2020.10.24-16.47.15:720][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2020.10.24-16.47.15:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
+[2020.10.24-16.47.15:951][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.10.24-16.47.15:960][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2020.10.24-16.47.16:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2020.10.24-16.47.16:123][  0]LogLoad: (Engine Initialization) Total time: 54.02 seconds
+[2020.10.24-16.47.16:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2020.10.24-16.47.16:123][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.10.24-16.47.16:123][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.10.24-16.47.16:145][  0]LogOcInput: OculusInput pre-init called
+[2020.10.24-16.47.16:169][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.10.24-16.47.16:171][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.24-16.47.16:183][  0]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.24-16.47.16:199][  0]LogSlate: Took 0.000854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.24-16.47.16:542][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:2).
+[2020.10.24-16.47.18:108][  2]LogSlate: Took 0.355225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.24-16.47.26:376][238]LogSlate: Took 0.001044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.24-16.47.55:304][ 84]LogAssetRegistry: Asset discovery search completed in 63.8857 seconds
+[2020.10.24-16.47.55:304][ 84]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000021 seconds (found 0 objects)
+[2020.10.24-16.47.55:304][ 84]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2020.10.24-16.48.03:306][311]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.24-16.48.03:340][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.24-16.48.03:405][311]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_0 (24/10/2020 10:48:03)
+[2020.10.24-16.48.03:406][311]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2020.10.24-16.48.03:408][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001913s)
+[2020.10.24-16.48.03:410][311]LogAIModule: Creating AISystem for world Untitled
+[2020.10.24-16.48.03:410][311]LogPlayLevel: PIE: World Init took: (0.002754s)
+[2020.10.24-16.48.03:411][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.Untitled to /Temp/UEDPIE_0_Untitled_0.Untitled (0.005147s)
+[2020.10.24-16.48.03:475][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-16.48.03:508][311]LogInit: FAudioDevice initialized.
+[2020.10.24-16.48.03:694][311]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Script/ProyectoLabApps.ProyectoLabAppsGameMode'
+[2020.10.24-16.48.03:694][311]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-16.48.03:818][311]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.Untitled up for play (max tick rate 60) at 2020.10.24-13.48.03
+[2020.10.24-16.48.03:819][311]LogWorld: Bringing up level for play took: 0.001759
+[2020.10.24-16.48.04:330][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0064 seconds. Added 11 classes and 0 folders.
+[2020.10.24-16.48.04:509][311]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_0 0,5
+[2020.10.24-16.48.04:666][311]LogRenderer: Reallocating scene render targets to support 856x380 NumSamples 1 (Frame:5).
+[2020.10.24-16.48.42:096][284]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.24-16.48.42:988][284]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.24-16.48.44:477][284]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.24-16.48.44:963][284]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.24-16.48.44:964][284]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.48.45:165][284]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0057 seconds. Added 5 classes and 0 folders.
+[2020.10.24-16.48.45:170][284]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.24-16.48.45:172][284]MapCheck: New page: Revisión del mapa
+[2020.10.24-16.48.45:172][284]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.48.45:377][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-16.48.45:436][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-16.48.45:709][284]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 272,43ms to complete.
+[2020.10.24-16.48.45:711][284]LogFileHelpers: Loading map 'Minimal_Default' took 0.762
+[2020.10.24-16.48.51:790][417]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.24-16.48.51:839][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-16.48.51:839][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.24-16.48.51:840][417]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 10:48:51)
+[2020.10.24-16.48.51:840][417]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.24-16.48.51:923][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082525s)
+[2020.10.24-16.48.51:927][417]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.24-16.48.51:927][417]LogPlayLevel: PIE: World Init took: (0.004336s)
+[2020.10.24-16.48.51:928][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.087642s)
+[2020.10.24-16.48.52:055][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-16.48.52:107][417]LogInit: FAudioDevice initialized.
+[2020.10.24-16.48.52:197][417]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-16.48.52:207][417]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-13.48.52
+[2020.10.24-16.48.52:208][417]LogWorld: Bringing up level for play took: 0.007742
+[2020.10.24-16.48.52:379][417]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,37
+[2020.10.24-16.48.52:381][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-16.48.53:634][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.10.24-16.49.13:629][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-16.49.13:771][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-16.49.39:348][293]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.24-16.49.39:443][293]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.24-16.49.39:443][293]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.49.39:450][293]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.10.24-16.49.39:453][293]MapCheck: New page: Revisión del mapa
+[2020.10.24-16.49.39:453][293]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.49.39:595][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-16.49.39:702][293]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-16.49.40:178][293]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 475,533ms to complete.
+[2020.10.24-16.49.40:181][293]LogFileHelpers: Loading map 'mainmenu' took 0.741
+[2020.10.24-16.49.41:704][331]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.24-16.49.41:759][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.49.41:759][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.24-16.49.41:760][331]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (24/10/2020 10:49:41)
+[2020.10.24-16.49.41:760][331]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
+[2020.10.24-16.49.41:765][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004563s)
+[2020.10.24-16.49.41:767][331]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.24-16.49.41:768][331]LogPlayLevel: PIE: World Init took: (0.002991s)
+[2020.10.24-16.49.41:768][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.008256s)
+[2020.10.24-16.49.41:864][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-16.49.41:907][331]LogInit: FAudioDevice initialized.
+[2020.10.24-16.49.41:989][331]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-16.49.41:993][331]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2020.10.24-13.49.41
+[2020.10.24-16.49.41:994][331]LogWorld: Bringing up level for play took: 0.002781
+[2020.10.24-16.49.42:255][331]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu 0,246
+[2020.10.24-16.49.42:257][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.50.01:222][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.50.01:269][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.50.40:577][573]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0112 seconds. Added 112 classes and 0 folders.
+[2020.10.24-16.50.52:380][573]LogSlate: Took 0.128135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.24-16.51.01:538][649]LogSlate: Took 0.101147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.24-16.51.13:786][842]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.24-16.51.13:786][842]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.51.13:792][842]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.10.24-16.51.13:793][842]MapCheck: New page: Revisión del mapa
+[2020.10.24-16.51.13:793][842]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-16.51.13:961][842]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.24-16.51.13:965][842]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-16.51.14:041][842]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-16.51.14:372][842]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 330,361ms to complete.
+[2020.10.24-16.51.14:373][842]LogFileHelpers: Loading map 'mainmenu' took 0.589
+[2020.10.24-16.51.58:394][520]BlueprintLog: New page: Compilar mainmenu
+[2020.10.24-16.52.02:931][584]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.24-16.52.03:012][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.52.03:013][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.24-16.52.03:013][584]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (24/10/2020 10:52:03)
+[2020.10.24-16.52.03:013][584]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
+[2020.10.24-16.52.03:017][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003942s)
+[2020.10.24-16.52.03:020][584]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.24-16.52.03:020][584]LogPlayLevel: PIE: World Init took: (0.002975s)
+[2020.10.24-16.52.03:021][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.007529s)
+[2020.10.24-16.52.03:154][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-16.52.03:201][584]LogInit: FAudioDevice initialized.
+[2020.10.24-16.52.03:282][584]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-16.52.03:291][584]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2020.10.24-13.52.03
+[2020.10.24-16.52.03:293][584]LogWorld: Bringing up level for play took: 0.007968
+[2020.10.24-16.52.03:318][584]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu -0,69
+[2020.10.24-16.52.03:322][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.52.04:563][598]LogNet: Browse: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.24-16.52.04:564][598]LogLoad: LoadMap: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.24-16.52.04:761][598]Cmd: MEM
+[2020.10.24-16.52.05:067][598]LogMemory: Platform Memory Stats for Windows
+[2020.10.24-16.52.05:067][598]LogMemory: Process Physical Memory: 1265.82 MB used, 1269.06 MB peak
+[2020.10.24-16.52.05:067][598]LogMemory: Process Virtual Memory: 1189.67 MB used, 1250.26 MB peak
+[2020.10.24-16.52.05:067][598]LogMemory: Physical Memory: 2913.91 MB used,  881.63 MB free, 3795.54 MB total
+[2020.10.24-16.52.05:067][598]LogMemory: Virtual Memory: 1861.32 MB used,  881.63 MB free, 134217728.00 MB total
+[2020.10.24-16.52.05:067][598]LogMemory: 
+[2020.10.24-16.52.05:067][598]Allocator Stats for TBB: (not implemented)
+[2020.10.24-16.52.08:835][598]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.24-16.52.08:838][598]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-16.52.08:854][598]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-13.52.08
+[2020.10.24-16.52.08:856][598]LogWorld: Bringing up level for play took: 0.014020
+[2020.10.24-16.52.08:874][598]LogLoad: Took 4.309530 seconds to LoadMap(/Game/Niveles/Mapa/Minimal_Default)
+[2020.10.24-16.52.09:932][601]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.10.24-16.52.13:351][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.52.13:577][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.24-16.53.17:268][ 19]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:677).
+[2020.10.24-16.56.17:098][923]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.10.24-16.56.18:423][969]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoLabApps
+
+[2020.10.24-16.56.18:423][969]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.10.24-16.56.18:423][969]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2020.10.24-16.56.18:424][969]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.10.24-16.56.18:472][972]LogTemp:Display: BranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Belci_3\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2020.10.24-17.03.59:728][ 79]LogSavePackage: Save=610.63ms
+[2020.10.24-17.03.59:728][ 79]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenu_Auto1DAB34D344D5DC2BC1B0371884740780F.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/mainmenu_Auto1.umap'
+[2020.10.24-17.03.59:747][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/mainmenu_Auto1.umap
+[2020.10.24-17.03.59:807][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/mainmenu' took 0.973
+[2020.10.24-17.03.59:807][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.973
+[2020.10.24-17.03.59:818][ 79]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.10.24-17.03.59:818][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.10.24-17.04.00:018][ 79]LogSavePackage: Save=169.47ms
+[2020.10.24-17.04.00:018][ 79]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto1E389939543053546ED17719AC420B314.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto1.uasset'
+[2020.10.24-17.04.00:025][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto1.uasset
+[2020.10.24-17.04.00:025][ 79]LogFileHelpers: Auto-saving content packages took 0.213
+[2020.10.24-17.08.11:439][ 42]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2020.10.24-17.14.08:594][610]LogEditorTransaction: Undo Delete current selection
+[2020.10.24-17.14.42:371][435]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/mainmenu' took 0.198
+[2020.10.24-17.14.42:377][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.10.24-17.14.42:377][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.10.24-17.14.42:635][435]LogSavePackage: Save=221.52ms
+[2020.10.24-17.14.42:635][435]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto26D6EAFD341E264AA61A05A8DE5F104BE.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto2.uasset'
+[2020.10.24-17.14.42:644][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto2.uasset
+[2020.10.24-17.14.42:645][435]LogFileHelpers: Auto-saving content packages took 0.271
+[2020.10.24-17.18.36:311][289]BlueprintLog: New page: Compilar Personaje
+[2020.10.24-17.19.04:543][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peones/Personaje" FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset" SILENT=true
+[2020.10.24-17.19.04:805][950]LogSavePackage: Save=236.10ms
+[2020.10.24-17.19.04:805][950]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje495B3669457C05CE9DB8798C9D4D97A2.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset'
+[2020.10.24-17.19.04:819][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset
+[2020.10.24-17.19.20:691][366]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.24-17.19.30:430][366]LogSavePackage: Save=437.88ms
+[2020.10.24-17.19.30:430][366]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenu3A4B8AE44930AB0F563028B67AACEB93.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap'
+[2020.10.24-17.19.30:445][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap
+[2020.10.24-17.19.30:540][366]LogFileHelpers: Saving map 'mainmenu' took 1.104
+[2020.10.24-17.19.30:555][366]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.10.24-17.19.30:574][366]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-17.19.30:583][366]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.24-17.19.30:585][366]MapCheck: New page: Revisión del mapa
+[2020.10.24-17.19.30:585][366]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-17.19.30:753][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-17.19.30:847][366]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-17.19.31:203][366]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 355,517ms to complete.
+[2020.10.24-17.19.31:205][366]LogFileHelpers: Loading map 'Minimal_Default' took 0.664
+[2020.10.24-17.19.32:225][369]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.10.24-17.19.48:676][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2020.10.24-17.20.07:742][147]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.24-17.20.07:848][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-17.20.07:848][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.24-17.20.07:850][147]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 11:20:07)
+[2020.10.24-17.20.07:850][147]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.24-17.20.07:916][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064683s)
+[2020.10.24-17.20.07:921][147]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.24-17.20.07:922][147]LogPlayLevel: PIE: World Init took: (0.005866s)
+[2020.10.24-17.20.07:922][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.072070s)
+[2020.10.24-17.20.08:149][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-17.20.08:222][147]LogInit: FAudioDevice initialized.
+[2020.10.24-17.20.08:350][147]LogLoad: Game class is 'GameModeBase'
+[2020.10.24-17.20.08:362][147]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-14.20.08
+[2020.10.24-17.20.08:363][147]LogWorld: Bringing up level for play took: 0.011228
+[2020.10.24-17.20.08:435][147]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,426
+[2020.10.24-17.20.08:436][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-17.20.09:540][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.10.24-17.20.46:932][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-17.20.47:334][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.24-17.21.21:476][448]LogSavePackage: Save=663.13ms
+[2020.10.24-17.21.21:476][448]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default75B3771E40D5693BA5EF119D78C2CFD6.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
+[2020.10.24-17.21.21:491][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
+[2020.10.24-17.21.21:677][448]LogSavePackage: Save=26.51ms
+[2020.10.24-17.21.21:677][448]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_BuiltData8E49EC214C1FCE2711309A9F6FFCA4FD.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset'
+[2020.10.24-17.21.21:685][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset

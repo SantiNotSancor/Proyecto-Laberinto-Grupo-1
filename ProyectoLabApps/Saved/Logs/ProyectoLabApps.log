@@ -1,9 +1,9 @@
-﻿Log file open, 10/24/20 13:46:27
+﻿Log file open, 10/25/20 01:36:39
 LogInit:Display: Running engine for game: ProyectoLabApps
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1687165538) SRandInit(-1687165538).
-LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.497376
+LogInit:Display: RandInit(-1619948836) SRandInit(-1619948836).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114446
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,368 +43,851 @@ LogInit: Compiled (64-bit): May 21 2017 11:02:34
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal  -epicusername="Ink Fischer" -epicuserid=feada0bc91244e1bbc85f333bfb7432e -epiclocale=es
+LogInit: Base directory: D:/Epic Games/Juegos epic/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.10.24-16.46.30:244][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.24-16.46.30:244][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.24-16.46.30:285][  0]LogInit: Computer: BELU
-[2020.10.24-16.46.30:285][  0]LogInit: User: Beluu
-[2020.10.24-16.46.30:285][  0]LogInit: CPU Page size=65536, Cores=2
-[2020.10.24-16.46.30:285][  0]LogInit: High frequency timer resolution =2.143579 MHz
-[2020.10.24-16.46.30:285][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
-[2020.10.24-16.46.30:285][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.24-16.46.30:285][  0]LogMemory: Process Physical Memory: 263.19 MB used, 263.19 MB peak
-[2020.10.24-16.46.30:285][  0]LogMemory: Process Virtual Memory: 262.30 MB used, 262.30 MB peak
-[2020.10.24-16.46.30:285][  0]LogMemory: Physical Memory: 2041.27 MB used,  1754.27 MB free, 3795.54 MB total
-[2020.10.24-16.46.30:286][  0]LogMemory: Virtual Memory: 643.31 MB used,  1754.27 MB free, 134217728.00 MB total
-[2020.10.24-16.46.30:740][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
-[2020.10.24-16.46.33:163][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.24-16.46.33:174][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
-[2020.10.24-16.46.33:174][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.10.24-16.46.33:180][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.24-16.46.33:180][  0]LogD3D11RHI:       0/0/1897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.24-16.46.33:180][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.24-16.46.33:193][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.24-16.46.33:193][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.24-16.46.33:193][  0]LogWindows: EnumDisplayDevices:
-[2020.10.24-16.46.33:194][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
-[2020.10.24-16.46.33:195][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
-[2020.10.24-16.46.33:195][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2020.10.24-16.46.33:195][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
-[2020.10.24-16.46.33:195][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
-[2020.10.24-16.46.33:195][  0]LogD3D11RHI:      Driver Date: 5-19-2016
-[2020.10.24-16.46.33:195][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
-[2020.10.24-16.46.33:202][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.24-16.46.33:238][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
-[2020.10.24-16.46.33:241][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/7096/).
-[2020.10.24-16.46.33:241][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belci_3/AppData/Local/Temp/UnrealShaderWorkingDir/14C7FD524B65CD37ADFEE190DAFDA0D3/'.
-[2020.10.24-16.46.33:241][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2020.10.24-16.46.38:425][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2020.10.24-16.46.38:737][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2020.10.24-16.46.39:027][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2020.10.24-16.46.39:311][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2020.10.24-16.46.39:600][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2020.10.24-16.46.39:887][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2020.10.24-16.46.40:169][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.10.24-16.46.40:454][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2020.10.24-16.46.40:709][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2020.10.24-16.46.40:997][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2020.10.24-16.46.41:283][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2020.10.24-16.46.41:568][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2020.10.24-16.46.41:848][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2020.10.24-16.46.42:132][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2020.10.24-16.46.42:377][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2020.10.24-16.46.42:849][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2020.10.24-16.46.42:849][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.10.24-16.46.43:033][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2020.10.24-16.46.43:391][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2020.10.24-16.46.43:539][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2020.10.24-16.46.43:774][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2020.10.24-16.46.44:008][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.10.24-16.46.44:216][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2020.10.24-16.46.44:425][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2020.10.24-16.46.44:425][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2020.10.24-16.46.46:888][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2020.10.24-16.46.47:086][  0]LogDerivedDataCache: Loaded boot cache 0.20s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2020.10.24-16.46.47:087][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.24-16.46.47:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.24-16.46.47:178][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.24-16.46.47:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belci_3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.24-16.46.47:226][  0]LogSlate: Using Freetype 2.6.0
-[2020.10.24-16.46.47:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.24-16.46.47:229][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.24-16.46.48:546][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.24-16.46.48:558][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2020.10.24-16.46.49:423][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.24-16.46.49:622][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.10.24-16.46.49:811][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.10.24-16.46.49:811][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2020.10.24-16.46.49:811][  0]LogMeshUtilities: No automatic mesh merging module available
-[2020.10.24-16.46.51:349][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
-[2020.10.24-16.46.51:442][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
-[2020.10.24-16.46.51:588][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.072132 seconds
-[2020.10.24-16.46.51:598][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2020.10.24-16.46.51:598][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2020.10.24-16.46.51:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.24-16.46.51:788][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.10.24-16.46.56:215][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.24-16.46.56:305][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.24-16.46.57:955][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.10.24-16.46.59:052][  0]SourceControl: Información El control de código fuente está desactivado
-[2020.10.24-16.46.59:054][  0]SourceControl: Información El control de código fuente está desactivado
-[2020.10.24-16.46.59:185][  0]SourceControl: Información El control de código fuente está desactivado
-[2020.10.24-16.46.59:317][  0]SourceControl: Información El control de código fuente está desactivado
-[2020.10.24-16.47.02:937][  0]LogEngine: Initializing Engine...
-[2020.10.24-16.47.02:939][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.24-16.47.03:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.10.24-16.47.03:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.10.24-16.47.03:537][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.24-16.47.03:552][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-16.47.03:606][  0]LogInit: FAudioDevice initialized.
-[2020.10.24-16.47.03:678][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2020.10.24-16.47.03:686][  0]LogInit: Texture streaming: Enabled
-[2020.10.24-16.47.03:996][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.24-16.47.04:247][  0]LogInit: Transaction tracking system initialized
-[2020.10.24-16.47.05:338][  0]BlueprintLog: New page: Cargar el editor
-[2020.10.24-16.47.08:096][  0]LocalizationService: Información Localization service is disabled
-[2020.10.24-16.47.10:479][  0]LogConsoleResponse:Display: 
-[2020.10.24-16.47.10:902][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.24-16.47.10:902][  0]LogCook:Display: Mobile HDR setting 1
-[2020.10.24-16.47.12:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.02s
-[2020.10.24-16.47.14:619][  0]SourceControl: Información El control de código fuente está desactivado
-[2020.10.24-16.47.14:620][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.10.24-16.47.14:620][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap'
-[2020.10.24-16.47.14:620][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.24-16.47.14:745][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 124,896ms to complete.
-[2020.10.24-16.47.14:745][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.126
-[2020.10.24-16.47.14:987][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2020.10.24-16.47.15:240][  0]LogCollectionManager: Loaded 0 collections in 0.002836 seconds
-[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.01s
-[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' took 0.01s
-[2020.10.24-16.47.15:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.01s
-[2020.10.24-16.47.15:403][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2020.10.24-16.47.15:420][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2246 classes and 455 folders.
-[2020.10.24-16.47.15:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
-[2020.10.24-16.47.15:720][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
-[2020.10.24-16.47.15:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
-[2020.10.24-16.47.15:951][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2020.10.24-16.47.15:960][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
-[2020.10.24-16.47.16:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
-[2020.10.24-16.47.16:123][  0]LogLoad: (Engine Initialization) Total time: 54.02 seconds
-[2020.10.24-16.47.16:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
-[2020.10.24-16.47.16:123][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2020.10.24-16.47.16:123][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2020.10.24-16.47.16:145][  0]LogOcInput: OculusInput pre-init called
-[2020.10.24-16.47.16:169][  0]LogContentStreaming: Texture pool size now 400 MB
-[2020.10.24-16.47.16:171][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.24-16.47.16:183][  0]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.24-16.47.16:199][  0]LogSlate: Took 0.000854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.24-16.47.16:542][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:2).
-[2020.10.24-16.47.18:108][  2]LogSlate: Took 0.355225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.24-16.47.26:376][238]LogSlate: Took 0.001044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.24-16.47.55:304][ 84]LogAssetRegistry: Asset discovery search completed in 63.8857 seconds
-[2020.10.24-16.47.55:304][ 84]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000021 seconds (found 0 objects)
-[2020.10.24-16.47.55:304][ 84]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2020.10.24-16.48.03:306][311]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2020.10.24-16.48.03:340][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.24-16.48.03:405][311]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_0 (24/10/2020 10:48:03)
-[2020.10.24-16.48.03:406][311]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
-[2020.10.24-16.48.03:408][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001913s)
-[2020.10.24-16.48.03:410][311]LogAIModule: Creating AISystem for world Untitled
-[2020.10.24-16.48.03:410][311]LogPlayLevel: PIE: World Init took: (0.002754s)
-[2020.10.24-16.48.03:411][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.Untitled to /Temp/UEDPIE_0_Untitled_0.Untitled (0.005147s)
-[2020.10.24-16.48.03:475][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-16.48.03:508][311]LogInit: FAudioDevice initialized.
-[2020.10.24-16.48.03:694][311]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Script/ProyectoLabApps.ProyectoLabAppsGameMode'
-[2020.10.24-16.48.03:694][311]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-16.48.03:818][311]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.Untitled up for play (max tick rate 60) at 2020.10.24-13.48.03
-[2020.10.24-16.48.03:819][311]LogWorld: Bringing up level for play took: 0.001759
-[2020.10.24-16.48.04:330][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0064 seconds. Added 11 classes and 0 folders.
-[2020.10.24-16.48.04:509][311]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_0 0,5
-[2020.10.24-16.48.04:666][311]LogRenderer: Reallocating scene render targets to support 856x380 NumSamples 1 (Frame:5).
-[2020.10.24-16.48.42:096][284]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.24-16.48.42:988][284]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.24-16.48.44:477][284]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.24-16.48.44:963][284]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.10.24-16.48.44:964][284]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.48.45:165][284]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0057 seconds. Added 5 classes and 0 folders.
-[2020.10.24-16.48.45:170][284]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
-[2020.10.24-16.48.45:172][284]MapCheck: New page: Revisión del mapa
-[2020.10.24-16.48.45:172][284]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.48.45:377][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.24-16.48.45:436][284]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.24-16.48.45:709][284]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 272,43ms to complete.
-[2020.10.24-16.48.45:711][284]LogFileHelpers: Loading map 'Minimal_Default' took 0.762
-[2020.10.24-16.48.51:790][417]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2020.10.24-16.48.51:839][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-16.48.51:839][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.24-16.48.51:840][417]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 10:48:51)
-[2020.10.24-16.48.51:840][417]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
-[2020.10.24-16.48.51:923][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082525s)
-[2020.10.24-16.48.51:927][417]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.24-16.48.51:927][417]LogPlayLevel: PIE: World Init took: (0.004336s)
-[2020.10.24-16.48.51:928][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.087642s)
-[2020.10.24-16.48.52:055][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-16.48.52:107][417]LogInit: FAudioDevice initialized.
-[2020.10.24-16.48.52:197][417]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-16.48.52:207][417]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-13.48.52
-[2020.10.24-16.48.52:208][417]LogWorld: Bringing up level for play took: 0.007742
-[2020.10.24-16.48.52:379][417]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,37
-[2020.10.24-16.48.52:381][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-16.48.53:634][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2020.10.24-16.49.13:629][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-16.49.13:771][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-16.49.39:348][293]LogAIModule: Creating AISystem for world mainmenu
-[2020.10.24-16.49.39:443][293]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.10.24-16.49.39:443][293]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.49.39:450][293]LoadErrors: New page: Cargando mapa: mainmenu.umap
-[2020.10.24-16.49.39:453][293]MapCheck: New page: Revisión del mapa
-[2020.10.24-16.49.39:453][293]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.49.39:595][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.24-16.49.39:702][293]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.24-16.49.40:178][293]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 475,533ms to complete.
-[2020.10.24-16.49.40:181][293]LogFileHelpers: Loading map 'mainmenu' took 0.741
-[2020.10.24-16.49.41:704][331]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2020.10.24-16.49.41:759][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.49.41:759][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.24-16.49.41:760][331]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (24/10/2020 10:49:41)
-[2020.10.24-16.49.41:760][331]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
-[2020.10.24-16.49.41:765][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004563s)
-[2020.10.24-16.49.41:767][331]LogAIModule: Creating AISystem for world mainmenu
-[2020.10.24-16.49.41:768][331]LogPlayLevel: PIE: World Init took: (0.002991s)
-[2020.10.24-16.49.41:768][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.008256s)
-[2020.10.24-16.49.41:864][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-16.49.41:907][331]LogInit: FAudioDevice initialized.
-[2020.10.24-16.49.41:989][331]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-16.49.41:993][331]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2020.10.24-13.49.41
-[2020.10.24-16.49.41:994][331]LogWorld: Bringing up level for play took: 0.002781
-[2020.10.24-16.49.42:255][331]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu 0,246
-[2020.10.24-16.49.42:257][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.50.01:222][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.50.01:269][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.50.40:577][573]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0112 seconds. Added 112 classes and 0 folders.
-[2020.10.24-16.50.52:380][573]LogSlate: Took 0.128135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.10.24-16.51.01:538][649]LogSlate: Took 0.101147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.10.24-16.51.13:786][842]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.10.24-16.51.13:786][842]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.51.13:792][842]LoadErrors: New page: Cargando mapa: mainmenu.umap
-[2020.10.24-16.51.13:793][842]MapCheck: New page: Revisión del mapa
-[2020.10.24-16.51.13:793][842]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-16.51.13:961][842]LogAIModule: Creating AISystem for world mainmenu
-[2020.10.24-16.51.13:965][842]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.24-16.51.14:041][842]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.24-16.51.14:372][842]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 330,361ms to complete.
-[2020.10.24-16.51.14:373][842]LogFileHelpers: Loading map 'mainmenu' took 0.589
-[2020.10.24-16.51.58:394][520]BlueprintLog: New page: Compilar mainmenu
-[2020.10.24-16.52.02:931][584]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2020.10.24-16.52.03:012][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.52.03:013][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.24-16.52.03:013][584]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (24/10/2020 10:52:03)
-[2020.10.24-16.52.03:013][584]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
-[2020.10.24-16.52.03:017][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003942s)
-[2020.10.24-16.52.03:020][584]LogAIModule: Creating AISystem for world mainmenu
-[2020.10.24-16.52.03:020][584]LogPlayLevel: PIE: World Init took: (0.002975s)
-[2020.10.24-16.52.03:021][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.007529s)
-[2020.10.24-16.52.03:154][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-16.52.03:201][584]LogInit: FAudioDevice initialized.
-[2020.10.24-16.52.03:282][584]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-16.52.03:291][584]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2020.10.24-13.52.03
-[2020.10.24-16.52.03:293][584]LogWorld: Bringing up level for play took: 0.007968
-[2020.10.24-16.52.03:318][584]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu -0,69
-[2020.10.24-16.52.03:322][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.52.04:563][598]LogNet: Browse: /Game/Niveles/Mapa/Minimal_Default
-[2020.10.24-16.52.04:564][598]LogLoad: LoadMap: /Game/Niveles/Mapa/Minimal_Default
-[2020.10.24-16.52.04:761][598]Cmd: MEM
-[2020.10.24-16.52.05:067][598]LogMemory: Platform Memory Stats for Windows
-[2020.10.24-16.52.05:067][598]LogMemory: Process Physical Memory: 1265.82 MB used, 1269.06 MB peak
-[2020.10.24-16.52.05:067][598]LogMemory: Process Virtual Memory: 1189.67 MB used, 1250.26 MB peak
-[2020.10.24-16.52.05:067][598]LogMemory: Physical Memory: 2913.91 MB used,  881.63 MB free, 3795.54 MB total
-[2020.10.24-16.52.05:067][598]LogMemory: Virtual Memory: 1861.32 MB used,  881.63 MB free, 134217728.00 MB total
-[2020.10.24-16.52.05:067][598]LogMemory: 
-[2020.10.24-16.52.05:067][598]Allocator Stats for TBB: (not implemented)
-[2020.10.24-16.52.08:835][598]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.24-16.52.08:838][598]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-16.52.08:854][598]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-13.52.08
-[2020.10.24-16.52.08:856][598]LogWorld: Bringing up level for play took: 0.014020
-[2020.10.24-16.52.08:874][598]LogLoad: Took 4.309530 seconds to LoadMap(/Game/Niveles/Mapa/Minimal_Default)
-[2020.10.24-16.52.09:932][601]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2020.10.24-16.52.13:351][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.52.13:577][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2020.10.24-16.53.17:268][ 19]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:677).
-[2020.10.24-16.56.17:098][923]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2020.10.24-16.56.18:423][969]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoLabApps
-
-[2020.10.24-16.56.18:423][969]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2020.10.24-16.56.18:423][969]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
-
-[2020.10.24-16.56.18:424][969]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2020.10.24-16.56.18:472][972]LogTemp:Display: BranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Belci_3\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2020.10.24-16.56.20:006][ 54]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
-
-[2020.10.24-17.03.59:728][ 79]LogSavePackage: Save=610.63ms
-[2020.10.24-17.03.59:728][ 79]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenu_Auto1DAB34D344D5DC2BC1B0371884740780F.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/mainmenu_Auto1.umap'
-[2020.10.24-17.03.59:747][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/mainmenu_Auto1.umap
-[2020.10.24-17.03.59:807][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/mainmenu' took 0.973
-[2020.10.24-17.03.59:807][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.973
-[2020.10.24-17.03.59:818][ 79]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
-[2020.10.24-17.03.59:818][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
-[2020.10.24-17.04.00:018][ 79]LogSavePackage: Save=169.47ms
-[2020.10.24-17.04.00:018][ 79]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto1E389939543053546ED17719AC420B314.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto1.uasset'
-[2020.10.24-17.04.00:025][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto1.uasset
-[2020.10.24-17.04.00:025][ 79]LogFileHelpers: Auto-saving content packages took 0.213
-[2020.10.24-17.08.11:439][ 42]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
-[2020.10.24-17.14.08:594][610]LogEditorTransaction: Undo Delete current selection
-[2020.10.24-17.14.42:371][435]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/mainmenu' took 0.198
-[2020.10.24-17.14.42:377][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
-[2020.10.24-17.14.42:377][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
-[2020.10.24-17.14.42:635][435]LogSavePackage: Save=221.52ms
-[2020.10.24-17.14.42:635][435]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto26D6EAFD341E264AA61A05A8DE5F104BE.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto2.uasset'
-[2020.10.24-17.14.42:644][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto2.uasset
-[2020.10.24-17.14.42:645][435]LogFileHelpers: Auto-saving content packages took 0.271
-[2020.10.24-17.18.36:311][289]BlueprintLog: New page: Compilar Personaje
-[2020.10.24-17.19.04:543][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Peones/Personaje" FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset" SILENT=true
-[2020.10.24-17.19.04:805][950]LogSavePackage: Save=236.10ms
-[2020.10.24-17.19.04:805][950]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje495B3669457C05CE9DB8798C9D4D97A2.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset'
-[2020.10.24-17.19.04:819][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Peones/Personaje.uasset
-[2020.10.24-17.19.20:691][366]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.24-17.19.30:430][366]LogSavePackage: Save=437.88ms
-[2020.10.24-17.19.30:430][366]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenu3A4B8AE44930AB0F563028B67AACEB93.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap'
-[2020.10.24-17.19.30:445][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap
-[2020.10.24-17.19.30:540][366]LogFileHelpers: Saving map 'mainmenu' took 1.104
-[2020.10.24-17.19.30:555][366]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.10.24-17.19.30:574][366]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-17.19.30:583][366]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
-[2020.10.24-17.19.30:585][366]MapCheck: New page: Revisión del mapa
-[2020.10.24-17.19.30:585][366]LightingResults: New page: Diseñar la iluminación
-[2020.10.24-17.19.30:753][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.24-17.19.30:847][366]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.24-17.19.31:203][366]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 355,517ms to complete.
-[2020.10.24-17.19.31:205][366]LogFileHelpers: Loading map 'Minimal_Default' took 0.664
-[2020.10.24-17.19.32:225][369]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2020.10.24-17.19.48:676][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2020.10.24-17.20.07:742][147]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2020.10.24-17.20.07:848][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-17.20.07:848][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.10.24-17.20.07:850][147]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 11:20:07)
-[2020.10.24-17.20.07:850][147]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
-[2020.10.24-17.20.07:916][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064683s)
-[2020.10.24-17.20.07:921][147]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.24-17.20.07:922][147]LogPlayLevel: PIE: World Init took: (0.005866s)
-[2020.10.24-17.20.07:922][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.072070s)
-[2020.10.24-17.20.08:149][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.10.24-17.20.08:222][147]LogInit: FAudioDevice initialized.
-[2020.10.24-17.20.08:350][147]LogLoad: Game class is 'GameModeBase'
-[2020.10.24-17.20.08:362][147]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.10.24-14.20.08
-[2020.10.24-17.20.08:363][147]LogWorld: Bringing up level for play took: 0.011228
-[2020.10.24-17.20.08:435][147]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,426
-[2020.10.24-17.20.08:436][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-17.20.09:540][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2020.10.24-17.20.46:932][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-17.20.47:334][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2020.10.24-17.21.21:476][448]LogSavePackage: Save=663.13ms
-[2020.10.24-17.21.21:476][448]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default75B3771E40D5693BA5EF119D78C2CFD6.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
-[2020.10.24-17.21.21:491][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
-[2020.10.24-17.21.21:677][448]LogSavePackage: Save=26.51ms
-[2020.10.24-17.21.21:677][448]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_BuiltData8E49EC214C1FCE2711309A9F6FFCA4FD.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset'
-[2020.10.24-17.21.21:685][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset
+[2020.10.25-04.36.40:832][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.25-04.36.40:832][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.25-04.36.40:842][  0]LogInit: Computer: DESKTOP-8EMTTPP
+[2020.10.25-04.36.40:842][  0]LogInit: User: Usuario
+[2020.10.25-04.36.40:842][  0]LogInit: CPU Page size=65536, Cores=4
+[2020.10.25-04.36.40:842][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.25-04.36.40:842][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.10.25-04.36.40:842][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.25-04.36.40:842][  0]LogMemory: Process Physical Memory: 264.26 MB used, 264.27 MB peak
+[2020.10.25-04.36.40:842][  0]LogMemory: Process Virtual Memory: 262.38 MB used, 262.38 MB peak
+[2020.10.25-04.36.40:842][  0]LogMemory: Physical Memory: 4518.96 MB used,  3599.44 MB free, 8118.40 MB total
+[2020.10.25-04.36.40:842][  0]LogMemory: Virtual Memory: 4749.52 MB used,  3599.44 MB free, 134217728.00 MB total
+[2020.10.25-04.36.40:949][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
+[2020.10.25-04.36.41:480][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.25-04.36.41:568][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.10.25-04.36.41:568][  0]LogD3D11RHI:       4018/0/4059 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.25-04.36.41:571][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.25-04.36.41:571][  0]LogD3D11RHI:       0/0/4059 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.25-04.36.41:571][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.25-04.36.41:580][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.25-04.36.41:580][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.25-04.36.41:580][  0]LogWindows: EnumDisplayDevices:
+[2020.10.25-04.36.41:581][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.10.25-04.36.41:581][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.10.25-04.36.41:581][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.10.25-04.36.41:581][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.10.25-04.36.41:581][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.25-04.36.41:581][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.10.25-04.36.41:581][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.25-04.36.41:581][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.25-04.36.41:581][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.10.25-04.36.41:644][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.25-04.36.41:657][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.25-04.36.41:707][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/3732/).
+[2020.10.25-04.36.41:707][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Usuario/AppData/Local/Temp/UnrealShaderWorkingDir/E197172748F1CD27849D20A644E48AFF/'.
+[2020.10.25-04.36.41:707][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.10.25-04.36.42:921][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.25-04.36.42:991][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.10.25-04.36.43:059][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.25-04.36.43:126][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.10.25-04.36.43:195][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.10.25-04.36.43:259][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.25-04.36.43:330][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.25-04.36.43:398][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.25-04.36.43:456][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.10.25-04.36.43:526][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.10.25-04.36.43:594][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.10.25-04.36.43:662][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.10.25-04.36.43:730][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.10.25-04.36.43:798][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.10.25-04.36.43:876][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.10.25-04.36.44:012][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.10.25-04.36.44:012][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.10.25-04.36.44:061][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.10.25-04.36.44:171][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.10.25-04.36.44:215][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.10.25-04.36.44:282][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.25-04.36.44:350][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.25-04.36.44:419][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.25-04.36.44:486][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.10.25-04.36.44:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.10.25-04.36.45:037][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.10.25-04.36.45:088][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Usuario/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.25-04.36.45:089][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Usuario/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.10.25-04.36.45:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.25-04.36.45:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.25-04.36.45:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.25-04.36.45:089][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.25-04.36.45:108][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.25-04.36.45:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Usuario/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.25-04.36.45:132][  0]LogSlate: Using Freetype 2.6.0
+[2020.10.25-04.36.45:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.25-04.36.45:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.25-04.36.45:448][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.25-04.36.45:450][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.10.25-04.36.45:678][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.25-04.36.45:730][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.25-04.36.45:793][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.25-04.36.45:793][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.10.25-04.36.45:793][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.10.25-04.36.46:397][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
+[2020.10.25-04.36.46:455][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2020.10.25-04.36.46:506][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026322 seconds
+[2020.10.25-04.36.46:513][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.10.25-04.36.46:513][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2020.10.25-04.36.46:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.25-04.36.46:590][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.10.25-04.36.48:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.25-04.36.48:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.25-04.36.49:405][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.10.25-04.36.49:980][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.25-04.36.49:982][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.25-04.36.50:078][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.25-04.36.50:223][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.25-04.36.51:918][  0]LogEngine: Initializing Engine...
+[2020.10.25-04.36.51:919][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.25-04.36.52:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.25-04.36.52:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.25-04.36.52:179][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.25-04.36.52:207][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.36.52:248][  0]LogInit: FAudioDevice initialized.
+[2020.10.25-04.36.52:302][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Usuario/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.10.25-04.36.52:309][  0]LogInit: Texture streaming: Enabled
+[2020.10.25-04.36.52:428][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.25-04.36.52:534][  0]LogInit: Transaction tracking system initialized
+[2020.10.25-04.36.52:953][  0]BlueprintLog: New page: Cargar el editor
+[2020.10.25-04.36.54:007][  0]LocalizationService: Información Localization service is disabled
+[2020.10.25-04.36.54:802][  0]LogConsoleResponse:Display: 
+[2020.10.25-04.36.54:926][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.25-04.36.54:926][  0]LogCook:Display: Mobile HDR setting 1
+[2020.10.25-04.36.55:762][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.01s
+[2020.10.25-04.36.56:303][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.10.25-04.36.56:303][  0]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.25-04.36.56:303][  0]LogEditorServer:Warning: Can't find file '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.10.25-04.36.56:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.25-04.36.56:353][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 49,7ms to complete.
+[2020.10.25-04.36.56:353][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.050
+[2020.10.25-04.36.56:606][  0]LogCollectionManager: Loaded 0 collections in 0.002195 seconds
+[2020.10.25-04.36.56:693][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.01s
+[2020.10.25-04.36.56:693][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Usuario/Collections/' took 0.01s
+[2020.10.25-04.36.56:693][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.01s
+[2020.10.25-04.36.56:693][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.10.25-04.36.56:706][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2246 classes and 455 folders.
+[2020.10.25-04.36.56:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2020.10.25-04.36.56:860][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2020.10.25-04.36.56:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0060 seconds. Added 1 classes and 2 folders.
+[2020.10.25-04.36.57:043][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.10.25-04.36.57:057][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2020.10.25-04.36.57:137][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2020.10.25-04.36.57:138][  0]LogLoad: (Engine Initialization) Total time: 19.00 seconds
+[2020.10.25-04.36.57:138][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2020.10.25-04.36.57:138][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.10.25-04.36.57:150][  0]LogOcInput: OculusInput pre-init called
+[2020.10.25-04.36.57:169][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.25-04.36.57:171][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.25-04.36.57:176][  0]LogSlate: Took 0.000588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.25-04.36.57:183][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.25-04.36.57:318][  0]LogRenderer: Reallocating scene render targets to support 728x472 NumSamples 1 (Frame:2).
+[2020.10.25-04.36.57:368][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.25-04.36.57:410][  1]LogAssetRegistry: Asset discovery search completed in 10.9776 seconds
+[2020.10.25-04.36.57:410][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
+[2020.10.25-04.36.57:410][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2020.10.25-04.37.02:591][567]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.25-04.37.02:645][567]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.25-04.37.02:660][567]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.25-04.37.02:660][567]LightingResults: New page: Diseñar la iluminación
+[2020.10.25-04.37.02:720][567]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0025 seconds. Added 5 classes and 0 folders.
+[2020.10.25-04.37.02:722][567]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.10.25-04.37.02:733][567]MapCheck: New page: Revisión del mapa
+[2020.10.25-04.37.02:733][567]LightingResults: New page: Diseñar la iluminación
+[2020.10.25-04.37.02:795][567]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.25-04.37.02:814][567]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.25-04.37.02:869][567]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 54,598ms to complete.
+[2020.10.25-04.37.02:870][567]LogFileHelpers: Loading map 'mainmenu' took 0.210
+[2020.10.25-04.37.05:421][819]LogRenderer: Reallocating scene render targets to support 948x576 NumSamples 1 (Frame:7).
+[2020.10.25-04.37.06:336][923]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.37.06:347][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.25-04.37.06:348][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.37.06:348][923]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (24/10/2020 22:37:06)
+[2020.10.25-04.37.06:348][923]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
+[2020.10.25-04.37.06:349][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000937s)
+[2020.10.25-04.37.06:350][923]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.25-04.37.06:350][923]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2020.10.25-04.37.06:350][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.002100s)
+[2020.10.25-04.37.06:376][923]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.37.06:399][923]LogInit: FAudioDevice initialized.
+[2020.10.25-04.37.06:460][923]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Script/ProyectoLabApps.ProyectoLabAppsGameMode'
+[2020.10.25-04.37.06:460][923]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.37.06:463][923]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 0) at 2020.10.25-01.37.06
+[2020.10.25-04.37.06:463][923]LogWorld: Bringing up level for play took: 0.000888
+[2020.10.25-04.37.06:513][923]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
+[2020.10.25-04.37.06:519][923]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu -0,33
+[2020.10.25-04.37.06:519][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.25-04.37.06:558][923]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:11).
+[2020.10.25-04.37.07:437][ 22]LogNet: Browse: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.25-04.37.07:437][ 22]LogLoad: LoadMap: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.25-04.37.07:447][ 22]Cmd: MEM
+[2020.10.25-04.37.07:457][ 22]LogMemory: Platform Memory Stats for Windows
+[2020.10.25-04.37.07:457][ 22]LogMemory: Process Physical Memory: 917.05 MB used, 943.18 MB peak
+[2020.10.25-04.37.07:457][ 22]LogMemory: Process Virtual Memory: 1308.30 MB used, 1318.81 MB peak
+[2020.10.25-04.37.07:457][ 22]LogMemory: Physical Memory: 5213.43 MB used,  2904.97 MB free, 8118.40 MB total
+[2020.10.25-04.37.07:457][ 22]LogMemory: Virtual Memory: 6215.78 MB used,  2904.97 MB free, 134217728.00 MB total
+[2020.10.25-04.37.07:457][ 22]LogMemory: 
+[2020.10.25-04.37.07:457][ 22]Allocator Stats for TBB: (not implemented)
+[2020.10.25-04.37.08:218][ 22]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.37.08:219][ 22]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.37.08:240][ 22]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.37.08
+[2020.10.25-04.37.08:241][ 22]LogWorld: Bringing up level for play took: 0.021112
+[2020.10.25-04.37.08:256][ 22]LogLoad: Took 0.818334 seconds to LoadMap(/Game/Niveles/Mapa/Minimal_Default)
+[2020.10.25-04.37.08:466][ 23]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093004 > MaxSimulationTimeStep (0.050) for 'Personaje_58', movement 'Walking'
+[2020.10.25-04.37.19:876][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.25-04.37.19:956][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.25-04.37.57:112][651]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.37.57:186][651]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.25-04.37.57:186][651]LightingResults: New page: Diseñar la iluminación
+[2020.10.25-04.37.57:187][651]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.25-04.37.57:188][651]MapCheck: New page: Revisión del mapa
+[2020.10.25-04.37.57:188][651]LightingResults: New page: Diseñar la iluminación
+[2020.10.25-04.37.57:327][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.25-04.37.57:349][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.25-04.37.57:407][651]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 58,289ms to complete.
+[2020.10.25-04.37.57:408][651]LogFileHelpers: Loading map 'Minimal_Default' took 0.223
+[2020.10.25-04.38.10:578][ 96]LogActorFactory: Actor Factory created SM_Door
+[2020.10.25-04.38.11:096][143]LogActorFactory: Actor Factory created SM_Door
+[2020.10.25-04.38.35:406][734]Cmd: DELETE
+[2020.10.25-04.38.35:406][734]Cmd: ACTOR DELETE
+[2020.10.25-04.38.35:427][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.25-04.38.35:437][734]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2020.10.25-04.39.42:043][391]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Escritorio/Nueva carpeta/koltuk2.fbx)
+[2020.10.25-04.39.42:437][391]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2020.10.25-04.39.42:437][391]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2020.10.25-04.39.42:437][391]LogFbx: ItemName: Geometry, ItemCount : 12
+[2020.10.25-04.39.42:437][391]LogFbx: ItemName: Model, ItemCount : 14
+[2020.10.25-04.39.42:437][391]LogFbx: ItemName: Material, ItemCount : 1
+[2020.10.25-04.39.42:558][391]LogFbx: Loading FBX Scene from ../../../../../../Escritorio/Nueva carpeta/koltuk2.fbx
+[2020.10.25-04.39.42:600][391]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.25-04.39.46:634][391]LogFbx: Loading FBX Scene from ../../../../../../Escritorio/Nueva carpeta/koltuk2.fbx
+[2020.10.25-04.39.46:645][391]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.25-04.39.46:758][391]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2020.10.25-04.39.46:825][391]LogStaticMesh: Generando la malla estática koltuk2_Cylinder_001...
+[2020.10.25-04.39.46:865][391]LogStaticMesh: Built static mesh [0.04s] /Game/koltuk2_Cylinder_001.koltuk2_Cylinder_001
+[2020.10.25-04.39.47:070][391]LogFbx:Warning: Triangulating static mesh Cylinder
+[2020.10.25-04.39.47:088][391]LogStaticMesh: Generando la malla estática koltuk2_Cylinder...
+[2020.10.25-04.39.47:091][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cylinder.koltuk2_Cylinder
+[2020.10.25-04.39.47:097][391]LogFbx:Warning: Triangulating static mesh Cube.009
+[2020.10.25-04.39.47:121][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_009...
+[2020.10.25-04.39.47:123][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_009.koltuk2_Cube_009
+[2020.10.25-04.39.47:128][391]LogFbx:Warning: Triangulating static mesh Cube.008
+[2020.10.25-04.39.47:151][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_008...
+[2020.10.25-04.39.47:153][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_008.koltuk2_Cube_008
+[2020.10.25-04.39.47:159][391]LogFbx:Warning: Triangulating static mesh Cube.007
+[2020.10.25-04.39.47:180][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_007...
+[2020.10.25-04.39.47:182][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_007.koltuk2_Cube_007
+[2020.10.25-04.39.47:188][391]LogFbx:Warning: Triangulating static mesh Cube.005
+[2020.10.25-04.39.47:202][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_005...
+[2020.10.25-04.39.47:203][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_005.koltuk2_Cube_005
+[2020.10.25-04.39.47:209][391]LogFbx:Warning: Triangulating static mesh Cube.006
+[2020.10.25-04.39.47:233][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_006...
+[2020.10.25-04.39.47:234][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_006.koltuk2_Cube_006
+[2020.10.25-04.39.47:240][391]LogFbx:Warning: Triangulating static mesh Cube.002
+[2020.10.25-04.39.47:254][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_002...
+[2020.10.25-04.39.47:256][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_002.koltuk2_Cube_002
+[2020.10.25-04.39.47:261][391]LogFbx:Warning: Triangulating static mesh Cube.003
+[2020.10.25-04.39.47:267][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_003...
+[2020.10.25-04.39.47:267][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_003.koltuk2_Cube_003
+[2020.10.25-04.39.47:273][391]LogFbx:Warning: Triangulating static mesh Cube.004
+[2020.10.25-04.39.47:299][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_004...
+[2020.10.25-04.39.47:301][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_004.koltuk2_Cube_004
+[2020.10.25-04.39.47:302][391]LogStaticMesh:Warning: koltuk2_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.10.25-04.39.47:307][391]LogFbx:Warning: Triangulating static mesh Cube.001
+[2020.10.25-04.39.47:312][391]LogStaticMesh: Generando la malla estática koltuk2_Cube_001...
+[2020.10.25-04.39.47:312][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube_001.koltuk2_Cube_001
+[2020.10.25-04.39.47:317][391]LogLinker: No puede encontrar el archivo '/Game/Material'
+[2020.10.25-04.39.47:317][391]LogLinker: No puede encontrar el archivo '/Game/Material'
+[2020.10.25-04.39.47:363][391]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2020.10.25-04.39.47:471][391]LogTemp:Display: Added material ShaderMap 0x000001EA4921EE80 with Material 0x000001EA040CD900 to ShaderMapsBeingCompiled
+[2020.10.25-04.39.47:711][391]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000001EA4921EE80
+[2020.10.25-04.39.47:726][391]LogFbx:Warning: Triangulating static mesh Cube
+[2020.10.25-04.39.47:734][391]LogStaticMesh: Generando la malla estática koltuk2_Cube...
+[2020.10.25-04.39.47:735][391]LogStaticMesh: Built static mesh [0.00s] /Game/koltuk2_Cube.koltuk2_Cube
+[2020.10.25-04.39.47:736][391]LogStaticMesh:Warning: koltuk2_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.10.25-04.39.47:743][391]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.25-04.39.47:778][391]FBXImport:Warning: Aviso No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.25-04.39.47:778][391]FBXImport:Warning: Aviso koltuk2_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.10.25-04.39.47:778][391]FBXImport:Warning: Aviso koltuk2_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.10.25-04.39.49:984][611]LogTemp:Display: Finished compile of shader map 0x000001EA4921EE80
+[2020.10.25-04.39.49:984][611]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000001EA4921EE80, marking material Material as finished
+[2020.10.25-04.39.49:984][611]LogTemp:Display: Marking material as finished 0x000001EA040CD900
+[2020.10.25-04.39.59:728][737]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.00:591][833]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.04:191][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.25-04.40.04:904][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.25-04.40.05:298][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.25-04.40.05:682][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube)
+[2020.10.25-04.40.06:624][418]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.07:324][481]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.07:910][533]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.08:411][577]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.09:015][630]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.09:170][643]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.09:863][707]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.09:937][712]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.10:347][746]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.10:407][750]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.10:911][794]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.10:992][800]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.11:852][886]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.11:953][893]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.12:799][977]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.13:748][ 63]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.17:571][429]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.18:161][482]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.22:509][901]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.29:430][685]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.40.31:231][884]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.31:231][884]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.40.31:350][884]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.25-04.40.31:960][944]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.31:960][944]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.40.32:861][ 36]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.32:861][ 36]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.40.33:085][ 58]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.33:085][ 58]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.40.33:261][ 75]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.33:261][ 75]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.40.33:405][ 89]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.33:406][ 89]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.33:594][100]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.33:594][100]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.33:857][119]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.33:857][119]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.34:057][133]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.34:057][133]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.34:235][147]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.34:235][147]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.34:399][159]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.34:399][159]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.34:562][171]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.34:562][171]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.35:093][227]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.35:093][227]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.39:824][719]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.39:824][719]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.39:825][719]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.39:826][719]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.39:827][719]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.39:828][719]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.39:828][719]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.39:829][719]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.39:829][719]LogActorFactory: Actor Factory created koltuk2_Cube_008
+[2020.10.25-04.40.39:830][719]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.39:830][719]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.39:831][719]LogActorFactory: Actor Factory created koltuk2_Cylinder_001
+[2020.10.25-04.40.40:816][794]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.40:852][794]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.40:889][794]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.40:927][794]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.40:963][794]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.41:003][794]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.41:041][794]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.41:077][794]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.41:120][794]LogActorFactory: Actor Factory created koltuk2_Cube_008
+[2020.10.25-04.40.41:158][794]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.41:197][794]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.41:235][794]LogActorFactory: Actor Factory created koltuk2_Cylinder_001
+[2020.10.25-04.40.41:886][799]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.40.43:420][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.40.45:131][175]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.45:131][175]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.40.45:887][252]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.45:887][252]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.40.46:437][310]Cmd: TRANSACTION UNDO
+[2020.10.25-04.40.46:438][310]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.40.49:769][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.25-04.40.50:295][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_001)
+[2020.10.25-04.40.50:839][804]Cmd: DELETE
+[2020.10.25-04.40.50:839][804]Cmd: ACTOR DELETE
+[2020.10.25-04.40.50:840][804]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.25-04.40.50:850][804]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2020.10.25-04.40.51:319][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube)
+[2020.10.25-04.40.51:650][891]Cmd: DELETE
+[2020.10.25-04.40.51:650][891]Cmd: ACTOR DELETE
+[2020.10.25-04.40.51:651][891]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.25-04.40.51:663][891]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.10.25-04.40.55:132][294]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.55:133][294]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.55:133][294]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.55:133][294]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.55:134][294]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.55:135][294]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.55:135][294]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.55:136][294]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.55:136][294]LogActorFactory: Actor Factory created koltuk2_Cube_008
+[2020.10.25-04.40.55:137][294]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.55:137][294]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.55:138][294]LogActorFactory: Actor Factory created koltuk2_Cylinder_001
+[2020.10.25-04.40.56:465][427]LogActorFactory: Actor Factory created koltuk2_Cube
+[2020.10.25-04.40.56:500][427]LogActorFactory: Actor Factory created koltuk2_Cube_001
+[2020.10.25-04.40.56:534][427]LogActorFactory: Actor Factory created koltuk2_Cube_002
+[2020.10.25-04.40.56:572][427]LogActorFactory: Actor Factory created koltuk2_Cube_003
+[2020.10.25-04.40.56:608][427]LogActorFactory: Actor Factory created koltuk2_Cube_004
+[2020.10.25-04.40.56:645][427]LogActorFactory: Actor Factory created koltuk2_Cube_005
+[2020.10.25-04.40.56:682][427]LogActorFactory: Actor Factory created koltuk2_Cube_006
+[2020.10.25-04.40.56:720][427]LogActorFactory: Actor Factory created koltuk2_Cube_007
+[2020.10.25-04.40.56:758][427]LogActorFactory: Actor Factory created koltuk2_Cube_008
+[2020.10.25-04.40.56:794][427]LogActorFactory: Actor Factory created koltuk2_Cube_009
+[2020.10.25-04.40.56:830][427]LogActorFactory: Actor Factory created koltuk2_Cylinder
+[2020.10.25-04.40.56:868][427]LogActorFactory: Actor Factory created koltuk2_Cylinder_001
+[2020.10.25-04.40.59:477][664]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.41.04:130][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube)
+[2020.10.25-04.41.31:277][ 58]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.31:277][ 58]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.41.32:046][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_003)
+[2020.10.25-04.41.38:616][870]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.38:616][870]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.38:963][897]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.38:963][897]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.39:216][917]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.39:216][917]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.39:404][932]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.39:404][932]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.39:729][963]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.39:729][963]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.40:438][ 40]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.40:438][ 40]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.40:860][ 89]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.40:860][ 89]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:023][107]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:023][107]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:177][124]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:177][124]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:332][141]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:332][141]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:487][158]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:487][158]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:626][173]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:626][173]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:772][189]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:772][189]LogEditorTransaction: Undo Crear actores
+[2020.10.25-04.41.41:919][205]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.41:919][205]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.42:084][219]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.42:084][219]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.41.42:534][265]Cmd: TRANSACTION UNDO
+[2020.10.25-04.41.42:534][265]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.41.42:537][265]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.koltuk2_Cube_008_108.StaticMeshComponent0) Component already registered.
+[2020.10.25-04.41.42:538][265]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.koltuk2_Cube_005_102.StaticMeshComponent0) Component already registered.
+[2020.10.25-04.42.05:239][847]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.42.05:904][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_006)
+[2020.10.25-04.42.10:177][414]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.42.11:174][523]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.42.12:056][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_005)
+[2020.10.25-04.42.33:442][888]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.42.33:453][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.42.33:453][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.42.33:453][888]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:42:33)
+[2020.10.25-04.42.33:453][888]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.42.33:487][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034051s)
+[2020.10.25-04.42.33:488][888]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.42.33:489][888]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2020.10.25-04.42.33:489][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.035648s)
+[2020.10.25-04.42.33:530][888]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.42.33:554][888]LogInit: FAudioDevice initialized.
+[2020.10.25-04.42.33:604][888]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.42.33:608][888]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.42.33
+[2020.10.25-04.42.33:608][888]LogWorld: Bringing up level for play took: 0.002341
+[2020.10.25-04.42.33:613][888]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,764
+[2020.10.25-04.42.33:613][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.25:304][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.25:386][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.27:995][197]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.43.28:004][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.28:005][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.43.28:005][197]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:43:28)
+[2020.10.25-04.43.28:005][197]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.43.28:012][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007646s)
+[2020.10.25-04.43.28:013][197]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.43.28:014][197]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2020.10.25-04.43.28:014][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.009085s)
+[2020.10.25-04.43.28:041][197]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.43.28:065][197]LogInit: FAudioDevice initialized.
+[2020.10.25-04.43.28:111][197]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.43.28:114][197]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.43.28
+[2020.10.25-04.43.28:114][197]LogWorld: Bringing up level for play took: 0.001557
+[2020.10.25-04.43.28:119][197]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,729
+[2020.10.25-04.43.28:119][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.38:080][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.38:163][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.43.43:757][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_005)
+[2020.10.25-04.43.50:303][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_005)
+[2020.10.25-04.43.53:776][ 32]Cmd: TRANSACTION UNDO
+[2020.10.25-04.43.53:776][ 32]LogEditorTransaction: Undo Scale Actors
+[2020.10.25-04.44.16:561][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube)
+[2020.10.25-04.44.19:084][626]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.19:084][626]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.44.19:616][671]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.19:616][671]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.44.20:144][732]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.20:145][732]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.44.20:491][772]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.20:491][772]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.44.22:713][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_006)
+[2020.10.25-04.44.23:835][148]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.44.24:617][233]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.24:617][233]LogEditorTransaction: Undo Pinchar en los actores
+[2020.10.25-04.44.26:865][461]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.26:865][461]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.44.27:210][500]Cmd: TRANSACTION UNDO
+[2020.10.25-04.44.27:210][500]LogEditorTransaction: Undo Move Actors
+[2020.10.25-04.44.27:212][500]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.koltuk2_Cube_002_96.StaticMeshComponent0) Component already registered.
+[2020.10.25-04.44.27:213][500]LogActorComponent: ~FComponentReregisterContext: (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.koltuk2_Cube_004_100.StaticMeshComponent0) Component already registered.
+[2020.10.25-04.44.29:610][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.25-04.45.19:612][901]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.45.19:622][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.45.19:622][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.45.19:622][901]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:45:19)
+[2020.10.25-04.45.19:622][901]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.45.19:629][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007130s)
+[2020.10.25-04.45.19:630][901]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.45.19:630][901]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2020.10.25-04.45.19:631][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.008760s)
+[2020.10.25-04.45.19:658][901]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.45.19:681][901]LogInit: FAudioDevice initialized.
+[2020.10.25-04.45.19:734][901]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.45.19:737][901]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.45.19
+[2020.10.25-04.45.19:737][901]LogWorld: Bringing up level for play took: 0.001990
+[2020.10.25-04.45.19:742][901]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,894
+[2020.10.25-04.45.19:743][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.45.27:900][832]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.45.27:990][832]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.45.33:601][ 87]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.45.34:565][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.25-04.45.37:037][448]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.45.37:048][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.45.37:048][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.45.37:048][448]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:45:37)
+[2020.10.25-04.45.37:048][448]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.45.37:055][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006890s)
+[2020.10.25-04.45.37:056][448]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.45.37:056][448]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2020.10.25-04.45.37:057][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.008370s)
+[2020.10.25-04.45.37:082][448]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.45.37:104][448]LogInit: FAudioDevice initialized.
+[2020.10.25-04.45.37:154][448]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.45.37:156][448]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.45.37
+[2020.10.25-04.45.37:157][448]LogWorld: Bringing up level for play took: 0.001460
+[2020.10.25-04.45.37:162][448]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,314
+[2020.10.25-04.45.37:163][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.46.27:223][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.46.27:287][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.46.36:091][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube)
+[2020.10.25-04.46.49:107][412]LogEditorViewport: Clicking on Actor (LMB): Personaje_C (Personaje)
+[2020.10.25-04.47.06:480][121]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.47.06:491][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.06:491][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.47.06:492][121]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:47:06)
+[2020.10.25-04.47.06:492][121]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.47.06:499][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007277s)
+[2020.10.25-04.47.06:500][121]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.47.06:500][121]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2020.10.25-04.47.06:500][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.008777s)
+[2020.10.25-04.47.06:588][121]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.47.06:611][121]LogInit: FAudioDevice initialized.
+[2020.10.25-04.47.06:657][121]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.47.06:659][121]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.47.06
+[2020.10.25-04.47.06:660][121]LogWorld: Bringing up level for play took: 0.001982
+[2020.10.25-04.47.06:665][121]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,184
+[2020.10.25-04.47.06:665][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.08:623][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.08:743][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.11:514][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (koltuk2_Cube_002)
+[2020.10.25-04.47.12:075][704]LogEditorViewport: Clicking on Actor (LMB): Personaje_C (Personaje)
+[2020.10.25-04.47.23:219][740]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.25-04.47.23:234][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.23:234][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.25-04.47.23:234][740]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (24/10/2020 22:47:23)
+[2020.10.25-04.47.23:235][740]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.25-04.47.23:242][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007301s)
+[2020.10.25-04.47.23:243][740]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.25-04.47.23:243][740]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2020.10.25-04.47.23:243][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.008673s)
+[2020.10.25-04.47.23:303][740]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.25-04.47.23:327][740]LogInit: FAudioDevice initialized.
+[2020.10.25-04.47.23:380][740]LogLoad: Game class is 'GameModeBase'
+[2020.10.25-04.47.23:382][740]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.25-01.47.23
+[2020.10.25-04.47.23:383][740]LogWorld: Bringing up level for play took: 0.001708
+[2020.10.25-04.47.23:388][740]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,54
+[2020.10.25-04.47.23:388][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.33:955][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.34:069][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.25-04.47.37:274][101]Cmd: QUIT_EDITOR
+[2020.10.25-04.47.37:531][101]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.10.25-04.47.37:559][101]LogExit: Preparing to exit.
+[2020.10.25-04.47.37:911][101]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.25-04.47.37:929][101]LogExit: Editor shut down
+[2020.10.25-04.47.37:929][101]LogExit: Transaction tracking system shut down
+[2020.10.25-04.47.38:001][101]LogObj: Freed 0b from 0 cluster array pools.
+[2020.10.25-04.47.38:001][101]LogExit: Object subsystem successfully closed.
+[2020.10.25-04.47.38:015][101]LogD3D11RHI: Shutdown
+[2020.10.25-04.47.38:016][101]LogD3D11RHI: CleanupD3DDevice
+[2020.10.25-04.47.38:082][101]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module StatsViewer (500)
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2020.10.25-04.47.38:092][101]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2020.10.25-04.47.38:092][101]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Juegos epic/UE_4.15/FeaturePacks/' was aborted.
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2020.10.25-04.47.38:095][101]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' was aborted.
+[2020.10.25-04.47.38:095][101]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Usuario/Collections/' was aborted.
+[2020.10.25-04.47.38:095][101]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' was aborted.
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2020.10.25-04.47.38:095][101]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module Media (445)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2020.10.25-04.47.38:096][101]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2020.10.25-04.47.38:652][101]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2020.10.25-04.47.38:653][101]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2020.10.25-04.47.38:697][101]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2020.10.25-04.47.38:698][101]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2020.10.25-04.47.38:698][101]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2020.10.25-04.47.38:698][101]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2020.10.25-04.47.38:698][101]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2020.10.25-04.47.38:699][101]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2020.10.25-04.47.38:930][101]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2020.10.25-04.47.38:931][101]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2020.10.25-04.47.38:932][101]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2020.10.25-04.47.38:932][101]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2020.10.25-04.47.38:932][101]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2020.10.25-04.47.38:932][101]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Binaries/Win64' was aborted.
+[2020.10.25-04.47.38:932][101]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2020.10.25-04.47.38:933][101]LogModuleManager: Shutting down and abandoning module ProyectoLabApps (224)
+[2020.10.25-04.47.38:933][101]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2020.10.25-04.47.38:933][101]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2020.10.25-04.47.38:933][101]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2020.10.25-04.47.38:933][101]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2020.10.25-04.47.39:034][101]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2020.10.25-04.47.39:135][101]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2020.10.25-04.47.39:138][101]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2020.10.25-04.47.39:139][101]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module Core (154)
+[2020.10.25-04.47.39:141][101]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2020.10.25-04.47.39:283][101]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.10.25-04.47.39:283][101]LogDirectoryWatcher: A directory notification for '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.25-04.47.39:283][101]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.10.25-04.47.39:283][101]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2020.10.25-04.47.39:284][101]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2020.10.25-04.47.39:355][101]LogDerivedDataCache: Shutdown
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2020.10.25-04.47.39:355][101]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2020.10.25-04.47.39:356][101]LogOnline:Display: Unloading online subsystem: NULL
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2020.10.25-04.47.39:356][101]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2020.10.25-04.47.39:356][101]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.10.25-04.47.39:356][101]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45164E82-4E9A-3AD5-0CD8-748442232BD4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=e10535a64fb9ed94f97320a8db6f28bc%7Cfeada0bc91244e1bbc85f333bfb7432e%7Cc8f7922c-32f3-4db3-b025-d5db5959e73b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.25-04.47.39:378][101]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2020.10.25-04.47.39:380][101]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.10.25-04.47.39:380][101]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.10.25-04.47.39:380][101]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.10.25-04.47.39:380][101]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.10.25-04.47.39:380][101]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.10.25-04.47.39:382][101]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.10.25-04.47.39:384][101]LogExit: Exiting.
+[2020.10.25-04.47.39:396][101]Log file closed, 10/25/20 01:47:39
