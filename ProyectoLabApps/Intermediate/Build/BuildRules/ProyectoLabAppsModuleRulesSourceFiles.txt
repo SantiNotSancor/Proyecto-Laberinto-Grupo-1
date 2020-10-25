@@ -1,3 +1,0 @@
-C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Source\ProyectoLabApps\ProyectoLabApps.Build.cs
-C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Source\ProyectoLabApps.Target.cs
-C:\Users\Belci_3\Documents\GitHub\Proyecto-Laberinto-Grupo-1\ProyectoLabApps\Source\ProyectoLabAppsEditor.Target.cs
