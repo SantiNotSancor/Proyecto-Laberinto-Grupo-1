@@ -1101,3 +1101,475 @@ LogInit: Object subsystem initialized
 [2020.10.26-18.30.33:481][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
 [2020.10.26-18.30.33:531][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
 [2020.10.26-18.30.42:388][ 13]LogEditorViewport: Clicking Background
+[2020.10.26-18.31.39:210][943]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.31.39:232][943]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-18.31.39:232][943]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.31.39:234][943]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.26-18.31.39:234][943]MapCheck: New page: Revisión del mapa
+[2020.10.26-18.31.39:234][943]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.31.39:370][943]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-18.31.39:394][943]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-18.31.39:461][943]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 67,074ms to complete.
+[2020.10.26-18.31.39:462][943]LogFileHelpers: Loading map 'Minimal_Default' took 0.231
+[2020.10.26-18.31.45:450][603]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-18.31.45:450][603]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.31.45:452][603]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.26-18.31.45:452][603]MapCheck: New page: Revisión del mapa
+[2020.10.26-18.31.45:452][603]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.31.45:491][603]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.31.45:631][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-18.31.45:654][603]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-18.31.45:722][603]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 67,638ms to complete.
+[2020.10.26-18.31.45:723][603]LogFileHelpers: Loading map 'Minimal_Default' took 0.273
+[2020.10.26-18.33.07:639][584]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.26-18.33.07:652][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.33.07:652][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-18.33.07:652][584]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (26/10/2020 12:33:07)
+[2020.10.26-18.33.07:652][584]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.26-18.33.07:661][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008581s)
+[2020.10.26-18.33.07:663][584]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.33.07:663][584]LogPlayLevel: PIE: World Init took: (0.001831s)
+[2020.10.26-18.33.07:663][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.010641s)
+[2020.10.26-18.33.07:730][584]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.26-18.33.07:757][584]LogInit: FAudioDevice initialized.
+[2020.10.26-18.33.07:808][584]LogLoad: Game class is 'GameModeBase'
+[2020.10.26-18.33.07:810][584]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.26-15.33.07
+[2020.10.26-18.33.07:810][584]LogWorld: Bringing up level for play took: 0.001307
+[2020.10.26-18.33.07:816][584]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 1,005
+[2020.10.26-18.33.07:817][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.33.23:029][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.33.23:087][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.34.40:520][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.26-18.34.51:109][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.26-18.34.52:327][ 61]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.26-18.34.53:591][211]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.34.56:881][572]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.26-18.35.05:512][567]LogEditorViewport: Clicking Background
+[2020.10.26-18.35.06:191][647]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.07:645][815]LogEditorViewport: Clicking Background
+[2020.10.26-18.35.10:343][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.11:776][287]LogEditorViewport: Clicking Background
+[2020.10.26-18.35.15:129][687]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.16:183][806]LogEditorViewport: Clicking Background
+[2020.10.26-18.35.34:794][ 28]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.36:325][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.48:562][606]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.10.26-18.35.50:203][788]LogEditorViewport: Clicking Background
+[2020.10.26-18.35.50:680][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.35.54:583][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.36.00:437][974]Cmd: ACTOR HIDE SELECTED
+[2020.10.26-18.36.04:869][504]Cmd: TRANSACTION UNDO
+[2020.10.26-18.36.04:869][504]LogEditorTransaction: Undo Ocultar selección
+[2020.10.26-18.36.07:009][739]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.36.09:989][ 76]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.36.10:785][164]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.10.26-18.37.22:924][609]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.26-18.37.24:891][609]LogSavePackage: Save=141.57ms
+[2020.10.26-18.37.24:891][609]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_DefaultC51FC3E64146B7C0806E08AAC2E1AC28.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
+[2020.10.26-18.37.24:893][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
+[2020.10.26-18.37.24:916][609]LogFileHelpers: Saving map 'Minimal_Default' took 0.253
+[2020.10.26-18.37.24:917][609]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-18.37.24:917][609]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.37.24:919][609]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.10.26-18.37.24:970][609]MapCheck: New page: Revisión del mapa
+[2020.10.26-18.37.24:970][609]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.37.25:179][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-18.37.25:202][609]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-18.37.25:266][609]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 63,757ms to complete.
+[2020.10.26-18.37.25:266][609]LogFileHelpers: Loading map 'mainmenu' took 0.350
+[2020.10.26-18.38.07:637][980]LogEditorTransaction: Undo Mover nodo
+[2020.10.26-18.38.08:078][ 10]LogEditorTransaction: Undo Mover nodo
+[2020.10.26-18.38.53:984][392]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.39.04:290][232]LogSavePackage: Save=119.50ms
+[2020.10.26-18.39.04:290][232]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenuC39C92BE4D35200E514D5394DFD145DA.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap'
+[2020.10.26-18.39.04:292][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap
+[2020.10.26-18.39.04:312][232]LogFileHelpers: Saving map 'mainmenu' took 0.232
+[2020.10.26-18.39.04:313][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Menu_P/options" FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset" SILENT=true
+[2020.10.26-18.39.04:338][232]LogSavePackage: Save=20.26ms
+[2020.10.26-18.39.04:338][232]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/options6C7296A946CF39B346AF62B2AE83032F.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset'
+[2020.10.26-18.39.04:341][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset
+[2020.10.26-18.39.04:344][232]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-18.39.04:345][232]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.39.04:347][232]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.10.26-18.39.04:347][232]MapCheck: New page: Revisión del mapa
+[2020.10.26-18.39.04:347][232]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.39.04:525][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-18.39.04:548][232]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-18.39.04:613][232]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 64,255ms to complete.
+[2020.10.26-18.39.04:613][232]LogFileHelpers: Loading map 'Minimal_Default' took 0.270
+[2020.10.26-18.39.27:573][356]Cmd: TRANSACTION UNDO
+[2020.10.26-18.39.27:573][356]LogEditorTransaction: Undo Añadir evento emisor nuevo
+[2020.10.26-18.40.54:541][883]LogEditorTransaction: Undo Añadir variable
+[2020.10.26-18.41.00:314][420]LogSlate: Took 0.010654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.10.26-18.41.48:109][877]LogEditorTransaction: Undo Cambiar el nombre del nodo
+[2020.10.26-18.41.48:570][906]LogEditorTransaction: Undo Añadir nodo
+[2020.10.26-18.48.20:593][305]LogBlueprint:Warning: [Compiler ] Aviso Pasted node  CustomEvent   conflicted with  OnPressed (botonsalir)  and was replaced as a Custom Event!
+[2020.10.26-18.48.20:607][305]BlueprintEditorCompileResults:Warning: Aviso Pasted node  CustomEvent   conflicted with  OnPressed (botonsalir)  and was replaced as a Custom Event!
+[2020.10.26-18.52.45:433][ 97]LogEditorTransaction: Undo Crear enlace del Pin
+[2020.10.26-18.54.03:310][789]BlueprintLog: New page: Compilar options
+[2020.10.26-18.54.03:323][789]LogBlueprint:Warning: [Compiler options] Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.03:874][789]BlueprintEditorCompileResults:Warning: Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.03:875][789]LogBlueprint:Warning: [Compiler options] Aviso [5976,27] Compile of options successful, but with 1 Warning(s) [in 565 ms] (/Game/Niveles/Menu_P/options.options)
+[2020.10.26-18.54.05:535][943]BlueprintLog: New page: Compilar options
+[2020.10.26-18.54.05:574][943]LogBlueprint:Warning: [Compiler options] Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.05:677][943]BlueprintEditorCompileResults:Warning: Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.05:678][943]LogBlueprint:Warning: [Compiler options] Aviso [5978,07] Compile of options successful, but with 1 Warning(s) [in 142 ms] (/Game/Niveles/Menu_P/options.options)
+[2020.10.26-18.54.37:038][292]BlueprintLog: New page: Compilar options
+[2020.10.26-18.54.37:050][292]LogBlueprint:Warning: [Compiler options] Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.37:152][292]BlueprintEditorCompileResults:Warning: Aviso Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2020.10.26-18.54.37:153][292]LogBlueprint:Warning: [Compiler options] Aviso [6009,55] Compile of options successful, but with 1 Warning(s) [in 114 ms] (/Game/Niveles/Menu_P/options.options)
+[2020.10.26-18.54.44:601][970]BlueprintLog: New page: Compilar options
+[2020.10.26-18.55.05:753][187]BlueprintLog: New page: Compilar options
+[2020.10.26-18.55.07:091][299]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.26-18.55.07:107][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.55.07:107][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-18.55.07:107][299]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (26/10/2020 12:55:07)
+[2020.10.26-18.55.07:108][299]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.10.26-18.55.07:115][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007137s)
+[2020.10.26-18.55.07:116][299]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.55.07:117][299]LogPlayLevel: PIE: World Init took: (0.001771s)
+[2020.10.26-18.55.07:117][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.009224s)
+[2020.10.26-18.55.07:150][299]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.26-18.55.07:182][299]LogInit: FAudioDevice initialized.
+[2020.10.26-18.55.07:234][299]LogLoad: Game class is 'GameModeBase'
+[2020.10.26-18.55.07:236][299]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.26-15.55.07
+[2020.10.26-18.55.07:237][299]LogWorld: Bringing up level for play took: 0.001411
+[2020.10.26-18.55.07:244][299]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,433
+[2020.10.26-18.55.07:244][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.55.10:025][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.55.10:076][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.10.26-18.55.18:247][339]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.26-18.55.19:755][339]LogSavePackage: Save=163.41ms
+[2020.10.26-18.55.19:755][339]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default7740E2B041BB1EEDCAF3219C32E4813C.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
+[2020.10.26-18.55.19:758][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
+[2020.10.26-18.55.19:781][339]LogFileHelpers: Saving map 'Minimal_Default' took 0.303
+[2020.10.26-18.55.19:781][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Menu_P/mainmenu" FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/mainmenu.uasset" SILENT=true
+[2020.10.26-18.55.19:805][339]LogSavePackage: Save=19.64ms
+[2020.10.26-18.55.19:805][339]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/mainmenu725506FF4C2A0E4AE2869B8E37EFE2CC.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/mainmenu.uasset'
+[2020.10.26-18.55.19:808][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/mainmenu.uasset
+[2020.10.26-18.55.19:808][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Menu_P/options" FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset" SILENT=true
+[2020.10.26-18.55.19:833][339]LogSavePackage: Save=20.42ms
+[2020.10.26-18.55.19:833][339]LogSavePackage: Moving '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/options750EC7954845DD1CDC47FD9CC57C523C.tmp' to '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset'
+[2020.10.26-18.55.19:836][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Menu_P/options.uasset
+[2020.10.26-18.55.19:836][339]Cmd: MAP LOAD FILE="../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-18.55.19:837][339]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.55.19:838][339]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.10.26-18.55.19:876][339]MapCheck: New page: Revisión del mapa
+[2020.10.26-18.55.19:876][339]LightingResults: New page: Diseñar la iluminación
+[2020.10.26-18.55.20:081][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-18.55.20:102][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-18.55.20:167][339]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 64,823ms to complete.
+[2020.10.26-18.55.20:167][339]LogFileHelpers: Loading map 'mainmenu' took 0.331
+[2020.10.26-18.55.20:553][382]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.10.26-18.55.20:571][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.26-18.55.20:571][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-18.55.20:571][382]PIE: New page: Sesión PIE (reproducción en el editor): mainmenu (26/10/2020 12:55:20)
+[2020.10.26-18.55.20:571][382]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_mainmenu
+[2020.10.26-18.55.20:572][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001240s)
+[2020.10.26-18.55.20:574][382]LogAIModule: Creating AISystem for world mainmenu
+[2020.10.26-18.55.20:574][382]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2020.10.26-18.55.20:574][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/mainmenu.mainmenu to /Game/Niveles/UEDPIE_0_mainmenu.mainmenu (0.002493s)
+[2020.10.26-18.55.20:604][382]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.26-18.55.20:631][382]LogInit: FAudioDevice initialized.
+[2020.10.26-18.55.20:684][382]LogLoad: Game class is 'GameModeBase'
+[2020.10.26-18.55.20:686][382]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 0) at 2020.10.26-15.55.20
+[2020.10.26-18.55.20:687][382]LogWorld: Bringing up level for play took: 0.001004
+[2020.10.26-18.55.20:694][382]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/UEDPIE_0_mainmenu -0,118
+[2020.10.26-18.55.20:694][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.26-18.55.31:336][640]LogNet: Browse: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.26-18.55.31:336][640]LogLoad: LoadMap: /Game/Niveles/Mapa/Minimal_Default
+[2020.10.26-18.55.31:355][640]Cmd: MEM
+[2020.10.26-18.55.31:370][640]LogMemory: Platform Memory Stats for Windows
+[2020.10.26-18.55.31:370][640]LogMemory: Process Physical Memory: 972.81 MB used, 1168.79 MB peak
+[2020.10.26-18.55.31:370][640]LogMemory: Process Virtual Memory: 2553.00 MB used, 2892.65 MB peak
+[2020.10.26-18.55.31:370][640]LogMemory: Physical Memory: 5126.80 MB used,  2991.61 MB free, 8118.40 MB total
+[2020.10.26-18.55.31:370][640]LogMemory: Virtual Memory: 8082.95 MB used,  2991.61 MB free, 134217728.00 MB total
+[2020.10.26-18.55.31:370][640]LogMemory: 
+[2020.10.26-18.55.31:370][640]Allocator Stats for TBB: (not implemented)
+[2020.10.26-18.55.31:419][640]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.26-18.55.31:420][640]LogLoad: Game class is 'GameModeBase'
+[2020.10.26-18.55.31:423][640]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.10.26-15.55.31
+[2020.10.26-18.55.31:424][640]LogWorld: Bringing up level for play took: 0.002536
+[2020.10.26-18.55.31:424][640]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.10.26-18.55.31:424][640]LogLoad: Took 0.088558 seconds to LoadMap(/Game/Niveles/Mapa/Minimal_Default)
+[2020.10.26-18.55.33:662][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.26-18.55.33:709][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/Niveles/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/Niveles/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2020.10.26-18.55.48:964][435]LogEditorViewport: Clicking Background
+[2020.10.26-18.55.57:201][335]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.10.26-18.55.57:768][336]Cmd: QUIT_EDITOR
+[2020.10.26-18.55.59:466][336]LogExit: Preparing to exit.
+[2020.10.26-18.56.00:591][336]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.26-18.56.00:910][336]LogExit: Editor shut down
+[2020.10.26-18.56.00:911][336]LogExit: Transaction tracking system shut down
+[2020.10.26-18.56.07:140][336]LogObj: Freed 0b from 0 cluster array pools.
+[2020.10.26-18.56.07:141][336]LogExit: Object subsystem successfully closed.
+[2020.10.26-18.56.07:500][336]LogD3D11RHI: Shutdown
+[2020.10.26-18.56.07:500][336]LogD3D11RHI: CleanupD3DDevice
+[2020.10.26-18.56.08:280][336]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.10.26-18.56.12:208][336]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (510)
+[2020.10.26-18.56.12:208][336]LogModuleManager: Shutting down and abandoning module StatsViewer (508)
+[2020.10.26-18.56.12:271][336]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2020.10.26-18.56.12:475][336]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2020.10.26-18.56.12:475][336]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2020.10.26-18.56.12:475][336]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2020.10.26-18.56.12:705][336]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2020.10.26-18.56.12:705][336]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2020.10.26-18.56.12:705][336]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2020.10.26-18.56.12:705][336]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2020.10.26-18.56.12:736][336]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/Juegos epic/UE_4.15/FeaturePacks/' was aborted.
+[2020.10.26-18.56.12:774][336]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2020.10.26-18.56.12:775][336]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2020.10.26-18.56.12:775][336]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2020.10.26-18.56.12:775][336]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' was aborted.
+[2020.10.26-18.56.12:775][336]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Usuario/Collections/' was aborted.
+[2020.10.26-18.56.12:775][336]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' was aborted.
+[2020.10.26-18.56.12:775][336]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2020.10.26-18.56.12:775][336]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2020.10.26-18.56.12:904][336]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2020.10.26-18.56.12:904][336]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2020.10.26-18.56.12:906][336]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2020.10.26-18.56.12:930][336]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2020.10.26-18.56.12:930][336]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2020.10.26-18.56.12:930][336]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module Media (445)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2020.10.26-18.56.12:931][336]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2020.10.26-18.56.12:989][336]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2020.10.26-18.56.12:996][336]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2020.10.26-18.56.13:018][336]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2020.10.26-18.56.13:018][336]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2020.10.26-18.56.13:018][336]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2020.10.26-18.56.13:018][336]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2020.10.26-18.56.13:018][336]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2020.10.26-18.56.13:226][336]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2020.10.26-18.56.13:226][336]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2020.10.26-18.56.13:226][336]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2020.10.26-18.56.13:237][336]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2020.10.26-18.56.13:595][336]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2020.10.26-18.56.13:729][336]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2020.10.26-18.56.13:774][336]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2020.10.26-18.56.13:830][336]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2020.10.26-18.56.13:830][336]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2020.10.26-18.56.13:954][336]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2020.10.26-18.56.14:037][336]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2020.10.26-18.56.14:037][336]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2020.10.26-18.56.14:068][336]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2020.10.26-18.56.14:100][336]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2020.10.26-18.56.14:101][336]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2020.10.26-18.56.14:108][336]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2020.10.26-18.56.14:182][336]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2020.10.26-18.56.14:182][336]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2020.10.26-18.56.14:183][336]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2020.10.26-18.56.14:183][336]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2020.10.26-18.56.14:183][336]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2020.10.26-18.56.14:275][336]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2020.10.26-18.56.14:383][336]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2020.10.26-18.56.14:435][336]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2020.10.26-18.56.14:462][336]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2020.10.26-18.56.14:506][336]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2020.10.26-18.56.14:782][336]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2020.10.26-18.56.14:964][336]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2020.10.26-18.56.15:012][336]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2020.10.26-18.56.15:012][336]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2020.10.26-18.56.15:071][336]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2020.10.26-18.56.15:071][336]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2020.10.26-18.56.15:124][336]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2020.10.26-18.56.15:124][336]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2020.10.26-18.56.15:161][336]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2020.10.26-18.56.15:161][336]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2020.10.26-18.56.15:163][336]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2020.10.26-18.56.15:176][336]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2020.10.26-18.56.15:215][336]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2020.10.26-18.56.15:227][336]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2020.10.26-18.56.15:418][336]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2020.10.26-18.56.15:433][336]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2020.10.26-18.56.15:434][336]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2020.10.26-18.56.15:673][336]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2020.10.26-18.56.15:973][336]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2020.10.26-18.56.15:974][336]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2020.10.26-18.56.15:974][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2020.10.26-18.56.15:974][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2020.10.26-18.56.15:986][336]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2020.10.26-18.56.15:986][336]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2020.10.26-18.56.15:986][336]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2020.10.26-18.56.15:986][336]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2020.10.26-18.56.15:986][336]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2020.10.26-18.56.16:054][336]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2020.10.26-18.56.16:054][336]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2020.10.26-18.56.16:101][336]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2020.10.26-18.56.16:101][336]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2020.10.26-18.56.16:122][336]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2020.10.26-18.56.16:122][336]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2020.10.26-18.56.16:135][336]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2020.10.26-18.56.16:135][336]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2020.10.26-18.56.16:135][336]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2020.10.26-18.56.16:135][336]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2020.10.26-18.56.16:135][336]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2020.10.26-18.56.16:156][336]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2020.10.26-18.56.16:178][336]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2020.10.26-18.56.16:178][336]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2020.10.26-18.56.16:189][336]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2020.10.26-18.56.16:223][336]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2020.10.26-18.56.16:223][336]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2020.10.26-18.56.16:241][336]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2020.10.26-18.56.16:270][336]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2020.10.26-18.56.16:289][336]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2020.10.26-18.56.16:592][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2020.10.26-18.56.16:592][336]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2020.10.26-18.56.16:592][336]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2020.10.26-18.56.16:592][336]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2020.10.26-18.56.16:727][336]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2020.10.26-18.56.16:794][336]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2020.10.26-18.56.16:823][336]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2020.10.26-18.56.16:884][336]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2020.10.26-18.56.16:884][336]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2020.10.26-18.56.17:000][336]LogDirectoryWatcher: A directory notification for 'D:/Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Binaries/Win64' was aborted.
+[2020.10.26-18.56.17:034][336]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2020.10.26-18.56.17:037][336]LogModuleManager: Shutting down and abandoning module ProyectoLabApps (224)
+[2020.10.26-18.56.17:037][336]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2020.10.26-18.56.17:103][336]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2020.10.26-18.56.17:103][336]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2020.10.26-18.56.17:103][336]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2020.10.26-18.56.17:203][336]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2020.10.26-18.56.17:321][336]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2020.10.26-18.56.17:352][336]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2020.10.26-18.56.17:461][336]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2020.10.26-18.56.17:461][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2020.10.26-18.56.17:461][336]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2020.10.26-18.56.17:513][336]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2020.10.26-18.56.17:519][336]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2020.10.26-18.56.17:560][336]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2020.10.26-18.56.17:560][336]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2020.10.26-18.56.17:560][336]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2020.10.26-18.56.17:576][336]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2020.10.26-18.56.17:576][336]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2020.10.26-18.56.17:576][336]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2020.10.26-18.56.17:714][336]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2020.10.26-18.56.17:714][336]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2020.10.26-18.56.17:727][336]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2020.10.26-18.56.17:727][336]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2020.10.26-18.56.17:727][336]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2020.10.26-18.56.17:727][336]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2020.10.26-18.56.17:759][336]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2020.10.26-18.56.17:759][336]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2020.10.26-18.56.17:759][336]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2020.10.26-18.56.17:806][336]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2020.10.26-18.56.17:806][336]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2020.10.26-18.56.17:809][336]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2020.10.26-18.56.18:021][336]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2020.10.26-18.56.18:021][336]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2020.10.26-18.56.18:021][336]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2020.10.26-18.56.18:021][336]LogModuleManager: Shutting down and abandoning module Core (154)
+[2020.10.26-18.56.18:021][336]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2020.10.26-18.56.18:402][336]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.10.26-18.56.18:402][336]LogDirectoryWatcher: A directory notification for '../../../../../../Escritorio/Proyecto/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.10.26-18.56.18:402][336]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.10.26-18.56.18:402][336]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2020.10.26-18.56.18:408][336]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2020.10.26-18.56.18:408][336]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2020.10.26-18.56.18:408][336]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2020.10.26-18.56.18:473][336]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2020.10.26-18.56.18:556][336]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2020.10.26-18.56.18:556][336]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2020.10.26-18.56.18:617][336]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2020.10.26-18.56.18:638][336]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2020.10.26-18.56.18:713][336]LogDerivedDataCache: Shutdown
+[2020.10.26-18.56.18:713][336]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2020.10.26-18.56.18:713][336]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2020.10.26-18.56.18:746][336]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2020.10.26-18.56.19:046][336]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2020.10.26-18.56.19:227][336]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2020.10.26-18.56.19:357][336]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2020.10.26-18.56.19:357][336]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2020.10.26-18.56.19:357][336]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2020.10.26-18.56.19:410][336]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2020.10.26-18.56.19:693][336]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2020.10.26-18.56.19:693][336]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2020.10.26-18.56.19:693][336]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2020.10.26-18.56.19:693][336]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2020.10.26-18.56.19:736][336]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2020.10.26-18.56.19:806][336]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2020.10.26-18.56.19:806][336]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2020.10.26-18.56.19:806][336]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2020.10.26-18.56.19:806][336]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2020.10.26-18.56.19:806][336]LogOnline:Display: Unloading online subsystem: NULL
+[2020.10.26-18.56.20:114][336]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2020.10.26-18.56.20:518][336]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2020.10.26-18.56.20:588][336]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2020.10.26-18.56.20:588][336]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8079D5A1-42EC-F8AD-2115-8BB2D612ED35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=e10535a64fb9ed94f97320a8db6f28bc%7Cfeada0bc91244e1bbc85f333bfb7432e%7Cc8f7922c-32f3-4db3-b025-d5db5959e73b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.26-18.56.20:588][336]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8079D5A1-42EC-F8AD-2115-8BB2D612ED35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=e10535a64fb9ed94f97320a8db6f28bc%7Cfeada0bc91244e1bbc85f333bfb7432e%7Cc8f7922c-32f3-4db3-b025-d5db5959e73b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.26-18.56.20:832][336]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2020.10.26-18.56.21:087][336]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.10.26-18.56.21:087][336]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.10.26-18.56.21:404][336]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.10.26-18.56.21:404][336]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.10.26-18.56.21:404][336]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.10.26-18.56.21:542][336]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.10.26-18.56.21:853][336]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.10.26-18.56.21:853][336]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.10.26-18.56.22:124][336]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.10.26-18.56.22:124][336]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.10.26-18.56.22:124][336]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.10.26-18.56.22:124][336]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.10.26-18.56.22:368][336]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.10.26-18.56.22:419][336]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.10.26-18.56.22:419][336]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.10.26-18.56.22:528][336]LogExit: Exiting.
+[2020.10.26-18.56.22:571][336]Log file closed, 10/26/20 15:56:22
