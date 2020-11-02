@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-3A9859F84AD0DC800AE9D98C7D5EE67A_0000</CrashGUID>
+		<ProcessId>5908</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>18273</SecondsSinceStart>
+		<GameName>UE4-ProyectoLabApps</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.3-3450819+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/ProyectoLabApps.uproject&quot;</CommandLine>
+		<LanguageLCID>11274</LanguageLCID>
+		<AppDefaultLocale>es_AR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3450819</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Beluu</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>FB0AAAFE49DC5D8FB39AF0B03369A559</MachineId>
+		<LoginId>fb0aaafe49dc5d8fb39af0b03369a559</LoginId>
+		<EpicAccountId>cfbc9b1d33724aa483afe77c3ecfcf1f</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;Document : 0&quot; Label=&quot;Gráfico Del Evento&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Assertion failed: Class != NULL [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor\SPropertyEditorAsset.cpp] [Line: 984] &nl;Property (ObjectProperty /Game/Peones/Personaje.Personaje_C:punterowidget) is not an object or interface class&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>2</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Pentium(R) CPU B960 @ 2.20GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>3979907072</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>4</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>835448832</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140732745551872</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>979701760</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1425657856</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4015702016</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4311740416</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>637399515701430000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
