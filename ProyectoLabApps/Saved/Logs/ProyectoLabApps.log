@@ -460,3 +460,12 @@ LogInit: Object subsystem initialized
 [2020.11.02-02.45.49:829][620]LogSavePackage: Save=15.21ms
 [2020.11.02-02.45.49:829][620]LogSavePackage: Moving '../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/tela-tejida-blanca_53876-89528_Mat21D5CAE0430CBC45D9AA92B0615DF0C4.tmp' to '../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/SILLON/tela-tejida-blanca_53876-89528_Mat.uasset'
 [2020.11.02-02.45.49:832][620]LogSavePackage:Display: Finished SavePackage ../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/SILLON/tela-tejida-blanca_53876-89528_Mat.uasset
+[2020.11.02-02.47.32:180][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TELEVISOR_Cube2)
+[2020.11.02-02.47.34:496][452]Cmd: DELETE
+[2020.11.02-02.47.34:497][452]Cmd: ACTOR DELETE
+[2020.11.02-02.47.34:500][452]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-02.47.34:522][452]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.11.02-02.47.45:746][850]LogSavePackage: Save=493.42ms
+[2020.11.02-02.47.45:746][850]LogSavePackage: Moving '../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default5B20305043ED53520C2C07BA7389D724.tmp' to '../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
+[2020.11.02-02.47.45:752][850]LogSavePackage:Display: Finished SavePackage ../../../../GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
+[2020.11.02-02.47.45:776][850]LogFileHelpers: Saving map 'Minimal_Default' took 0.731
