@@ -1,0 +1,1048 @@
+﻿Log file open, 11/02/20 13:37:15
+LogInit:Display: Running engine for game: ProyectoLabApps
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1928453035) SRandInit(1928453036).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.440749
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.11.02-16.37.19:453][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-16.37.19:453][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.02-16.37.19:676][  0]LogInit: Computer: BELU
+[2020.11.02-16.37.19:676][  0]LogInit: User: Beluu
+[2020.11.02-16.37.19:676][  0]LogInit: CPU Page size=65536, Cores=2
+[2020.11.02-16.37.19:677][  0]LogInit: High frequency timer resolution =2.143576 MHz
+[2020.11.02-16.37.19:677][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2020.11.02-16.37.19:677][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.02-16.37.19:677][  0]LogMemory: Process Physical Memory: 263.39 MB used, 263.39 MB peak
+[2020.11.02-16.37.19:677][  0]LogMemory: Process Virtual Memory: 262.41 MB used, 262.41 MB peak
+[2020.11.02-16.37.19:677][  0]LogMemory: Physical Memory: 2856.92 MB used,  938.62 MB free, 3795.54 MB total
+[2020.11.02-16.37.19:677][  0]LogMemory: Virtual Memory: 643.31 MB used,  938.62 MB free, 134217728.00 MB total
+[2020.11.02-16.37.20:341][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
+[2020.11.02-16.37.23:040][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.02-16.37.23:053][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2020.11.02-16.37.23:053][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.11.02-16.37.23:062][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.02-16.37.23:062][  0]LogD3D11RHI:       0/0/1897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.02-16.37.23:062][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.02-16.37.23:079][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.02-16.37.23:079][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.02-16.37.23:079][  0]LogWindows: EnumDisplayDevices:
+[2020.11.02-16.37.23:079][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2020.11.02-16.37.23:080][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2020.11.02-16.37.23:081][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.11.02-16.37.23:081][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2020.11.02-16.37.23:081][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2020.11.02-16.37.23:081][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2020.11.02-16.37.23:081][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2020.11.02-16.37.23:090][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.02-16.37.23:137][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2020.11.02-16.37.23:140][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/6288/).
+[2020.11.02-16.37.23:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belci_3/AppData/Local/Temp/UnrealShaderWorkingDir/84F28AA843BB033A56A81F8001ED15BB/'.
+[2020.11.02-16.37.23:141][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.11.02-16.37.30:895][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.11.02-16.37.31:057][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.11.02-16.37.31:219][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.11.02-16.37.31:377][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.11.02-16.37.31:528][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.11.02-16.37.31:702][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.11.02-16.37.31:849][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.11.02-16.37.31:995][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.11.02-16.37.32:122][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.11.02-16.37.32:292][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.11.02-16.37.32:439][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.11.02-16.37.32:583][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.11.02-16.37.32:727][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.11.02-16.37.32:873][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.11.02-16.37.33:020][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.11.02-16.37.33:312][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.11.02-16.37.33:312][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.11.02-16.37.33:423][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.11.02-16.37.33:654][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.11.02-16.37.33:745][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.11.02-16.37.33:888][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.11.02-16.37.34:034][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.11.02-16.37.34:178][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.11.02-16.37.34:324][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.11.02-16.37.34:324][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.11.02-16.37.36:364][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.11.02-16.37.36:625][  0]LogDerivedDataCache: Loaded boot cache 0.24s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.11.02-16.37.36:770][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.11.02-16.37.36:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.02-16.37.36:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.02-16.37.36:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.02-16.37.36:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.02-16.37.36:861][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.02-16.37.36:878][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belci_3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.02-16.37.36:908][  0]LogSlate: Using Freetype 2.6.0
+[2020.11.02-16.37.36:911][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.02-16.37.36:911][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.02-16.37.39:050][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-16.37.39:062][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.11.02-16.37.40:044][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.02-16.37.40:224][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.11.02-16.37.40:439][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.11.02-16.37.40:439][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.11.02-16.37.40:439][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.11.02-16.37.42:062][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
+[2020.11.02-16.37.42:155][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2020.11.02-16.37.42:358][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.144885 seconds
+[2020.11.02-16.37.42:384][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.11.02-16.37.42:384][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2020.11.02-16.37.42:384][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.02-16.37.42:575][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.11.02-16.37.47:434][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.02-16.37.47:535][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.02-16.37.49:090][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.11.02-16.37.50:170][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.02-16.37.50:172][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.02-16.37.50:309][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.02-16.37.50:449][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.02-16.37.54:922][  0]LogEngine: Initializing Engine...
+[2020.11.02-16.37.54:923][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.02-16.37.55:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.11.02-16.37.55:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.11.02-16.37.55:535][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.02-16.37.55:550][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.02-16.37.55:602][  0]LogInit: FAudioDevice initialized.
+[2020.11.02-16.37.55:848][  0]LogDerivedDataCache: Saved boot cache 0.25s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.11.02-16.37.55:857][  0]LogInit: Texture streaming: Enabled
+[2020.11.02-16.37.56:143][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.02-16.37.56:822][  0]LogInit: Transaction tracking system initialized
+[2020.11.02-16.37.59:859][  0]BlueprintLog: New page: Cargar el editor
+[2020.11.02-16.38.07:580][  0]LocalizationService: Información Localization service is disabled
+[2020.11.02-16.38.13:858][  0]LogConsoleResponse:Display: 
+[2020.11.02-16.38.14:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.08s
+[2020.11.02-16.38.14:582][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.02-16.38.14:582][  0]LogCook:Display: Mobile HDR setting 1
+[2020.11.02-16.38.21:581][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.02-16.38.21:582][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.11.02-16.38.21:582][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.11.02-16.38.21:607][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-16.38.22:048][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 439,868ms to complete.
+[2020.11.02-16.38.22:048][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.467
+[2020.11.02-16.38.22:358][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.11.02-16.38.28:980][  0]LogCollectionManager: Loaded 0 collections in 0.009295 seconds
+[2020.11.02-16.38.31:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.01s
+[2020.11.02-16.38.31:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' took 0.01s
+[2020.11.02-16.38.31:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.02s
+[2020.11.02-16.38.31:062][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000023 seconds
+[2020.11.02-16.38.31:415][  0]LogContentBrowser: Native class hierarchy populated in 0.2025 seconds. Added 2246 classes and 455 folders.
+[2020.11.02-16.38.32:633][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0086 seconds. Added 0 classes and 0 folders.
+[2020.11.02-16.38.39:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0067 seconds. Added 0 classes and 0 folders.
+[2020.11.02-16.38.40:126][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0055 seconds. Added 1 classes and 2 folders.
+[2020.11.02-16.38.46:769][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.11.02-16.38.48:287][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2020.11.02-16.38.48:825][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0110 seconds. Added 1 classes and 2 folders.
+[2020.11.02-16.38.48:825][  0]LogLoad: (Engine Initialization) Total time: 101.54 seconds
+[2020.11.02-16.38.48:826][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2020.11.02-16.38.48:826][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.11.02-16.38.48:826][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.11.02-16.38.48:846][  0]LogOcInput: OculusInput pre-init called
+[2020.11.02-16.38.49:773][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.11.02-16.38.49:778][  0]LogSlate: Took 0.001127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.02-16.38.49:801][  0]LogSlate: Took 0.003656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.02-16.38.50:737][  0]LogSlate: Took 0.208535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.02-16.38.58:473][  0]LogRenderer: Reallocating scene render targets to support 860x372 NumSamples 1 (Frame:2).
+[2020.11.02-16.39.10:426][ 18]LogSlate: Took 0.070677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.02-16.39.52:315][215]LogAssetRegistry: Asset discovery search completed in 130.1854 seconds
+[2020.11.02-16.39.52:315][215]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000031 seconds (found 0 objects)
+[2020.11.02-16.39.52:315][215]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2020.11.02-16.41.45:329][417]LogSlate: Took 0.001050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.02-16.41.48:092][417]LogSlate: Took 0.000793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.02-16.41.49:832][417]LogAIModule: Creating AISystem for world mainmenu
+[2020.11.02-16.41.51:021][417]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.11.02-16.41.51:034][417]LightingResults: New page: Diseñar la iluminación
+[2020.11.02-16.41.51:438][417]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0089 seconds. Added 5 classes and 0 folders.
+[2020.11.02-16.41.51:451][417]LoadErrors: New page: Cargando mapa: mainmenu.umap
+[2020.11.02-16.41.51:662][417]MapCheck: New page: Revisión del mapa
+[2020.11.02-16.41.51:662][417]LightingResults: New page: Diseñar la iluminación
+[2020.11.02-16.41.52:491][417]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-16.41.52:805][417]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-16.41.53:234][417]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 427,9ms to complete.
+[2020.11.02-16.41.53:236][417]LogFileHelpers: Loading map 'mainmenu' took 2.244
+[2020.11.02-16.42.51:335][975]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2020.11.02-16.42.51:364][975]LogTemp:Display: Added material ShaderMap 0x0000016516024480 with Material 0x0000016512F40E80 to ShaderMapsBeingCompiled
+[2020.11.02-16.42.51:513][975]LogTemp:Display: Kicking off shader compilation for Material_004, GameThreadShaderMap 0x0000016516024480
+[2020.11.02-16.42.51:668][975]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2020.11.02-16.42.51:672][975]LogTemp:Display: Added material ShaderMap 0x0000016515B4CF00 with Material 0x0000016513116980 to ShaderMapsBeingCompiled
+[2020.11.02-16.42.51:708][975]LogTemp:Display: Kicking off shader compilation for Material_002, GameThreadShaderMap 0x0000016515B4CF00
+[2020.11.02-16.42.51:729][975]LogStaticMesh: Generando la malla estática MESA_TELEVISOR_Cylinder_003...
+[2020.11.02-16.42.52:100][975]LogStaticMesh: Built static mesh [0.39s] /Game/ObjetosBlender/MESATELEVISOR/MESA_TELEVISOR_Cylinder_003.MESA_TELEVISOR_Cylinder_003
+[2020.11.02-16.42.52:806][975]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2020.11.02-16.42.52:810][975]LogTemp:Display: Added material ShaderMap 0x0000016515AD3C80 with Material 0x000001651311B880 to ShaderMapsBeingCompiled
+[2020.11.02-16.42.52:850][975]LogTemp:Display: Kicking off shader compilation for Material_001, GameThreadShaderMap 0x0000016515AD3C80
+[2020.11.02-16.42.52:851][975]LogStaticMesh: Generando la malla estática MESA_TELEVISOR_Cube...
+[2020.11.02-16.42.52:865][975]LogStaticMesh: Built static mesh [0.01s] /Game/ObjetosBlender/MESATELEVISOR/MESA_TELEVISOR_Cube.MESA_TELEVISOR_Cube
+[2020.11.02-16.42.59:583][975]LogMaterial: Missing cached shader map for material alfombra-gris-fondo_1339-7411_Mat, compiling. 
+[2020.11.02-16.42.59:740][975]LogTemp:Display: Added material ShaderMap 0x0000016515A05D00 with Material 0x000001650E274A00 to ShaderMapsBeingCompiled
+[2020.11.02-16.42.59:777][975]LogTemp:Display: Kicking off shader compilation for alfombra-gris-fondo_1339-7411_Mat, GameThreadShaderMap 0x0000016515A05D00
+[2020.11.02-16.43.02:085][975]LogTexture:Display: Building textures: indoor_plant_2_COL (AutoDXT, 2048X2048) - 83 MB total VRAM
+[2020.11.02-16.43.09:500][975]LogMaterial: Missing cached shader map for material indoor_plant_2_COL_Mat, compiling. 
+[2020.11.02-16.43.09:501][975]LogTemp:Display: Added material ShaderMap 0x0000016515DD6080 with Material 0x000001651309C580 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.09:570][975]LogTemp:Display: Kicking off shader compilation for indoor_plant_2_COL_Mat, GameThreadShaderMap 0x0000016515DD6080
+[2020.11.02-16.43.09:578][975]LogMaterial: Missing cached shader map for material tela-tejida-blanca_53876-89528_Mat, compiling. 
+[2020.11.02-16.43.09:580][975]LogTemp:Display: Added material ShaderMap 0x000001651B1AB200 with Material 0x0000016512F26F80 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.09:643][975]LogTemp:Display: Kicking off shader compilation for tela-tejida-blanca_53876-89528_Mat, GameThreadShaderMap 0x000001651B1AB200
+[2020.11.02-16.43.10:517][975]LogTexture:Display: Building textures: indoor_plant_2_NOR (AutoDXT, 2048X2048) - 84 MB total VRAM
+[2020.11.02-16.43.18:862][975]LogMaterial: Missing cached shader map for material IDP_root__indoor_plant_2_NOR_jpg, compiling. 
+[2020.11.02-16.43.18:864][975]LogTemp:Display: Added material ShaderMap 0x0000016518E12780 with Material 0x000001651318A800 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.18:923][975]LogTemp:Display: Kicking off shader compilation for IDP_root__indoor_plant_2_NOR_jpg, GameThreadShaderMap 0x0000016518E12780
+[2020.11.02-16.43.18:926][975]LogMaterial: Missing cached shader map for material IDP_root__indoor_plant_2_COL_jpg, compiling. 
+[2020.11.02-16.43.18:927][975]LogTemp:Display: Added material ShaderMap 0x0000016519AF7580 with Material 0x0000016513182080 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.18:971][975]LogTemp:Display: Kicking off shader compilation for IDP_root__indoor_plant_2_COL_jpg, GameThreadShaderMap 0x0000016519AF7580
+[2020.11.02-16.43.18:973][975]LogMaterial: Missing cached shader map for material IDP_Pot__indoor_plant_2_NOR_jpg, compiling. 
+[2020.11.02-16.43.18:975][975]LogTemp:Display: Added material ShaderMap 0x000001651907CB80 with Material 0x0000016513183700 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.19:015][975]LogTemp:Display: Kicking off shader compilation for IDP_Pot__indoor_plant_2_NOR_jpg, GameThreadShaderMap 0x000001651907CB80
+[2020.11.02-16.43.19:020][975]LogMaterial: Missing cached shader map for material IDP_leaves__indoor_plant_2_NOR_jpg, compiling. 
+[2020.11.02-16.43.19:021][975]LogTemp:Display: Added material ShaderMap 0x000001651AC3E080 with Material 0x0000016513180E80 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.19:062][975]LogTemp:Display: Kicking off shader compilation for IDP_leaves__indoor_plant_2_NOR_jpg, GameThreadShaderMap 0x000001651AC3E080
+[2020.11.02-16.43.19:066][975]LogMaterial: Missing cached shader map for material IDP_leaves__indoor_plant_2_COL_jpg, compiling. 
+[2020.11.02-16.43.19:067][975]LogTemp:Display: Added material ShaderMap 0x000001651BCB3C80 with Material 0x000001651317BE80 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.19:108][975]LogTemp:Display: Kicking off shader compilation for IDP_leaves__indoor_plant_2_COL_jpg, GameThreadShaderMap 0x000001651BCB3C80
+[2020.11.02-16.43.19:111][975]LogMaterial: Missing cached shader map for material IDP_ground__indoor_plant_2_NOR_jpg, compiling. 
+[2020.11.02-16.43.19:113][975]LogTemp:Display: Added material ShaderMap 0x000001651B8E5280 with Material 0x000001651317A380 to ShaderMapsBeingCompiled
+[2020.11.02-16.43.19:159][975]LogTemp:Display: Kicking off shader compilation for IDP_ground__indoor_plant_2_NOR_jpg, GameThreadShaderMap 0x000001651B8E5280
+[2020.11.02-16.43.20:249][975]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.02-16.43.22:990][975]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.11.02-16.43.22:990][975]LightingResults: New page: Diseñar la iluminación
+[2020.11.02-16.43.22:993][975]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.11.02-16.43.23:043][975]MapCheck: New page: Revisión del mapa
+[2020.11.02-16.43.23:043][975]LightingResults: New page: Diseñar la iluminación
+[2020.11.02-16.43.23:421][975]LogTemp:Display: Finished compile of shader map 0x0000016516024480
+[2020.11.02-16.43.23:421][975]LogTemp:Display: Shader map Material_004 complete, GameThreadShaderMap 0x0000016516024480, marking material Material_004 as finished
+[2020.11.02-16.43.23:421][975]LogTemp:Display: Marking material as finished 0x0000016512F40E80
+[2020.11.02-16.43.24:912][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-16.43.25:083][975]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-16.43.25:276][975]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 192,422ms to complete.
+[2020.11.02-16.43.25:277][975]LogFileHelpers: Loading map 'Minimal_Default' took 2.288
+[2020.11.02-16.43.26:466][976]LogTemp:Display: Finished compile of shader map 0x0000016515B4CF00
+[2020.11.02-16.43.26:466][976]LogTemp:Display: Shader map Material_002 complete, GameThreadShaderMap 0x0000016515B4CF00, marking material Material_002 as finished
+[2020.11.02-16.43.26:466][976]LogTemp:Display: Marking material as finished 0x0000016513116980
+[2020.11.02-16.43.32:298][133]LogTemp:Display: Finished compile of shader map 0x0000016515AD3C80
+[2020.11.02-16.43.32:298][133]LogTemp:Display: Shader map Material_001 complete, GameThreadShaderMap 0x0000016515AD3C80, marking material Material_001 as finished
+[2020.11.02-16.43.32:298][133]LogTemp:Display: Marking material as finished 0x000001651311B880
+[2020.11.02-16.43.32:340][134]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.02-16.43.32:779][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.43.32:931][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.43.33:156][134]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (2/11/2020 10:43:33)
+[2020.11.02-16.43.33:240][134]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.02-16.43.33:659][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.418966s)
+[2020.11.02-16.43.33:660][134]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.02-16.43.33:660][134]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2020.11.02-16.43.33:679][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.451513s)
+[2020.11.02-16.43.33:777][134]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.02-16.43.33:799][134]LogInit: FAudioDevice initialized.
+[2020.11.02-16.43.34:615][134]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Script/ProyectoLabApps.ProyectoLabAppsGameMode'
+[2020.11.02-16.43.34:643][134]LogLoad: Game class is 'GameModeBase'
+[2020.11.02-16.43.35:205][134]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.02-13.43.35
+[2020.11.02-16.43.35:609][134]LogWorld: Bringing up level for play took: 0.486647
+[2020.11.02-16.43.36:872][134]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0035 seconds. Added 11 classes and 0 folders.
+[2020.11.02-16.43.37:226][134]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 5,217
+[2020.11.02-16.43.37:227][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.43.38:027][134]LogRenderer: Reallocating scene render targets to support 860x380 NumSamples 1 (Frame:10).
+[2020.11.02-16.43.38:027][134]LogTemp:Display: Finished compile of shader map 0x0000016515A05D00
+[2020.11.02-16.43.38:027][134]LogTemp:Display: Shader map alfombra-gris-fondo_1339-7411_Mat complete, GameThreadShaderMap 0x0000016515A05D00, marking material alfombra-gris-fondo_1339-7411_Mat as finished
+[2020.11.02-16.43.38:028][134]LogTemp:Display: Marking material as finished 0x000001650E274A00
+[2020.11.02-16.44.51:337][721]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.44.51:607][721]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.44.54:131][759]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.02-16.44.54:153][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.44.54:153][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.44.54:153][759]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (2/11/2020 10:44:54)
+[2020.11.02-16.44.54:154][759]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.02-16.44.54:410][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.255861s)
+[2020.11.02-16.44.54:411][759]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.02-16.44.54:411][759]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2020.11.02-16.44.54:411][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.257520s)
+[2020.11.02-16.44.54:470][759]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.02-16.44.54:498][759]LogInit: FAudioDevice initialized.
+[2020.11.02-16.44.54:577][759]LogLoad: Game class is 'GameModeBase'
+[2020.11.02-16.44.54:604][759]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.11.02-13.44.54
+[2020.11.02-16.44.54:605][759]LogWorld: Bringing up level for play took: 0.017694
+[2020.11.02-16.44.54:613][759]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,605
+[2020.11.02-16.44.54:614][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.44.57:825][788]LogTemp:Display: Finished compile of shader map 0x0000016515DD6080
+[2020.11.02-16.44.57:825][788]LogTemp:Display: Shader map indoor_plant_2_COL_Mat complete, GameThreadShaderMap 0x0000016515DD6080, marking material indoor_plant_2_COL_Mat as finished
+[2020.11.02-16.44.57:825][788]LogTemp:Display: Marking material as finished 0x000001651309C580
+[2020.11.02-16.45.19:543][989]LogTemp:Display: Finished compile of shader map 0x000001651B1AB200
+[2020.11.02-16.45.19:543][989]LogTemp:Display: Shader map tela-tejida-blanca_53876-89528_Mat complete, GameThreadShaderMap 0x000001651B1AB200, marking material tela-tejida-blanca_53876-89528_Mat as finished
+[2020.11.02-16.45.19:543][989]LogTemp:Display: Marking material as finished 0x0000016512F26F80
+[2020.11.02-16.45.32:774][111]LogTemp:Display: Finished compile of shader map 0x0000016518E12780
+[2020.11.02-16.45.32:775][111]LogTemp:Display: Shader map IDP_root__indoor_plant_2_NOR_jpg complete, GameThreadShaderMap 0x0000016518E12780, marking material IDP_root__indoor_plant_2_NOR_jpg as finished
+[2020.11.02-16.45.32:775][111]LogTemp:Display: Marking material as finished 0x000001651318A800
+[2020.11.02-16.45.52:014][297]LogTemp:Display: Finished compile of shader map 0x0000016519AF7580
+[2020.11.02-16.45.52:014][297]LogTemp:Display: Shader map IDP_root__indoor_plant_2_COL_jpg complete, GameThreadShaderMap 0x0000016519AF7580, marking material IDP_root__indoor_plant_2_COL_jpg as finished
+[2020.11.02-16.45.52:014][297]LogTemp:Display: Marking material as finished 0x0000016513182080
+[2020.11.02-16.46.03:732][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.46.03:878][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.46.12:121][652]LogTemp:Display: Finished compile of shader map 0x000001651907CB80
+[2020.11.02-16.46.12:121][652]LogTemp:Display: Shader map IDP_Pot__indoor_plant_2_NOR_jpg complete, GameThreadShaderMap 0x000001651907CB80, marking material IDP_Pot__indoor_plant_2_NOR_jpg as finished
+[2020.11.02-16.46.12:121][652]LogTemp:Display: Marking material as finished 0x0000016513183700
+[2020.11.02-16.46.27:454][110]LogTemp:Display: Finished compile of shader map 0x000001651AC3E080
+[2020.11.02-16.46.27:454][110]LogTemp:Display: Shader map IDP_leaves__indoor_plant_2_NOR_jpg complete, GameThreadShaderMap 0x000001651AC3E080, marking material IDP_leaves__indoor_plant_2_NOR_jpg as finished
+[2020.11.02-16.46.27:454][110]LogTemp:Display: Marking material as finished 0x0000016513180E80
+[2020.11.02-16.46.29:557][172]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.02-16.46.29:581][172]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.46.29:581][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.46.29:582][172]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (2/11/2020 10:46:29)
+[2020.11.02-16.46.29:582][172]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.02-16.46.29:739][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156497s)
+[2020.11.02-16.46.29:740][172]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.02-16.46.29:741][172]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2020.11.02-16.46.29:741][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.158652s)
+[2020.11.02-16.46.29:796][172]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.02-16.46.29:815][172]LogInit: FAudioDevice initialized.
+[2020.11.02-16.46.29:861][172]LogLoad: Game class is 'GameModeBase'
+[2020.11.02-16.46.29:877][172]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.11.02-13.46.29
+[2020.11.02-16.46.29:878][172]LogWorld: Bringing up level for play took: 0.016514
+[2020.11.02-16.46.29:886][172]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,123
+[2020.11.02-16.46.29:887][172]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.46.56:121][418]LogTemp:Display: Finished compile of shader map 0x000001651BCB3C80
+[2020.11.02-16.46.56:121][418]LogTemp:Display: Shader map IDP_leaves__indoor_plant_2_COL_jpg complete, GameThreadShaderMap 0x000001651BCB3C80, marking material IDP_leaves__indoor_plant_2_COL_jpg as finished
+[2020.11.02-16.46.56:121][418]LogTemp:Display: Marking material as finished 0x000001651317BE80
+[2020.11.02-16.47.12:290][569]LogTemp:Display: Finished compile of shader map 0x000001651B8E5280
+[2020.11.02-16.47.12:290][569]LogTemp:Display: Shader map IDP_ground__indoor_plant_2_NOR_jpg complete, GameThreadShaderMap 0x000001651B8E5280, marking material IDP_ground__indoor_plant_2_NOR_jpg as finished
+[2020.11.02-16.47.12:290][569]LogTemp:Display: Marking material as finished 0x000001651317A380
+[2020.11.02-16.49.36:329][960]Cmd: r.PostProcessAAQuality 0
+[2020.11.02-16.49.36:545][960]r.PostProcessAAQuality = "0"
+[2020.11.02-16.49.38:212][978]Cmd: BAJA
+[2020.11.02-16.49.38:287][978]Command not recognized: BAJA
+[2020.11.02-16.50.08:695][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.50.08:856][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.50.16:901][500]MapCheck: New page: Revisión del mapa
+[2020.11.02-16.50.17:191][500]LightingResults: New page: Diseño de la iluminación - 2/11/2020 10:50:17
+[2020.11.02-16.50.19:019][500]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.02-16.50.20:441][500]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.02-16.50.23:702][500]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.02-16.50.29:029][500]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2020.11.02-16.50.29:341][500]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2020.11.02-16.50.36:346][500]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2020.11.02-16.50.36:346][500]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2020.11.02-16.50.43:462][500]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.02-16.50.43:462][500]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6288
+[2020.11.02-16.50.53:214][500]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.11.02-16.50.53:248][500]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.02-16.50.53:248][500]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.02-16.50.53:248][500]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.02-16.50.53:248][500]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.02-16.50.53:248][500]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.02-16.50.55:559][500]LogEditorBuildUtils: Build time 0:38
+[2020.11.02-16.50.55:753][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Burst_M_Mat, compiling. 
+[2020.11.02-16.50.55:775][500]LogTemp:Display: Added material ShaderMap 0x00000165191EE780 with Material 0x000001651AC77D00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.55:787][500]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Burst_M_Mat, GameThreadShaderMap 0x00000165191EE780
+[2020.11.02-16.50.55:800][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Burst_M_Mat, compiling. 
+[2020.11.02-16.50.55:804][500]LogTemp:Display: Added material ShaderMap 0x00000165191ECF00 with Material 0x000001651AC77700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.55:819][500]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Burst_M_Mat, GameThreadShaderMap 0x00000165191ECF00
+[2020.11.02-16.50.55:942][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Wood_Oak_Mat, compiling. 
+[2020.11.02-16.50.55:945][501]LogTemp:Display: Added material ShaderMap 0x0000016515A47580 with Material 0x0000016515A87400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.55:956][501]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Wood_Oak_Mat, GameThreadShaderMap 0x0000016515A47580
+[2020.11.02-16.50.55:969][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Wood_Oak_Mat, compiling. 
+[2020.11.02-16.50.55:974][501]LogTemp:Display: Added material ShaderMap 0x0000016515A45980 with Material 0x0000016515A87D00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.55:995][501]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Wood_Oak_Mat, GameThreadShaderMap 0x0000016515A45980
+[2020.11.02-16.50.56:038][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Metal_Aluminum_Mat, compiling. 
+[2020.11.02-16.50.56:043][502]LogTemp:Display: Added material ShaderMap 0x0000016515A44100 with Material 0x0000016515A87100 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:055][502]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Metal_Aluminum_Mat, GameThreadShaderMap 0x0000016515A44100
+[2020.11.02-16.50.56:069][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer T_Metal_Aluminum_Mat, compiling. 
+[2020.11.02-16.50.56:074][502]LogTemp:Display: Added material ShaderMap 0x000001651A21EB00 with Material 0x0000016515A86500 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:085][502]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer T_Metal_Aluminum_Mat, GameThreadShaderMap 0x000001651A21EB00
+[2020.11.02-16.50.56:141][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat, compiling. 
+[2020.11.02-16.50.56:144][503]LogTemp:Display: Added material ShaderMap 0x000001651A21D280 with Material 0x0000016515A86800 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:157][503]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat, GameThreadShaderMap 0x000001651A21D280
+[2020.11.02-16.50.56:171][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat, compiling. 
+[2020.11.02-16.50.56:176][503]LogTemp:Display: Added material ShaderMap 0x00000165194B3C80 with Material 0x0000016505C1B400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:188][503]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat, GameThreadShaderMap 0x00000165194B3C80
+[2020.11.02-16.50.56:259][504]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2020.11.02-16.50.56:263][504]LogTemp:Display: Added material ShaderMap 0x00000165194B2400 with Material 0x0000016505C19900 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:275][504]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_002, GameThreadShaderMap 0x00000165194B2400
+[2020.11.02-16.50.56:290][504]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2020.11.02-16.50.56:294][504]LogTemp:Display: Added material ShaderMap 0x00000165194B0F00 with Material 0x0000016505C18100 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:306][504]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_002, GameThreadShaderMap 0x00000165194B0F00
+[2020.11.02-16.50.56:338][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_004, compiling. 
+[2020.11.02-16.50.56:342][505]LogTemp:Display: Added material ShaderMap 0x0000016517DFB200 with Material 0x0000016505C18400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:358][505]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_004, GameThreadShaderMap 0x0000016517DFB200
+[2020.11.02-16.50.56:377][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_004, compiling. 
+[2020.11.02-16.50.56:381][505]LogTemp:Display: Added material ShaderMap 0x0000016517DF9D00 with Material 0x0000016505C1BD00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:394][505]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_004, GameThreadShaderMap 0x0000016517DF9D00
+[2020.11.02-16.50.56:430][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2020.11.02-16.50.56:435][506]LogTemp:Display: Added material ShaderMap 0x0000016517DF8480 with Material 0x000001657702F100 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:448][506]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material, GameThreadShaderMap 0x0000016517DF8480
+[2020.11.02-16.50.56:468][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2020.11.02-16.50.56:471][506]LogTemp:Display: Added material ShaderMap 0x000001651B176E80 with Material 0x0000016508AF6E00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:485][506]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material, GameThreadShaderMap 0x000001651B176E80
+[2020.11.02-16.50.56:529][507]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat, compiling. 
+[2020.11.02-16.50.56:533][507]LogTemp:Display: Added material ShaderMap 0x000001651B175600 with Material 0x0000016508AF6200 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:545][507]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat, GameThreadShaderMap 0x000001651B175600
+[2020.11.02-16.50.56:562][507]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat, compiling. 
+[2020.11.02-16.50.56:567][507]LogTemp:Display: Added material ShaderMap 0x000001651B174100 with Material 0x0000016507A10700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:578][507]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat, GameThreadShaderMap 0x000001651B174100
+[2020.11.02-16.50.56:625][508]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera, compiling. 
+[2020.11.02-16.50.56:629][508]LogTemp:Display: Added material ShaderMap 0x0000016515466780 with Material 0x0000016507A10400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:641][508]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera, GameThreadShaderMap 0x0000016515466780
+[2020.11.02-16.50.56:655][508]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera, compiling. 
+[2020.11.02-16.50.56:660][508]LogTemp:Display: Added material ShaderMap 0x0000016515465280 with Material 0x0000016517E79F00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:673][508]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera, GameThreadShaderMap 0x0000016515465280
+[2020.11.02-16.50.56:717][509]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_001, compiling. 
+[2020.11.02-16.50.56:722][509]LogTemp:Display: Added material ShaderMap 0x000001651C727C80 with Material 0x0000016517E7A200 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:736][509]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_001, GameThreadShaderMap 0x000001651C727C80
+[2020.11.02-16.50.56:759][509]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_001, compiling. 
+[2020.11.02-16.50.56:764][509]LogTemp:Display: Added material ShaderMap 0x000001651C726400 with Material 0x0000016517E7B400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:775][509]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_001, GameThreadShaderMap 0x000001651C726400
+[2020.11.02-16.50.56:801][510]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_002, compiling. 
+[2020.11.02-16.50.56:805][510]LogTemp:Display: Added material ShaderMap 0x000001651C724B80 with Material 0x0000016517E7B700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:816][510]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_002, GameThreadShaderMap 0x000001651C724B80
+[2020.11.02-16.50.56:829][510]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_002, compiling. 
+[2020.11.02-16.50.56:834][510]LogTemp:Display: Added material ShaderMap 0x0000016519AEF580 with Material 0x0000016517E78700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:844][510]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_002, GameThreadShaderMap 0x0000016519AEF580
+[2020.11.02-16.50.56:871][511]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2020.11.02-16.50.56:874][511]LogTemp:Display: Added material ShaderMap 0x0000016519AEDD00 with Material 0x0000016513DC7700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:884][511]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material, GameThreadShaderMap 0x0000016519AEDD00
+[2020.11.02-16.50.56:894][511]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2020.11.02-16.50.56:897][511]LogTemp:Display: Added material ShaderMap 0x0000016519AEC800 with Material 0x0000016513DC7A00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:909][511]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material, GameThreadShaderMap 0x0000016519AEC800
+[2020.11.02-16.50.56:957][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_001, compiling. 
+[2020.11.02-16.50.56:960][512]LogTemp:Display: Added material ShaderMap 0x000001651B62AB00 with Material 0x0000016513DC7D00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:970][512]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_001, GameThreadShaderMap 0x000001651B62AB00
+[2020.11.02-16.50.56:980][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_001, compiling. 
+[2020.11.02-16.50.56:982][512]LogTemp:Display: Added material ShaderMap 0x000001651B629600 with Material 0x0000016513DC5C00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.56:993][512]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_001, GameThreadShaderMap 0x000001651B629600
+[2020.11.02-16.50.57:025][513]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_004, compiling. 
+[2020.11.02-16.50.57:028][513]LogTemp:Display: Added material ShaderMap 0x0000016515B53C80 with Material 0x0000016513DC5600 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:038][513]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_004, GameThreadShaderMap 0x0000016515B53C80
+[2020.11.02-16.50.57:078][513]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_004, compiling. 
+[2020.11.02-16.50.57:081][513]LogTemp:Display: Added material ShaderMap 0x0000016515B52400 with Material 0x0000016513DC6E00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:089][513]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_004, GameThreadShaderMap 0x0000016515B52400
+[2020.11.02-16.50.57:126][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_005, compiling. 
+[2020.11.02-16.50.57:129][514]LogTemp:Display: Added material ShaderMap 0x0000016515B50B80 with Material 0x0000016515BDE500 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:139][514]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_005, GameThreadShaderMap 0x0000016515B50B80
+[2020.11.02-16.50.57:148][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_005, compiling. 
+[2020.11.02-16.50.57:152][514]LogTemp:Display: Added material ShaderMap 0x0000016517E9F580 with Material 0x0000016515BDC100 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:161][514]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_005, GameThreadShaderMap 0x0000016517E9F580
+[2020.11.02-16.50.57:192][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_007, compiling. 
+[2020.11.02-16.50.57:195][515]LogTemp:Display: Added material ShaderMap 0x0000016517E9DD00 with Material 0x0000016515A92B00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:205][515]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_007, GameThreadShaderMap 0x0000016517E9DD00
+[2020.11.02-16.50.57:216][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_007, compiling. 
+[2020.11.02-16.50.57:221][515]LogTemp:Display: Added material ShaderMap 0x0000016517E9C800 with Material 0x000001651B4C7D00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:232][515]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_007, GameThreadShaderMap 0x0000016517E9C800
+[2020.11.02-16.50.57:265][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_008, compiling. 
+[2020.11.02-16.50.57:267][516]LogTemp:Display: Added material ShaderMap 0x000001651B02EB00 with Material 0x000001651B4C7700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:277][516]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_008, GameThreadShaderMap 0x000001651B02EB00
+[2020.11.02-16.50.57:287][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer madera_008, compiling. 
+[2020.11.02-16.50.57:290][516]LogTemp:Display: Added material ShaderMap 0x000001651B02D600 with Material 0x000001651BCA7700 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:302][516]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer madera_008, GameThreadShaderMap 0x000001651B02D600
+[2020.11.02-16.50.57:335][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 1_2_Mat, compiling. 
+[2020.11.02-16.50.57:338][517]LogTemp:Display: Added material ShaderMap 0x000001651B583C80 with Material 0x000001651BCA6800 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:349][517]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer 1_2_Mat, GameThreadShaderMap 0x000001651B583C80
+[2020.11.02-16.50.57:360][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 1_2_Mat, compiling. 
+[2020.11.02-16.50.57:363][517]LogTemp:Display: Added material ShaderMap 0x000001651B582400 with Material 0x000001651BCA6200 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:372][517]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer 1_2_Mat, GameThreadShaderMap 0x000001651B582400
+[2020.11.02-16.50.57:396][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_003, compiling. 
+[2020.11.02-16.50.57:399][518]LogTemp:Display: Added material ShaderMap 0x000001651B580B80 with Material 0x000001651BCA5F00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:409][518]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_003, GameThreadShaderMap 0x000001651B580B80
+[2020.11.02-16.50.57:419][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_003, compiling. 
+[2020.11.02-16.50.57:422][518]LogTemp:Display: Added material ShaderMap 0x0000016519B53580 with Material 0x000001651BCA5300 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:430][518]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_003, GameThreadShaderMap 0x0000016519B53580
+[2020.11.02-16.50.57:454][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_004, compiling. 
+[2020.11.02-16.50.57:457][519]LogTemp:Display: Added material ShaderMap 0x0000016519B51D00 with Material 0x000001651BCA4D00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:466][519]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_004, GameThreadShaderMap 0x0000016519B51D00
+[2020.11.02-16.50.57:474][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_004, compiling. 
+[2020.11.02-16.50.57:477][519]LogTemp:Display: Added material ShaderMap 0x0000016519B50B80 with Material 0x0000016517FCD600 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:488][519]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_004, GameThreadShaderMap 0x0000016519B50B80
+[2020.11.02-16.50.57:516][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2020.11.02-16.50.57:518][520]LogTemp:Display: Added material ShaderMap 0x000001651BC7F200 with Material 0x0000016517FCCA00 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:527][520]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_002, GameThreadShaderMap 0x000001651BC7F200
+[2020.11.02-16.50.57:536][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2020.11.02-16.50.57:538][520]LogTemp:Display: Added material ShaderMap 0x000001651BC7E080 with Material 0x0000016517FCC400 to ShaderMapsBeingCompiled
+[2020.11.02-16.50.57:546][520]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Material_002, GameThreadShaderMap 0x000001651BC7E080
+[2020.11.02-16.51.35:128][522]LogTemp:Display: Finished compile of shader map 0x00000165191EE780
+[2020.11.02-16.51.35:129][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Burst_M_Mat complete, GameThreadShaderMap 0x00000165191EE780, marking material FLightmassMaterialRenderer T_Burst_M_Mat as finished
+[2020.11.02-16.51.35:129][522]LogTemp:Display: Marking material as finished 0x000001651AC77D00
+[2020.11.02-16.51.35:133][522]LogTemp:Display: Finished compile of shader map 0x000001651A21EB00
+[2020.11.02-16.51.35:133][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Metal_Aluminum_Mat complete, GameThreadShaderMap 0x000001651A21EB00, marking material FLightmassMaterialRenderer T_Metal_Aluminum_Mat as finished
+[2020.11.02-16.51.35:133][522]LogTemp:Display: Marking material as finished 0x0000016515A86500
+[2020.11.02-16.51.35:137][522]LogTemp:Display: Finished compile of shader map 0x0000016515A44100
+[2020.11.02-16.51.35:137][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Metal_Aluminum_Mat complete, GameThreadShaderMap 0x0000016515A44100, marking material FLightmassMaterialRenderer T_Metal_Aluminum_Mat as finished
+[2020.11.02-16.51.35:137][522]LogTemp:Display: Marking material as finished 0x0000016515A87100
+[2020.11.02-16.51.35:142][522]LogTemp:Display: Finished compile of shader map 0x0000016515A45980
+[2020.11.02-16.51.35:142][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Wood_Oak_Mat complete, GameThreadShaderMap 0x0000016515A45980, marking material FLightmassMaterialRenderer T_Wood_Oak_Mat as finished
+[2020.11.02-16.51.35:142][522]LogTemp:Display: Marking material as finished 0x0000016515A87D00
+[2020.11.02-16.51.35:146][522]LogTemp:Display: Finished compile of shader map 0x0000016515A47580
+[2020.11.02-16.51.35:146][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Wood_Oak_Mat complete, GameThreadShaderMap 0x0000016515A47580, marking material FLightmassMaterialRenderer T_Wood_Oak_Mat as finished
+[2020.11.02-16.51.35:146][522]LogTemp:Display: Marking material as finished 0x0000016515A87400
+[2020.11.02-16.51.35:150][522]LogTemp:Display: Finished compile of shader map 0x00000165191ECF00
+[2020.11.02-16.51.35:150][522]LogTemp:Display: Shader map FLightmassMaterialRenderer T_Burst_M_Mat complete, GameThreadShaderMap 0x00000165191ECF00, marking material FLightmassMaterialRenderer T_Burst_M_Mat as finished
+[2020.11.02-16.51.35:150][522]LogTemp:Display: Marking material as finished 0x000001651AC77700
+[2020.11.02-16.51.35:154][522]LogTemp:Display: Finished compile of shader map 0x0000016517DFB200
+[2020.11.02-16.51.35:154][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_004 complete, GameThreadShaderMap 0x0000016517DFB200, marking material FLightmassMaterialRenderer Material_004 as finished
+[2020.11.02-16.51.35:154][522]LogTemp:Display: Marking material as finished 0x0000016505C18400
+[2020.11.02-16.51.35:159][522]LogTemp:Display: Finished compile of shader map 0x00000165194B0F00
+[2020.11.02-16.51.35:159][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_002 complete, GameThreadShaderMap 0x00000165194B0F00, marking material FLightmassMaterialRenderer Material_002 as finished
+[2020.11.02-16.51.35:159][522]LogTemp:Display: Marking material as finished 0x0000016505C18100
+[2020.11.02-16.51.35:172][522]LogTemp:Display: Finished compile of shader map 0x00000165194B2400
+[2020.11.02-16.51.35:172][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_002 complete, GameThreadShaderMap 0x00000165194B2400, marking material FLightmassMaterialRenderer Material_002 as finished
+[2020.11.02-16.51.35:172][522]LogTemp:Display: Marking material as finished 0x0000016505C19900
+[2020.11.02-16.51.35:176][522]LogTemp:Display: Finished compile of shader map 0x00000165194B3C80
+[2020.11.02-16.51.35:176][522]LogTemp:Display: Shader map FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat complete, GameThreadShaderMap 0x00000165194B3C80, marking material FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat as finished
+[2020.11.02-16.51.35:176][522]LogTemp:Display: Marking material as finished 0x0000016505C1B400
+[2020.11.02-16.51.35:180][522]LogTemp:Display: Finished compile of shader map 0x000001651A21D280
+[2020.11.02-16.51.35:180][522]LogTemp:Display: Shader map FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat complete, GameThreadShaderMap 0x000001651A21D280, marking material FLightmassMaterialRenderer tela-tejida-blanca_53876-89528_Mat as finished
+[2020.11.02-16.51.35:180][522]LogTemp:Display: Marking material as finished 0x0000016515A86800
+[2020.11.02-16.51.35:184][522]LogTemp:Display: Finished compile of shader map 0x0000016517DF9D00
+[2020.11.02-16.51.35:184][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_004 complete, GameThreadShaderMap 0x0000016517DF9D00, marking material FLightmassMaterialRenderer Material_004 as finished
+[2020.11.02-16.51.35:184][522]LogTemp:Display: Marking material as finished 0x0000016505C1BD00
+[2020.11.02-16.51.35:188][522]LogTemp:Display: Finished compile of shader map 0x0000016517DF8480
+[2020.11.02-16.51.35:188][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material complete, GameThreadShaderMap 0x0000016517DF8480, marking material FLightmassMaterialRenderer Material as finished
+[2020.11.02-16.51.35:188][522]LogTemp:Display: Marking material as finished 0x000001657702F100
+[2020.11.02-16.51.35:191][522]LogTemp:Display: Finished compile of shader map 0x000001651B176E80
+[2020.11.02-16.51.35:191][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material complete, GameThreadShaderMap 0x000001651B176E80, marking material FLightmassMaterialRenderer Material as finished
+[2020.11.02-16.51.35:191][522]LogTemp:Display: Marking material as finished 0x0000016508AF6E00
+[2020.11.02-16.51.35:194][522]LogTemp:Display: Finished compile of shader map 0x000001651B175600
+[2020.11.02-16.51.35:194][522]LogTemp:Display: Shader map FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat complete, GameThreadShaderMap 0x000001651B175600, marking material FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat as finished
+[2020.11.02-16.51.35:194][522]LogTemp:Display: Marking material as finished 0x0000016508AF6200
+[2020.11.02-16.51.35:199][522]LogTemp:Display: Finished compile of shader map 0x000001651B174100
+[2020.11.02-16.51.35:199][522]LogTemp:Display: Shader map FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat complete, GameThreadShaderMap 0x000001651B174100, marking material FLightmassMaterialRenderer alfombra-gris-fondo_1339-7411_Mat as finished
+[2020.11.02-16.51.35:199][522]LogTemp:Display: Marking material as finished 0x0000016507A10700
+[2020.11.02-16.51.35:203][522]LogTemp:Display: Finished compile of shader map 0x0000016515466780
+[2020.11.02-16.51.35:203][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera complete, GameThreadShaderMap 0x0000016515466780, marking material FLightmassMaterialRenderer madera as finished
+[2020.11.02-16.51.35:203][522]LogTemp:Display: Marking material as finished 0x0000016507A10400
+[2020.11.02-16.51.35:207][522]LogTemp:Display: Finished compile of shader map 0x0000016515465280
+[2020.11.02-16.51.35:207][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera complete, GameThreadShaderMap 0x0000016515465280, marking material FLightmassMaterialRenderer madera as finished
+[2020.11.02-16.51.35:207][522]LogTemp:Display: Marking material as finished 0x0000016517E79F00
+[2020.11.02-16.51.35:211][522]LogTemp:Display: Finished compile of shader map 0x000001651C727C80
+[2020.11.02-16.51.35:211][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_001 complete, GameThreadShaderMap 0x000001651C727C80, marking material FLightmassMaterialRenderer madera_001 as finished
+[2020.11.02-16.51.35:211][522]LogTemp:Display: Marking material as finished 0x0000016517E7A200
+[2020.11.02-16.51.35:214][522]LogTemp:Display: Finished compile of shader map 0x000001651C726400
+[2020.11.02-16.51.35:214][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_001 complete, GameThreadShaderMap 0x000001651C726400, marking material FLightmassMaterialRenderer madera_001 as finished
+[2020.11.02-16.51.35:214][522]LogTemp:Display: Marking material as finished 0x0000016517E7B400
+[2020.11.02-16.51.35:218][522]LogTemp:Display: Finished compile of shader map 0x000001651C724B80
+[2020.11.02-16.51.35:218][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_002 complete, GameThreadShaderMap 0x000001651C724B80, marking material FLightmassMaterialRenderer madera_002 as finished
+[2020.11.02-16.51.35:218][522]LogTemp:Display: Marking material as finished 0x0000016517E7B700
+[2020.11.02-16.51.35:221][522]LogTemp:Display: Finished compile of shader map 0x0000016519AEF580
+[2020.11.02-16.51.35:221][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_002 complete, GameThreadShaderMap 0x0000016519AEF580, marking material FLightmassMaterialRenderer madera_002 as finished
+[2020.11.02-16.51.35:221][522]LogTemp:Display: Marking material as finished 0x0000016517E78700
+[2020.11.02-16.51.35:225][522]LogTemp:Display: Finished compile of shader map 0x0000016519AEDD00
+[2020.11.02-16.51.35:225][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material complete, GameThreadShaderMap 0x0000016519AEDD00, marking material FLightmassMaterialRenderer Material as finished
+[2020.11.02-16.51.35:225][522]LogTemp:Display: Marking material as finished 0x0000016513DC7700
+[2020.11.02-16.51.35:228][522]LogTemp:Display: Finished compile of shader map 0x0000016519AEC800
+[2020.11.02-16.51.35:228][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material complete, GameThreadShaderMap 0x0000016519AEC800, marking material FLightmassMaterialRenderer Material as finished
+[2020.11.02-16.51.35:229][522]LogTemp:Display: Marking material as finished 0x0000016513DC7A00
+[2020.11.02-16.51.35:232][522]LogTemp:Display: Finished compile of shader map 0x000001651B62AB00
+[2020.11.02-16.51.35:232][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_001 complete, GameThreadShaderMap 0x000001651B62AB00, marking material FLightmassMaterialRenderer Material_001 as finished
+[2020.11.02-16.51.35:232][522]LogTemp:Display: Marking material as finished 0x0000016513DC7D00
+[2020.11.02-16.51.35:236][522]LogTemp:Display: Finished compile of shader map 0x000001651B629600
+[2020.11.02-16.51.35:236][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_001 complete, GameThreadShaderMap 0x000001651B629600, marking material FLightmassMaterialRenderer Material_001 as finished
+[2020.11.02-16.51.35:236][522]LogTemp:Display: Marking material as finished 0x0000016513DC5C00
+[2020.11.02-16.51.35:240][522]LogTemp:Display: Finished compile of shader map 0x0000016515B53C80
+[2020.11.02-16.51.35:240][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_004 complete, GameThreadShaderMap 0x0000016515B53C80, marking material FLightmassMaterialRenderer madera_004 as finished
+[2020.11.02-16.51.35:240][522]LogTemp:Display: Marking material as finished 0x0000016513DC5600
+[2020.11.02-16.51.35:244][522]LogTemp:Display: Finished compile of shader map 0x0000016515B52400
+[2020.11.02-16.51.35:244][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_004 complete, GameThreadShaderMap 0x0000016515B52400, marking material FLightmassMaterialRenderer madera_004 as finished
+[2020.11.02-16.51.35:244][522]LogTemp:Display: Marking material as finished 0x0000016513DC6E00
+[2020.11.02-16.51.35:247][522]LogTemp:Display: Finished compile of shader map 0x0000016515B50B80
+[2020.11.02-16.51.35:247][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_005 complete, GameThreadShaderMap 0x0000016515B50B80, marking material FLightmassMaterialRenderer madera_005 as finished
+[2020.11.02-16.51.35:247][522]LogTemp:Display: Marking material as finished 0x0000016515BDE500
+[2020.11.02-16.51.35:259][522]LogTemp:Display: Finished compile of shader map 0x0000016517E9F580
+[2020.11.02-16.51.35:259][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_005 complete, GameThreadShaderMap 0x0000016517E9F580, marking material FLightmassMaterialRenderer madera_005 as finished
+[2020.11.02-16.51.35:259][522]LogTemp:Display: Marking material as finished 0x0000016515BDC100
+[2020.11.02-16.51.35:266][522]LogTemp:Display: Finished compile of shader map 0x0000016517E9DD00
+[2020.11.02-16.51.35:266][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_007 complete, GameThreadShaderMap 0x0000016517E9DD00, marking material FLightmassMaterialRenderer madera_007 as finished
+[2020.11.02-16.51.35:266][522]LogTemp:Display: Marking material as finished 0x0000016515A92B00
+[2020.11.02-16.51.35:273][522]LogTemp:Display: Finished compile of shader map 0x0000016517E9C800
+[2020.11.02-16.51.35:273][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_007 complete, GameThreadShaderMap 0x0000016517E9C800, marking material FLightmassMaterialRenderer madera_007 as finished
+[2020.11.02-16.51.35:273][522]LogTemp:Display: Marking material as finished 0x000001651B4C7D00
+[2020.11.02-16.51.35:279][522]LogTemp:Display: Finished compile of shader map 0x000001651B02EB00
+[2020.11.02-16.51.35:279][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_008 complete, GameThreadShaderMap 0x000001651B02EB00, marking material FLightmassMaterialRenderer madera_008 as finished
+[2020.11.02-16.51.35:280][522]LogTemp:Display: Marking material as finished 0x000001651B4C7700
+[2020.11.02-16.51.35:285][522]LogTemp:Display: Finished compile of shader map 0x000001651B02D600
+[2020.11.02-16.51.35:285][522]LogTemp:Display: Shader map FLightmassMaterialRenderer madera_008 complete, GameThreadShaderMap 0x000001651B02D600, marking material FLightmassMaterialRenderer madera_008 as finished
+[2020.11.02-16.51.35:285][522]LogTemp:Display: Marking material as finished 0x000001651BCA7700
+[2020.11.02-16.51.35:288][522]LogTemp:Display: Finished compile of shader map 0x000001651B583C80
+[2020.11.02-16.51.35:288][522]LogTemp:Display: Shader map FLightmassMaterialRenderer 1_2_Mat complete, GameThreadShaderMap 0x000001651B583C80, marking material FLightmassMaterialRenderer 1_2_Mat as finished
+[2020.11.02-16.51.35:288][522]LogTemp:Display: Marking material as finished 0x000001651BCA6800
+[2020.11.02-16.51.35:292][522]LogTemp:Display: Finished compile of shader map 0x000001651B582400
+[2020.11.02-16.51.35:292][522]LogTemp:Display: Shader map FLightmassMaterialRenderer 1_2_Mat complete, GameThreadShaderMap 0x000001651B582400, marking material FLightmassMaterialRenderer 1_2_Mat as finished
+[2020.11.02-16.51.35:292][522]LogTemp:Display: Marking material as finished 0x000001651BCA6200
+[2020.11.02-16.51.35:296][522]LogTemp:Display: Finished compile of shader map 0x000001651B580B80
+[2020.11.02-16.51.35:296][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_003 complete, GameThreadShaderMap 0x000001651B580B80, marking material FLightmassMaterialRenderer Material_003 as finished
+[2020.11.02-16.51.35:296][522]LogTemp:Display: Marking material as finished 0x000001651BCA5F00
+[2020.11.02-16.51.35:299][522]LogTemp:Display: Finished compile of shader map 0x0000016519B53580
+[2020.11.02-16.51.35:299][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_003 complete, GameThreadShaderMap 0x0000016519B53580, marking material FLightmassMaterialRenderer Material_003 as finished
+[2020.11.02-16.51.35:299][522]LogTemp:Display: Marking material as finished 0x000001651BCA5300
+[2020.11.02-16.51.35:303][522]LogTemp:Display: Finished compile of shader map 0x0000016519B51D00
+[2020.11.02-16.51.35:303][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_004 complete, GameThreadShaderMap 0x0000016519B51D00, marking material FLightmassMaterialRenderer Material_004 as finished
+[2020.11.02-16.51.35:303][522]LogTemp:Display: Marking material as finished 0x000001651BCA4D00
+[2020.11.02-16.51.35:306][522]LogTemp:Display: Finished compile of shader map 0x0000016519B50B80
+[2020.11.02-16.51.35:306][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_004 complete, GameThreadShaderMap 0x0000016519B50B80, marking material FLightmassMaterialRenderer Material_004 as finished
+[2020.11.02-16.51.35:306][522]LogTemp:Display: Marking material as finished 0x0000016517FCD600
+[2020.11.02-16.51.35:309][522]LogTemp:Display: Finished compile of shader map 0x000001651BC7F200
+[2020.11.02-16.51.35:309][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_002 complete, GameThreadShaderMap 0x000001651BC7F200, marking material FLightmassMaterialRenderer Material_002 as finished
+[2020.11.02-16.51.35:309][522]LogTemp:Display: Marking material as finished 0x0000016517FCCA00
+[2020.11.02-16.51.35:313][522]LogTemp:Display: Finished compile of shader map 0x000001651BC7E080
+[2020.11.02-16.51.35:313][522]LogTemp:Display: Shader map FLightmassMaterialRenderer Material_002 complete, GameThreadShaderMap 0x000001651BC7E080, marking material FLightmassMaterialRenderer Material_002 as finished
+[2020.11.02-16.51.35:313][522]LogTemp:Display: Marking material as finished 0x0000016517FCC400
+[2020.11.02-16.53.37:767][980]Job is a success!
+[2020.11.02-16.53.38:911][981]LogMaterial:Warning: Material /Game/ObjetosBlender/ALFOMBRA/alfombra-gris-fondo_1339-7411_Mat.alfombra-gris-fondo_1339-7411_Mat needed to have new flag set bUsedWithStaticLighting !
+[2020.11.02-16.53.38:931][981]LogMaterial: Missing cached shader map for material alfombra-gris-fondo_1339-7411_Mat, compiling. 
+[2020.11.02-16.53.38:935][981]LogTemp:Display: Added material ShaderMap 0x000001651BC7EB00 with Material 0x000001650E274A00 to ShaderMapsBeingCompiled
+[2020.11.02-16.53.38:999][981]LogTemp:Display: Kicking off shader compilation for alfombra-gris-fondo_1339-7411_Mat, GameThreadShaderMap 0x000001651BC7EB00
+[2020.11.02-16.53.39:059][981]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2020.11.02-16.53.39:060][981]LogMaterial:Warning: Material /Game/ObjetosBlender/TELEVISOR/Material_004.Material_004 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.02-16.53.39:246][981]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2020.11.02-16.53.39:250][981]LogTemp:Display: Added material ShaderMap 0x0000016517E9F900 with Material 0x0000016512F40E80 to ShaderMapsBeingCompiled
+[2020.11.02-16.53.39:316][981]LogTemp:Display: Kicking off shader compilation for Material_004, GameThreadShaderMap 0x0000016517E9F900
+[2020.11.02-16.53.39:345][981]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2020.11.02-16.53.39:346][981]LogMaterial:Warning: Material /Game/ObjetosBlender/MESATELEVISOR/Material_002.Material_002 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.02-16.53.39:354][981]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2020.11.02-16.53.39:357][981]LogTemp:Display: Added material ShaderMap 0x0000016515464100 with Material 0x0000016513116980 to ShaderMapsBeingCompiled
+[2020.11.02-16.53.39:428][981]LogTemp:Display: Kicking off shader compilation for Material_002, GameThreadShaderMap 0x0000016515464100
+[2020.11.02-16.53.39:474][981]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2020.11.02-16.53.46:198][981]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 97 MB total VRAM
+[2020.11.02-16.53.46:198][981]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 97 MB total VRAM
+[2020.11.02-16.53.46:198][981]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 97 MB total VRAM
+[2020.11.02-16.53.46:198][981]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 97 MB total VRAM
+[2020.11.02-16.53.46:888][981]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 97 MB total VRAM
+[2020.11.02-16.53.55:790][981]Lightmass on BELU: 2:02 min total, 5.99 sec importing, 312 ms setup, 15.5 sec photons, 1:40 min processing, 0 ms extra exporting [201/201 mappings]. Threads: 3:21 min total, 1:30 min processing.
+[2020.11.02-16.53.55:866][981]LogStaticLightingSystem: Illumination: 3:38 min (6.60 sec encoding lightmaps, 687 ms encoding shadowmaps)
+[2020.11.02-16.53.55:866][981]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.11.02-16.53.55:866][981]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.11.02-16.53.56:601][981]DumpUnbuiltLightIteractions
+[2020.11.02-16.53.56:601][981]Lights with unbuilt interactions: 0
+[2020.11.02-16.53.56:601][981]
+[2020.11.02-16.53.56:601][981]Primitives with unbuilt interactions: 0
+[2020.11.02-16.53.56:629][982]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.02-16.53.56:630][982]MapCheck: New page: Minimal_Default - 2/11/2020 10:53:56
+[2020.11.02-16.53.56:817][982]MapCheck:Warning: Aviso Wall_400x302_6 Wall_400x302_6 está en la misma ubicación que Wall_400x313 
+[2020.11.02-16.53.56:817][982]MapCheck:Warning: Aviso Wall_400x306_20 Wall_400x306_20 está en la misma ubicación que Wall_400x317 
+[2020.11.02-16.53.56:817][982]MapCheck:Warning: Aviso Wall_400x313 Wall_400x313 está en la misma ubicación que Wall_400x302_6 
+[2020.11.02-16.53.56:818][982]MapCheck:Warning: Aviso Wall_400x317 Wall_400x317 está en la misma ubicación que Wall_400x306_20 
+[2020.11.02-16.53.56:818][982]MapCheck:Warning: Aviso Wall_400x321 Wall_400x321 está en la misma ubicación que Wall_400x326 
+[2020.11.02-16.53.56:818][982]MapCheck:Warning: Aviso Wall_400x326 Wall_400x326 está en la misma ubicación que Wall_400x321 
+[2020.11.02-16.53.57:036][982]MapCheck: Información Map check complete: 0 Error(s), 6 Warning(s), took 405,878ms to complete.
+[2020.11.02-16.53.57:351][993]LogTemp:Display: Finished compile of shader map 0x000001651BC7EB00
+[2020.11.02-16.53.57:351][993]LogTemp:Display: Shader map alfombra-gris-fondo_1339-7411_Mat complete, GameThreadShaderMap 0x000001651BC7EB00, marking material alfombra-gris-fondo_1339-7411_Mat as finished
+[2020.11.02-16.53.57:351][993]LogTemp:Display: Marking material as finished 0x000001650E274A00
+[2020.11.02-16.54.19:747][655]LogTemp:Display: Finished compile of shader map 0x0000016517E9F900
+[2020.11.02-16.54.19:747][655]LogTemp:Display: Shader map Material_004 complete, GameThreadShaderMap 0x0000016517E9F900, marking material Material_004 as finished
+[2020.11.02-16.54.19:747][655]LogTemp:Display: Marking material as finished 0x0000016512F40E80
+[2020.11.02-16.54.27:774][887]LogTemp:Display: Finished compile of shader map 0x0000016515464100
+[2020.11.02-16.54.27:774][887]LogTemp:Display: Shader map Material_002 complete, GameThreadShaderMap 0x0000016515464100, marking material Material_002 as finished
+[2020.11.02-16.54.27:774][887]LogTemp:Display: Marking material as finished 0x0000016513116980
+[2020.11.02-16.54.28:558][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.29:372][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.30:184][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.31:046][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.31:882][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.32:736][890]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.11.02-16.54.49:274][364]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.02-16.54.49:333][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.54.49:333][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-16.54.49:334][364]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (2/11/2020 10:54:49)
+[2020.11.02-16.54.49:334][364]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.02-16.54.49:520][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186191s)
+[2020.11.02-16.54.49:524][364]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.02-16.54.49:525][364]LogPlayLevel: PIE: World Init took: (0.004334s)
+[2020.11.02-16.54.49:526][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.191595s)
+[2020.11.02-16.54.49:637][364]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.02-16.54.49:682][364]LogInit: FAudioDevice initialized.
+[2020.11.02-16.54.49:790][364]LogLoad: Game class is 'GameModeBase'
+[2020.11.02-16.54.49:831][364]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.11.02-13.54.49
+[2020.11.02-16.54.49:834][364]LogWorld: Bringing up level for play took: 0.042334
+[2020.11.02-16.54.49:851][364]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,157
+[2020.11.02-16.54.49:853][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.54.50:633][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.51:459][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.52:305][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.53:146][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.54.53:988][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.11.02-16.55.01:205][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.55.01:403][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.02-16.56.29:070][622]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.11.02-16.56.29:317][623]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoLabApps
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display: BranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Belci_3\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2020.11.02-16.56.29:317][623]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2020.11.02-16.58.29:909][948]LogSavePackage: Save=5046.81ms
+[2020.11.02-16.58.29:909][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default2D8E481444CBBFD471BEF59CBC62352F.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap'
+[2020.11.02-16.58.30:014][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap
+[2020.11.02-16.58.30:140][948]LogFileHelpers: Saving map 'Minimal_Default' took 7.246
+[2020.11.02-16.58.33:523][948]LogSavePackage: Save=2979.79ms
+[2020.11.02-16.58.33:523][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_BuiltDataB3838182409E987E210A4BA4141B2D15.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset'
+[2020.11.02-16.58.33:569][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset
+[2020.11.02-16.58.36:642][948]LogSavePackage: Save=2952.40ms
+[2020.11.02-16.58.36:642][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_BuiltData3E4B9A3E4BDDCD25FE038AA0C69E6AFF.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset'
+[2020.11.02-16.58.36:655][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default_BuiltData.uasset
+[2020.11.02-16.58.38:078][948]LogSavePackage: Save=158.43ms
+[2020.11.02-16.58.38:078][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/alfombra-gris-fondo_1339-7411_Mat87D2AAF04F12672CB063C6ADFEF3F469.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/ALFOMBRA/alfombra-gris-fondo_1339-7411_Mat.uasset'
+[2020.11.02-16.58.38:097][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/ALFOMBRA/alfombra-gris-fondo_1339-7411_Mat.uasset
+[2020.11.02-16.58.38:445][948]LogSavePackage: Save=58.32ms
+[2020.11.02-16.58.38:445][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Material_00209E686FA45CA1DDEA34461B8EF9FDD4D.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/MESATELEVISOR/Material_002.uasset'
+[2020.11.02-16.58.38:464][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/MESATELEVISOR/Material_002.uasset
+[2020.11.02-16.58.38:767][948]LogSavePackage: Save=57.76ms
+[2020.11.02-16.58.38:767][948]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Material_004A14FF245482787A86DEA76A19A0A7B5A.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/TELEVISOR/Material_004.uasset'
+[2020.11.02-16.58.38:809][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/ObjetosBlender/TELEVISOR/Material_004.uasset
+[2020.11.02-16.58.39:233][948]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.11.02-16.58.40:271][949]Cmd: QUIT_EDITOR
+[2020.11.02-16.58.41:541][949]LogExit: Preparing to exit.
+[2020.11.02-16.58.43:445][949]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.11.02-16.58.43:983][949]LogExit: Editor shut down
+[2020.11.02-16.58.43:997][949]LogExit: Transaction tracking system shut down
+[2020.11.02-16.58.46:065][949]LogObj: Freed 0b from 0 cluster array pools.
+[2020.11.02-16.58.46:067][949]LogExit: Object subsystem successfully closed.
+[2020.11.02-16.58.46:290][949]LogD3D11RHI: Shutdown
+[2020.11.02-16.58.46:290][949]LogD3D11RHI: CleanupD3DDevice
+[2020.11.02-16.58.46:828][949]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.11.02-16.58.47:569][949]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
+[2020.11.02-16.58.47:569][949]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2020.11.02-16.58.47:569][949]LogModuleManager: Shutting down and abandoning module StatsViewer (500)
+[2020.11.02-16.58.47:572][949]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2020.11.02-16.58.47:578][949]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2020.11.02-16.58.47:578][949]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2020.11.02-16.58.47:578][949]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2020.11.02-16.58.47:584][949]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2020.11.02-16.58.47:619][949]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2020.11.02-16.58.47:619][949]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2020.11.02-16.58.47:619][949]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2020.11.02-16.58.47:630][949]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' was aborted.
+[2020.11.02-16.58.47:630][949]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' was aborted.
+[2020.11.02-16.58.47:630][949]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' was aborted.
+[2020.11.02-16.58.47:631][949]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2020.11.02-16.58.47:631][949]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2020.11.02-16.58.47:646][949]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2020.11.02-16.58.47:646][949]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2020.11.02-16.58.47:646][949]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2020.11.02-16.58.47:646][949]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2020.11.02-16.58.47:647][949]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2020.11.02-16.58.47:659][949]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2020.11.02-16.58.47:668][949]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2020.11.02-16.58.47:680][949]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2020.11.02-16.58.47:694][949]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2020.11.02-16.58.47:707][949]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module Media (445)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2020.11.02-16.58.47:761][949]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2020.11.02-16.58.47:762][949]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2020.11.02-16.58.47:776][949]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2020.11.02-16.58.47:806][949]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2020.11.02-16.58.47:806][949]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2020.11.02-16.58.47:806][949]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2020.11.02-16.58.47:807][949]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2020.11.02-16.58.47:807][949]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2020.11.02-16.58.47:830][949]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2020.11.02-16.58.47:834][949]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2020.11.02-16.58.47:846][949]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2020.11.02-16.58.47:846][949]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2020.11.02-16.58.47:846][949]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2020.11.02-16.58.47:847][949]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2020.11.02-16.58.47:847][949]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2020.11.02-16.58.48:506][949]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2020.11.02-16.58.48:506][949]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2020.11.02-16.58.48:506][949]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2020.11.02-16.58.48:523][949]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2020.11.02-16.58.48:560][949]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2020.11.02-16.58.48:574][949]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2020.11.02-16.58.48:581][949]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2020.11.02-16.58.48:590][949]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2020.11.02-16.58.48:590][949]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2020.11.02-16.58.48:601][949]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2020.11.02-16.58.48:608][949]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2020.11.02-16.58.48:608][949]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2020.11.02-16.58.48:617][949]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2020.11.02-16.58.48:628][949]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2020.11.02-16.58.48:628][949]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2020.11.02-16.58.48:636][949]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2020.11.02-16.58.48:641][949]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2020.11.02-16.58.48:641][949]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2020.11.02-16.58.48:642][949]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2020.11.02-16.58.48:642][949]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2020.11.02-16.58.48:643][949]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2020.11.02-16.58.48:651][949]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2020.11.02-16.58.48:657][949]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2020.11.02-16.58.48:671][949]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2020.11.02-16.58.48:690][949]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2020.11.02-16.58.48:743][949]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2020.11.02-16.58.48:756][949]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2020.11.02-16.58.48:769][949]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2020.11.02-16.58.48:794][949]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2020.11.02-16.58.48:794][949]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2020.11.02-16.58.48:794][949]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2020.11.02-16.58.48:795][949]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2020.11.02-16.58.48:830][949]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2020.11.02-16.58.48:830][949]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2020.11.02-16.58.48:837][949]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2020.11.02-16.58.48:872][949]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2020.11.02-16.58.48:873][949]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2020.11.02-16.58.48:877][949]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2020.11.02-16.58.48:883][949]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2020.11.02-16.58.48:890][949]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2020.11.02-16.58.48:900][949]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2020.11.02-16.58.48:910][949]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2020.11.02-16.58.48:965][949]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2020.11.02-16.58.48:977][949]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2020.11.02-16.58.48:977][949]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2020.11.02-16.58.48:977][949]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2020.11.02-16.58.48:977][949]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2020.11.02-16.58.48:983][949]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2020.11.02-16.58.48:983][949]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2020.11.02-16.58.48:983][949]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2020.11.02-16.58.48:983][949]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2020.11.02-16.58.48:983][949]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2020.11.02-16.58.48:987][949]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2020.11.02-16.58.48:987][949]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2020.11.02-16.58.49:008][949]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2020.11.02-16.58.49:008][949]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2020.11.02-16.58.49:019][949]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2020.11.02-16.58.49:019][949]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2020.11.02-16.58.49:020][949]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2020.11.02-16.58.49:020][949]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2020.11.02-16.58.49:020][949]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2020.11.02-16.58.49:020][949]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2020.11.02-16.58.49:020][949]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2020.11.02-16.58.49:035][949]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2020.11.02-16.58.49:040][949]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2020.11.02-16.58.49:041][949]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2020.11.02-16.58.49:041][949]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2020.11.02-16.58.49:050][949]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2020.11.02-16.58.49:050][949]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2020.11.02-16.58.49:065][949]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2020.11.02-16.58.49:079][949]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2020.11.02-16.58.49:093][949]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2020.11.02-16.58.49:100][949]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2020.11.02-16.58.49:100][949]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2020.11.02-16.58.49:100][949]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2020.11.02-16.58.49:100][949]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2020.11.02-16.58.49:116][949]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2020.11.02-16.58.49:128][949]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2020.11.02-16.58.49:152][949]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2020.11.02-16.58.49:166][949]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2020.11.02-16.58.49:166][949]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2020.11.02-16.58.49:177][949]LogDirectoryWatcher: A directory notification for 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Binaries/Win64' was aborted.
+[2020.11.02-16.58.49:180][949]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2020.11.02-16.58.49:187][949]LogModuleManager: Shutting down and abandoning module ProyectoLabApps (224)
+[2020.11.02-16.58.49:187][949]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2020.11.02-16.58.49:199][949]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2020.11.02-16.58.49:199][949]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2020.11.02-16.58.49:199][949]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2020.11.02-16.58.49:301][949]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2020.11.02-16.58.49:416][949]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2020.11.02-16.58.49:416][949]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2020.11.02-16.58.49:427][949]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2020.11.02-16.58.49:427][949]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2020.11.02-16.58.49:427][949]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2020.11.02-16.58.49:435][949]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2020.11.02-16.58.49:450][949]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2020.11.02-16.58.49:466][949]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2020.11.02-16.58.49:466][949]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2020.11.02-16.58.49:466][949]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2020.11.02-16.58.49:476][949]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2020.11.02-16.58.49:477][949]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2020.11.02-16.58.49:477][949]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2020.11.02-16.58.49:507][949]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2020.11.02-16.58.49:511][949]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2020.11.02-16.58.49:525][949]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2020.11.02-16.58.49:525][949]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2020.11.02-16.58.49:563][949]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2020.11.02-16.58.49:599][949]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2020.11.02-16.58.49:623][949]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2020.11.02-16.58.49:623][949]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2020.11.02-16.58.49:623][949]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2020.11.02-16.58.49:661][949]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2020.11.02-16.58.49:661][949]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2020.11.02-16.58.49:690][949]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2020.11.02-16.58.49:703][949]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2020.11.02-16.58.49:703][949]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2020.11.02-16.58.49:703][949]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2020.11.02-16.58.49:703][949]LogModuleManager: Shutting down and abandoning module Core (154)
+[2020.11.02-16.58.49:703][949]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2020.11.02-16.58.50:136][949]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.11.02-16.58.50:136][949]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' was aborted.
+[2020.11.02-16.58.50:136][949]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.11.02-16.58.50:147][949]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2020.11.02-16.58.50:167][949]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2020.11.02-16.58.50:167][949]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2020.11.02-16.58.50:167][949]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2020.11.02-16.58.50:183][949]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2020.11.02-16.58.50:195][949]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2020.11.02-16.58.50:195][949]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2020.11.02-16.58.50:199][949]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2020.11.02-16.58.50:200][949]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2020.11.02-16.58.50:254][949]LogDerivedDataCache: Shutdown
+[2020.11.02-16.58.50:254][949]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2020.11.02-16.58.50:254][949]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2020.11.02-16.58.50:263][949]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2020.11.02-16.58.50:278][949]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2020.11.02-16.58.50:289][949]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2020.11.02-16.58.50:305][949]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2020.11.02-16.58.50:305][949]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2020.11.02-16.58.50:305][949]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2020.11.02-16.58.50:305][949]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2020.11.02-16.58.50:314][949]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2020.11.02-16.58.50:314][949]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2020.11.02-16.58.50:314][949]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2020.11.02-16.58.50:314][949]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2020.11.02-16.58.50:321][949]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2020.11.02-16.58.50:322][949]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2020.11.02-16.58.50:323][949]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2020.11.02-16.58.50:336][949]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2020.11.02-16.58.50:336][949]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2020.11.02-16.58.50:336][949]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2020.11.02-16.58.50:336][949]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2020.11.02-16.58.50:336][949]LogOnline:Display: Unloading online subsystem: NULL
+[2020.11.02-16.58.50:351][949]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2020.11.02-16.58.50:369][949]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2020.11.02-16.58.50:379][949]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.02-16.58.50:379][949]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3F9FB4E5-43D9-AEB5-3D3F-D48EFD9C37DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=fb0aaafe49dc5d8fb39af0b03369a559%7Ccfbc9b1d33724aa483afe77c3ecfcf1f%7Cf34cba58-f82d-49bc-a440-7e1a7a229efc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.11.02-16.58.50:391][949]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2020.11.02-16.58.50:407][949]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.11.02-16.58.50:421][949]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.11.02-16.58.50:421][949]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.11.02-16.58.50:421][949]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.11.02-16.58.50:421][949]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.11.02-16.58.50:451][949]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.11.02-16.58.50:463][949]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.11.02-16.58.50:463][949]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.11.02-16.58.50:473][949]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.11.02-16.58.50:473][949]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.11.02-16.58.50:473][949]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.11.02-16.58.50:473][949]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.11.02-16.58.50:478][949]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.11.02-16.58.50:490][949]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.11.02-16.58.50:490][949]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.11.02-16.58.50:506][949]LogExit: Exiting.
+[2020.11.02-16.58.50:557][949]Log file closed, 11/02/20 13:58:50
