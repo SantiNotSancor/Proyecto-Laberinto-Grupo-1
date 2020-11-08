@@ -1,0 +1,1102 @@
+﻿Log file open, 11/06/20 19:43:03
+LogInit:Display: Running engine for game: ProyectoLabApps
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(383211874) SRandInit(383211875).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.245290
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.11.06-22.43.06:779][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.06-22.43.06:779][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.06-22.43.06:859][  0]LogInit: Computer: BELU
+[2020.11.06-22.43.06:860][  0]LogInit: User: Beluu
+[2020.11.06-22.43.06:860][  0]LogInit: CPU Page size=65536, Cores=2
+[2020.11.06-22.43.06:860][  0]LogInit: High frequency timer resolution =2.143578 MHz
+[2020.11.06-22.43.06:861][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2020.11.06-22.43.06:861][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.06-22.43.06:861][  0]LogMemory: Process Physical Memory: 263.06 MB used, 263.06 MB peak
+[2020.11.06-22.43.06:861][  0]LogMemory: Process Virtual Memory: 262.29 MB used, 262.29 MB peak
+[2020.11.06-22.43.06:861][  0]LogMemory: Physical Memory: 2798.98 MB used,  996.55 MB free, 3795.54 MB total
+[2020.11.06-22.43.06:861][  0]LogMemory: Virtual Memory: 638.50 MB used,  996.55 MB free, 134217728.00 MB total
+[2020.11.06-22.43.07:411][  0]LogTextLocalizationManager: No specific translations for ('es-AR') exist, so ('es') translations will be used.
+[2020.11.06-22.43.09:513][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.06-22.43.09:522][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2020.11.06-22.43.09:522][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.11.06-22.43.09:528][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.06-22.43.09:528][  0]LogD3D11RHI:       0/0/1897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.06-22.43.09:528][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.06-22.43.09:540][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.06-22.43.09:540][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.06-22.43.09:540][  0]LogWindows: EnumDisplayDevices:
+[2020.11.06-22.43.09:540][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2020.11.06-22.43.09:541][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2020.11.06-22.43.09:541][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.11.06-22.43.09:541][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2020.11.06-22.43.09:541][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2020.11.06-22.43.09:541][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2020.11.06-22.43.09:541][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2020.11.06-22.43.09:548][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.06-22.43.09:583][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2020.11.06-22.43.09:585][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Intermediate/Shaders/WorkingDirectory/10248/).
+[2020.11.06-22.43.09:603][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belci_3/AppData/Local/Temp/UnrealShaderWorkingDir/CC9C0DA1424E3ACD0A28A0955A6F0488/'.
+[2020.11.06-22.43.09:603][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.11.06-22.43.14:712][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.11.06-22.43.15:078][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.11.06-22.43.15:482][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.11.06-22.43.15:878][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.11.06-22.43.16:283][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.11.06-22.43.16:682][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.11.06-22.43.17:081][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.11.06-22.43.17:484][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.11.06-22.43.17:829][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.11.06-22.43.18:230][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.11.06-22.43.18:643][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.11.06-22.43.19:049][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.11.06-22.43.19:458][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.11.06-22.43.19:868][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.11.06-22.43.20:273][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.11.06-22.43.21:090][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.11.06-22.43.21:090][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.11.06-22.43.21:416][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.11.06-22.43.21:908][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.11.06-22.43.22:116][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.11.06-22.43.22:433][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.11.06-22.43.22:752][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.11.06-22.43.23:076][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.11.06-22.43.23:401][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.11.06-22.43.23:401][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.11.06-22.43.26:546][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.11.06-22.43.26:743][  0]LogDerivedDataCache: Loaded boot cache 0.20s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.11.06-22.43.26:743][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.11.06-22.43.26:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.06-22.43.26:743][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.06-22.43.26:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.06-22.43.26:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.06-22.43.26:833][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.06-22.43.26:850][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belci_3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.06-22.43.26:880][  0]LogSlate: Using Freetype 2.6.0
+[2020.11.06-22.43.26:883][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.06-22.43.26:883][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.06-22.43.28:160][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.06-22.43.28:172][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.11.06-22.43.29:067][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.06-22.43.29:275][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.11.06-22.43.29:501][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.11.06-22.43.29:501][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.11.06-22.43.29:501][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.11.06-22.43.31:037][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: proyectolabapps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1791571130
+[2020.11.06-22.43.31:164][  0]LogAssetRegistry: FAssetRegistry took 0.0569 seconds to start up
+[2020.11.06-22.43.31:358][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.120682 seconds
+[2020.11.06-22.43.31:367][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.11.06-22.43.31:367][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2020.11.06-22.43.31:367][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.06-22.43.31:552][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.11.06-22.43.35:731][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.06-22.43.35:826][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.06-22.43.37:294][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.11.06-22.43.38:402][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.06-22.43.38:404][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.06-22.43.38:551][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.06-22.43.38:693][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.06-22.43.42:433][  0]LogEngine: Initializing Engine...
+[2020.11.06-22.43.42:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.06-22.43.42:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.11.06-22.43.42:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.11.06-22.43.42:985][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.06-22.43.42:998][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-22.43.43:047][  0]LogInit: FAudioDevice initialized.
+[2020.11.06-22.43.43:122][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/Belci_3/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.11.06-22.43.43:273][  0]LogInit: Texture streaming: Enabled
+[2020.11.06-22.43.43:555][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.06-22.43.43:868][  0]LogInit: Transaction tracking system initialized
+[2020.11.06-22.43.44:972][  0]BlueprintLog: New page: Cargar el editor
+[2020.11.06-22.43.47:758][  0]LocalizationService: Información Localization service is disabled
+[2020.11.06-22.43.50:221][  0]LogConsoleResponse:Display: 
+[2020.11.06-22.43.50:713][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.06-22.43.50:713][  0]LogCook:Display: Mobile HDR setting 1
+[2020.11.06-22.43.51:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/' took 0.04s
+[2020.11.06-22.43.53:909][  0]SourceControl: Información El control de código fuente está desactivado
+[2020.11.06-22.43.53:909][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.11.06-22.43.53:909][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.11.06-22.43.53:909][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.06-22.43.54:023][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 113,764ms to complete.
+[2020.11.06-22.43.54:023][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.115
+[2020.11.06-22.43.54:565][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.11.06-22.43.59:813][  0]LogCollectionManager: Loaded 0 collections in 0.016091 seconds
+[2020.11.06-22.44.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Collections/' took 0.01s
+[2020.11.06-22.44.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Developers/Beluu/Collections/' took 0.01s
+[2020.11.06-22.44.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Collections/' took 0.01s
+[2020.11.06-22.44.01:162][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2020.11.06-22.44.01:388][  0]LogContentBrowser: Native class hierarchy populated in 0.1268 seconds. Added 2246 classes and 455 folders.
+[2020.11.06-22.44.02:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0097 seconds. Added 0 classes and 0 folders.
+[2020.11.06-22.44.06:393][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0100 seconds. Added 0 classes and 0 folders.
+[2020.11.06-22.44.07:360][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0093 seconds. Added 1 classes and 2 folders.
+[2020.11.06-22.44.09:880][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.11.06-22.44.10:493][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2020.11.06-22.44.11:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0095 seconds. Added 1 classes and 2 folders.
+[2020.11.06-22.44.11:013][  0]LogLoad: (Engine Initialization) Total time: 74.65 seconds
+[2020.11.06-22.44.11:013][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2020.11.06-22.44.11:013][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.11.06-22.44.11:013][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.11.06-22.44.11:033][  0]LogOcInput: OculusInput pre-init called
+[2020.11.06-22.44.11:285][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.11.06-22.44.11:290][  0]LogSlate: Took 0.000964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.06-22.44.11:307][  0]LogSlate: Took 0.001300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.06-22.44.11:576][  0]LogSlate: Took 0.085187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.06-22.44.14:122][  0]LogRenderer: Reallocating scene render targets to support 756x356 NumSamples 1 (Frame:2).
+[2020.11.06-22.44.20:599][  1]LogSlate: Took 0.040413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.06-22.44.24:631][ 64]LogRenderer: Reallocating scene render targets to support 760x372 NumSamples 1 (Frame:5).
+[2020.11.06-22.44.37:249][426]LogAssetRegistry: Asset discovery search completed in 66.1417 seconds
+[2020.11.06-22.44.37:249][426]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
+[2020.11.06-22.44.37:249][426]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2020.11.06-22.45.09:538][355]LogSlate: Took 0.000786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.06-22.45.11:371][355]LogSlate: Took 0.000832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.06-22.45.14:910][355]LogStaticMesh: Generando la malla estática BOTON_ROJO_Cube...
+[2020.11.06-22.45.15:229][355]LogStaticMesh: Built static mesh [0.34s] /Game/ObjetosBlender/ActorMeshes/BOTON/BOTON_ROJO_Cube.BOTON_ROJO_Cube
+[2020.11.06-22.45.15:612][355]LogStaticMesh: Generando la malla estática BOTON_ROJO_Cylinder...
+[2020.11.06-22.45.15:634][355]LogStaticMesh: Built static mesh [0.05s] /Game/ObjetosBlender/ActorMeshes/BOTON/BOTON_ROJO_Cylinder.BOTON_ROJO_Cylinder
+[2020.11.06-22.45.17:380][355]LogStaticMesh: Generando la malla estática SILLA...
+[2020.11.06-22.45.18:528][355]LogStaticMesh: Built static mesh [1.19s] /Game/ObjetosBlender/StaticMeshes/SILLA/SILLA.SILLA
+[2020.11.06-22.45.18:564][355]LogStaticMesh: Generando la malla estática SILLON...
+[2020.11.06-22.45.19:152][355]LogStaticMesh: Built static mesh [0.60s] /Game/ObjetosBlender/StaticMeshes/SILLON/SILLON.SILLON
+[2020.11.06-22.45.19:979][355]LogMaterial: Missing cached shader map for material alfombra-gris-fondo_1339-7411_Mat, compiling. 
+[2020.11.06-22.45.20:020][355]LogTemp:Display: Added material ShaderMap 0x000002C494461600 with Material 0x000002C4B0109D80 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.20:237][355]LogTemp:Display: Kicking off shader compilation for alfombra-gris-fondo_1339-7411_Mat, GameThreadShaderMap 0x000002C494461600
+[2020.11.06-22.45.20:377][355]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512) - 78 MB total VRAM
+[2020.11.06-22.45.21:736][355]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 78 MB total VRAM
+[2020.11.06-22.45.25:006][355]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 78 MB total VRAM
+[2020.11.06-22.45.27:158][355]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512) - 78 MB total VRAM
+[2020.11.06-22.45.27:709][355]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 78 MB total VRAM
+[2020.11.06-22.45.28:828][355]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 78 MB total VRAM
+[2020.11.06-22.45.30:066][355]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 78 MB total VRAM
+[2020.11.06-22.45.30:179][355]LogMaterial: Missing cached shader map for material NEGRO, compiling. 
+[2020.11.06-22.45.30:180][355]LogTemp:Display: Added material ShaderMap 0x000002C49B8FEB00 with Material 0x000002C4AFDFD300 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.30:208][355]LogTemp:Display: Kicking off shader compilation for NEGRO, GameThreadShaderMap 0x000002C49B8FEB00
+[2020.11.06-22.45.30:216][355]LogMaterial: Missing cached shader map for material ROJO_BOTON, compiling. 
+[2020.11.06-22.45.30:217][355]LogTemp:Display: Added material ShaderMap 0x000002C4B9658F00 with Material 0x000002C4AFDEF400 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.30:230][355]LogTemp:Display: Kicking off shader compilation for ROJO_BOTON, GameThreadShaderMap 0x000002C4B9658F00
+[2020.11.06-22.45.30:524][355]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2020.11.06-22.45.30:525][355]LogTemp:Display: Added material ShaderMap 0x000002C4B95AB580 with Material 0x000002C4B0121900 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.30:550][355]LogTemp:Display: Kicking off shader compilation for Material_002, GameThreadShaderMap 0x000002C4B95AB580
+[2020.11.06-22.45.30:945][355]LogMaterial: Missing cached shader map for material T_Metal_Gold_Mat, compiling. 
+[2020.11.06-22.45.30:947][355]LogTemp:Display: Added material ShaderMap 0x000002C4BB5BE780 with Material 0x000002C4B010D900 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.30:972][355]LogTemp:Display: Kicking off shader compilation for T_Metal_Gold_Mat, GameThreadShaderMap 0x000002C4BB5BE780
+[2020.11.06-22.45.31:078][355]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2020.11.06-22.45.31:079][355]LogTemp:Display: Added material ShaderMap 0x000002C4BC240100 with Material 0x000002C4B00EB280 to ShaderMapsBeingCompiled
+[2020.11.06-22.45.31:107][355]LogTemp:Display: Kicking off shader compilation for Material_004, GameThreadShaderMap 0x000002C4BC240100
+[2020.11.06-22.45.32:796][355]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-22.45.33:572][355]Cmd: MAP LOAD FILE="../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Content/Niveles/Mapa/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2020.11.06-22.45.33:573][355]LightingResults: New page: Diseñar la iluminación
+[2020.11.06-22.45.33:696][355]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0034 seconds. Added 5 classes and 0 folders.
+[2020.11.06-22.45.33:699][355]LoadErrors: New page: Cargando mapa: Minimal_Default.umap
+[2020.11.06-22.45.33:700][355]MapCheck: New page: Revisión del mapa
+[2020.11.06-22.45.33:700][355]LightingResults: New page: Diseñar la iluminación
+[2020.11.06-22.45.34:102][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.06-22.45.34:187][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.06-22.45.34:353][355]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 166,081ms to complete.
+[2020.11.06-22.45.34:354][355]LogFileHelpers: Loading map 'Minimal_Default' took 0.793
+[2020.11.06-22.45.55:262][720]LogTemp:Display: Finished compile of shader map 0x000002C494461600
+[2020.11.06-22.45.55:262][720]LogTemp:Display: Shader map alfombra-gris-fondo_1339-7411_Mat complete, GameThreadShaderMap 0x000002C494461600, marking material alfombra-gris-fondo_1339-7411_Mat as finished
+[2020.11.06-22.45.55:262][720]LogTemp:Display: Marking material as finished 0x000002C4B0109D80
+[2020.11.06-22.46.05:313][856]LogTemp:Display: Finished compile of shader map 0x000002C49B8FEB00
+[2020.11.06-22.46.05:313][856]LogTemp:Display: Shader map NEGRO complete, GameThreadShaderMap 0x000002C49B8FEB00, marking material NEGRO as finished
+[2020.11.06-22.46.05:313][856]LogTemp:Display: Marking material as finished 0x000002C4AFDFD300
+[2020.11.06-22.46.10:252][913]LogTemp:Display: Finished compile of shader map 0x000002C4B9658F00
+[2020.11.06-22.46.10:252][913]LogTemp:Display: Shader map ROJO_BOTON complete, GameThreadShaderMap 0x000002C4B9658F00, marking material ROJO_BOTON as finished
+[2020.11.06-22.46.10:252][913]LogTemp:Display: Marking material as finished 0x000002C4AFDEF400
+[2020.11.06-22.46.21:352][183]LogTemp:Display: Finished compile of shader map 0x000002C4B95AB580
+[2020.11.06-22.46.21:352][183]LogTemp:Display: Shader map Material_002 complete, GameThreadShaderMap 0x000002C4B95AB580, marking material Material_002 as finished
+[2020.11.06-22.46.21:352][183]LogTemp:Display: Marking material as finished 0x000002C4B0121900
+[2020.11.06-22.46.35:665][597]LogTemp:Display: Finished compile of shader map 0x000002C4BB5BE780
+[2020.11.06-22.46.35:665][597]LogTemp:Display: Shader map T_Metal_Gold_Mat complete, GameThreadShaderMap 0x000002C4BB5BE780, marking material T_Metal_Gold_Mat as finished
+[2020.11.06-22.46.35:665][597]LogTemp:Display: Marking material as finished 0x000002C4B010D900
+[2020.11.06-22.46.42:537][793]LogTemp:Display: Finished compile of shader map 0x000002C4BC240100
+[2020.11.06-22.46.42:537][793]LogTemp:Display: Shader map Material_004 complete, GameThreadShaderMap 0x000002C4BC240100, marking material Material_004 as finished
+[2020.11.06-22.46.42:537][793]LogTemp:Display: Marking material as finished 0x000002C4B00EB280
+[2020.11.06-22.48.55:060][932]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-22.48.55:130][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.48.55:149][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-22.48.55:224][932]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 16:48:55)
+[2020.11.06-22.48.55:258][932]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-22.48.55:677][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.419161s)
+[2020.11.06-22.48.55:680][932]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-22.48.55:680][932]LogPlayLevel: PIE: World Init took: (0.003124s)
+[2020.11.06-22.48.55:697][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.448638s)
+[2020.11.06-22.48.55:862][932]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-22.48.55:912][932]LogInit: FAudioDevice initialized.
+[2020.11.06-22.48.56:274][932]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Script/ProyectoLabApps.ProyectoLabAppsGameMode'
+[2020.11.06-22.48.56:283][932]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-22.48.56:521][932]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-19.48.56
+[2020.11.06-22.48.56:716][932]LogWorld: Bringing up level for play took: 0.266142
+[2020.11.06-22.48.57:375][932]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0103 seconds. Added 11 classes and 0 folders.
+[2020.11.06-22.48.57:544][932]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 2,535
+[2020.11.06-22.48.57:546][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.48.58:049][932]LogRenderer: Reallocating scene render targets to support 760x380 NumSamples 1 (Frame:1614).
+[2020.11.06-22.49.06:513][ 18]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.07:001][ 18]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.08:448][ 39]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-22.49.08:565][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.08:565][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-22.49.08:566][ 39]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 16:49:08)
+[2020.11.06-22.49.08:566][ 39]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-22.49.08:865][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.298392s)
+[2020.11.06-22.49.08:867][ 39]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-22.49.08:867][ 39]LogPlayLevel: PIE: World Init took: (0.002475s)
+[2020.11.06-22.49.08:868][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.301741s)
+[2020.11.06-22.49.08:963][ 39]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-22.49.09:008][ 39]LogInit: FAudioDevice initialized.
+[2020.11.06-22.49.09:087][ 39]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-22.49.09:137][ 39]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-19.49.09
+[2020.11.06-22.49.09:140][ 39]LogWorld: Bringing up level for play took: 0.034824
+[2020.11.06-22.49.09:159][ 39]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,15
+[2020.11.06-22.49.09:161][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.15:518][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.15:715][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.49.54:193][ 89]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2020.11.06-22.50.30:697][ 26]LogSlate: Took 0.001028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.06-22.50.35:728][ 28]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0117 seconds. Added 112 classes and 0 folders.
+[2020.11.06-22.50.42:035][ 28]LogSlate: Took 0.029568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.06-22.50.43:778][ 29]LogSlate: Took 0.053392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.06-22.52.26:286][ 66]Cmd: DELETE
+[2020.11.06-22.52.26:286][ 66]Cmd: ACTOR DELETE
+[2020.11.06-22.52.26:563][ 66]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-22.52.26:766][ 66]LogEditorActor: Deleted 1 Actors (0.247 secs)
+[2020.11.06-22.52.41:084][444]Cmd: DELETE
+[2020.11.06-22.52.41:084][444]Cmd: ACTOR DELETE
+[2020.11.06-22.52.41:088][444]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-22.52.41:233][444]LogEditorActor: Deleted 1 Actors (0.149 secs)
+[2020.11.06-22.52.45:935][567]LogActorFactory: Actor Factory created Cube
+[2020.11.06-22.52.47:183][579]LogActorFactory: Actor Factory created Cube
+[2020.11.06-22.52.48:859][595]Cmd: DELETE
+[2020.11.06-22.52.48:859][595]Cmd: ACTOR DELETE
+[2020.11.06-22.52.48:863][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.06-22.52.48:996][595]LogEditorActor: Deleted 1 Actors (0.137 secs)
+[2020.11.06-22.54.29:936][127]Cmd: DELETE
+[2020.11.06-22.54.29:936][127]Cmd: ACTOR DELETE
+[2020.11.06-22.54.29:942][127]LogEditorActor: Deleted Actor: TriggerVolume
+[2020.11.06-22.54.30:135][127]LogEditorActor: Deleted 1 Actors (0.199 secs)
+[2020.11.06-22.56.39:352][665]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.06-22.56.42:463][711]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x320)
+[2020.11.06-22.56.44:240][734]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-22.56.44:336][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.56.44:337][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-22.56.44:338][734]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 16:56:44)
+[2020.11.06-22.56.44:338][734]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-22.56.44:671][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.332716s)
+[2020.11.06-22.56.44:673][734]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-22.56.44:674][734]LogPlayLevel: PIE: World Init took: (0.003262s)
+[2020.11.06-22.56.44:675][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.336861s)
+[2020.11.06-22.56.44:836][734]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-22.56.44:898][734]LogInit: FAudioDevice initialized.
+[2020.11.06-22.56.44:996][734]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-22.56.45:033][734]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-19.56.45
+[2020.11.06-22.56.45:036][734]LogWorld: Bringing up level for play took: 0.036762
+[2020.11.06-22.56.45:055][734]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,046
+[2020.11.06-22.56.45:058][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.56.53:606][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.56.54:040][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-22.58.10:095][ 32]Cmd: DELETE
+[2020.11.06-22.58.10:095][ 32]Cmd: ACTOR DELETE
+[2020.11.06-22.58.10:099][ 32]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-22.58.10:244][ 32]LogEditorActor: Deleted 1 Actors (0.149 secs)
+[2020.11.06-22.58.20:713][202]Cmd: TRANSACTION UNDO
+[2020.11.06-22.58.20:713][202]LogEditorTransaction: Undo Crear actores
+[2020.11.06-22.59.14:811][ 45]Cmd: DELETE
+[2020.11.06-22.59.14:811][ 45]Cmd: ACTOR DELETE
+[2020.11.06-22.59.14:815][ 45]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-22.59.14:962][ 45]LogEditorActor: Deleted 1 Actors (0.151 secs)
+[2020.11.06-22.59.28:501][285]Cmd: DELETE
+[2020.11.06-22.59.28:501][285]Cmd: ACTOR DELETE
+[2020.11.06-22.59.28:505][285]LogEditorActor: Deleted Actor: TriggerVolume
+[2020.11.06-22.59.28:640][285]LogEditorActor: Deleted 1 Actors (0.138 secs)
+[2020.11.06-22.59.29:707][311]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.00.01:978][ 87]LogSavePackage: Save=2249.42ms
+[2020.11.06-23.00.01:979][ 87]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto11E3D09C4400A1E02FAA57C98E6890762.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto1.umap'
+[2020.11.06-23.00.02:001][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto1.umap
+[2020.11.06-23.00.02:103][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 3.662
+[2020.11.06-23.00.02:103][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.662
+[2020.11.06-23.00.44:645][162]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.00.48:633][262]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.00.52:055][342]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.00.57:379][478]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.01.03:803][642]Cmd: TRANSACTION UNDO
+[2020.11.06-23.01.03:803][642]LogEditorTransaction: Undo Ajustar ubicación del actor
+[2020.11.06-23.01.09:257][789]Cmd: TRANSACTION UNDO
+[2020.11.06-23.01.09:257][789]LogEditorTransaction: Undo Pinchar en los actores
+[2020.11.06-23.01.09:977][806]Cmd: TRANSACTION UNDO
+[2020.11.06-23.01.09:977][806]LogEditorTransaction: Undo Pinchar en los actores
+[2020.11.06-23.01.11:686][855]Cmd: TRANSACTION UNDO
+[2020.11.06-23.01.11:686][855]LogEditorTransaction: Undo Pinchar en los actores
+[2020.11.06-23.01.46:131][716]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.02.29:857][834]Cmd: DELETE
+[2020.11.06-23.02.29:857][834]Cmd: ACTOR DELETE
+[2020.11.06-23.02.29:861][834]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-23.02.30:044][834]LogEditorActor: Deleted 1 Actors (0.187 secs)
+[2020.11.06-23.04.40:091][961]Cmd: DELETE
+[2020.11.06-23.04.40:092][961]Cmd: ACTOR DELETE
+[2020.11.06-23.04.40:096][961]LogEditorActor: Deleted Actor: TriggerVolume
+[2020.11.06-23.04.40:244][961]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2020.11.06-23.04.42:444][ 23]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.05.16:543][928]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume7)
+[2020.11.06-23.05.19:988][  7]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume8)
+[2020.11.06-23.05.28:110][177]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.05.33:796][332]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.05.35:500][368]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.05.38:332][436]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.07.48:361][ 48]LogUObjectArray:Warning: Other object in slot
+[2020.11.06-23.07.50:560][ 48]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.181 s
+[2020.11.06-23.07.50:560][ 48]LogOutputDevice:Error: === Handled ensure: ===
+[2020.11.06-23.07.50:560][ 48]LogOutputDevice:Error: 
+[2020.11.06-23.07.50:560][ 48]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 568]
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: Object in KismetInspector is invalid, see TTP 281915
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: Stack: 
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000433595E6
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000043109B82
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004311B666
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000003C108CB9
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000003C1054F6
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C02
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E75CECC
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57ABE
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57C08
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E7D91BD
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57ABE
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57C08
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:561][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E75CECC
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57ABE
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57C08
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E7D91BD
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57ABE
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57C08
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED59060
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57C08
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57ABE
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED5778E
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED57CAA
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000004ED58C55
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E5A30FD
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E5DCF94
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E5A41C0
+[2020.11.06-23.07.50:562][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E602674
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004E6015C0
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor.exe!0x000000003BE6EA1D
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor.exe!0x000000003BE5EB40
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor.exe!0x000000003BE5EBBA
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor.exe!0x000000003BE70A29
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: UE4Editor.exe!0x000000003BE722B6
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: KERNEL32.DLL!0x000000007DB58364
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: ntdll.dll!0x000000007DD77091
+[2020.11.06-23.07.50:563][ 48]LogOutputDevice:Error: 
+[2020.11.06-23.07.50:712][ 48]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.06-23.08.01:592][ 48]LogStats:                    SendNewReport - 10.880 s
+[2020.11.06-23.08.01:592][ 48]LogStats:             FDebug::EnsureFailed - 13.231 s
+[2020.11.06-23.09.03:490][199]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.10.12:831][620]Cmd: DELETE
+[2020.11.06-23.10.12:831][620]Cmd: ACTOR DELETE
+[2020.11.06-23.10.12:838][620]LogEditorActor: Deleted Actor: TriggerBox
+[2020.11.06-23.10.12:992][620]LogEditorActor: Deleted 1 Actors (0.160 secs)
+[2020.11.06-23.10.25:224][857]Cmd: DELETE
+[2020.11.06-23.10.25:224][857]Cmd: ACTOR DELETE
+[2020.11.06-23.10.25:228][857]LogEditorActor: Deleted Actor: TriggerVolume
+[2020.11.06-23.10.25:364][857]LogEditorActor: Deleted 1 Actors (0.140 secs)
+[2020.11.06-23.10.52:659][338]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume3)
+[2020.11.06-23.16.35:785][771]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.06-23.16.42:328][909]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-23.16.42:410][909]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.16.42:410][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-23.16.42:411][909]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 17:16:42)
+[2020.11.06-23.16.42:411][909]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-23.16.42:719][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307718s)
+[2020.11.06-23.16.42:723][909]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-23.16.42:724][909]LogPlayLevel: PIE: World Init took: (0.004921s)
+[2020.11.06-23.16.42:725][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.313629s)
+[2020.11.06-23.16.42:876][909]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-23.16.42:927][909]LogInit: FAudioDevice initialized.
+[2020.11.06-23.16.43:011][909]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-23.16.43:046][909]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-20.16.43
+[2020.11.06-23.16.43:049][909]LogWorld: Bringing up level for play took: 0.035247
+[2020.11.06-23.16.43:068][909]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,06
+[2020.11.06-23.16.43:071][909]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.16.58:698][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.16.59:020][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.18.19:318][574]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume6)
+[2020.11.06-23.23.58:732][ 15]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.06-23.24.02:705][ 83]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-23.24.02:755][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.24.02:755][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-23.24.02:756][ 83]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 17:24:02)
+[2020.11.06-23.24.02:756][ 83]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-23.24.02:990][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233747s)
+[2020.11.06-23.24.02:992][ 83]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-23.24.02:993][ 83]LogPlayLevel: PIE: World Init took: (0.002494s)
+[2020.11.06-23.24.02:993][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.236937s)
+[2020.11.06-23.24.03:098][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-23.24.03:128][ 83]LogInit: FAudioDevice initialized.
+[2020.11.06-23.24.03:189][ 83]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-23.24.03:214][ 83]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-20.24.03
+[2020.11.06-23.24.03:248][ 83]LogWorld: Bringing up level for play took: 0.058118
+[2020.11.06-23.24.03:260][ 83]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,251
+[2020.11.06-23.24.03:261][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.24.14:923][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.24.15:276][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.24.17:260][243]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume10)
+[2020.11.06-23.24.18:711][279]Cmd: DELETE
+[2020.11.06-23.24.18:711][279]Cmd: ACTOR DELETE
+[2020.11.06-23.24.18:715][279]LogEditorActor: Deleted Actor: TriggerVolume
+[2020.11.06-23.24.18:850][279]LogEditorActor: Deleted 1 Actors (0.138 secs)
+[2020.11.06-23.25.02:235][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x329)
+[2020.11.06-23.25.03:544][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x329)
+[2020.11.06-23.25.04:610][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x324)
+[2020.11.06-23.25.06:575][245]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.06-23.25.15:017][471]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-23.25.15:049][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.25.15:049][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-23.25.15:049][471]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 17:25:15)
+[2020.11.06-23.25.15:049][471]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-23.25.15:198][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148421s)
+[2020.11.06-23.25.15:199][471]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-23.25.15:200][471]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2020.11.06-23.25.15:200][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.150816s)
+[2020.11.06-23.25.15:271][471]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-23.25.15:291][471]LogInit: FAudioDevice initialized.
+[2020.11.06-23.25.15:340][471]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-23.25.15:355][471]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-20.25.15
+[2020.11.06-23.25.15:357][471]LogWorld: Bringing up level for play took: 0.015924
+[2020.11.06-23.25.15:383][471]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,375
+[2020.11.06-23.25.15:384][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.25.52:395][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.25.52:705][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.26.35:506][865]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.06-23.26.41:478][944]LogSavePackage: Save=2067.23ms
+[2020.11.06-23.26.41:479][944]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto239F5D00042BD6DAF46EBF2BACCE09E1D.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto2.umap'
+[2020.11.06-23.26.41:492][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto2.umap
+[2020.11.06-23.26.41:511][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 2.472
+[2020.11.06-23.26.41:512][944]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.472
+[2020.11.06-23.28.21:632][319]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.06-23.28.33:114][602]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.06-23.28.33:182][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.28.33:182][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-23.28.33:183][602]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 17:28:33)
+[2020.11.06-23.28.33:183][602]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.06-23.28.33:490][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.306971s)
+[2020.11.06-23.28.33:493][602]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.06-23.28.33:495][602]LogPlayLevel: PIE: World Init took: (0.004967s)
+[2020.11.06-23.28.33:496][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.312886s)
+[2020.11.06-23.28.33:646][602]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.06-23.28.33:693][602]LogInit: FAudioDevice initialized.
+[2020.11.06-23.28.33:774][602]LogLoad: Game class is 'GameModeBase'
+[2020.11.06-23.28.33:812][602]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-20.28.33
+[2020.11.06-23.28.33:816][602]LogWorld: Bringing up level for play took: 0.039981
+[2020.11.06-23.28.33:836][602]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,827
+[2020.11.06-23.28.33:838][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.29.38:335][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.29.38:644][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.06-23.34.01:934][622]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.06-23.35.32:500][ 55]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.06-23.37.15:657][673]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.11.06-23.37.19:422][849]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoLabApps
+
+[2020.11.06-23.37.19:422][849]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.06-23.37.19:422][849]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2020.11.06-23.37.19:422][849]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.06-23.37.19:522][855]LogTemp:Display: BranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2020.11.06-23.37.21:499][960]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Belci_3\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2020.11.06-23.37.21:500][960]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2020.11.06-23.39.36:870][390]BlueprintLog: New page: Compilar Personaje
+[2020.11.06-23.41.01:771][492]LogRenderer: Reallocating scene render targets to support 760x464 NumSamples 1 (Frame:9439).
+[2020.11.06-23.41.50:085][931]LogSavePackage: Save=1203.35ms
+[2020.11.06-23.41.50:085][931]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto3384F5C0D4A83919916C3C8B1CCF14CA7.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto3.umap'
+[2020.11.06-23.41.50:096][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto3.umap
+[2020.11.06-23.41.50:114][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 1.410
+[2020.11.06-23.41.50:114][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.410
+[2020.11.06-23.41.50:125][931]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.11.06-23.41.50:125][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.11.06-23.41.50:589][931]LogSavePackage: Save=373.94ms
+[2020.11.06-23.41.50:589][931]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto321CA12A14DAF214BC9A09FA68261C599.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto3.uasset'
+[2020.11.06-23.41.50:607][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto3.uasset
+[2020.11.06-23.41.50:608][931]LogFileHelpers: Auto-saving content packages took 0.486
+[2020.11.06-23.42.00:843][ 34]BlueprintLog: New page: Compilar Personaje
+[2020.11.06-23.42.01:427][ 34]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58.CollisionCylinder is already used by CapsuleComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.REINST_Personaje_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.11.06-23.42.01:428][ 34]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58.Arrow is already used by ArrowComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.REINST_Personaje_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.11.06-23.42.01:428][ 34]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58.CharMoveComp is already used by CharacterMovementComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.REINST_Personaje_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.11.06-23.42.01:428][ 34]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.REINST_Personaje_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.11.06-23.53.32:657][883]LogSavePackage: Save=1847.71ms
+[2020.11.06-23.53.32:657][883]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto4B58BDB9E4CDAA4FD2E81E5A7810241E2.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto4.umap'
+[2020.11.06-23.53.32:717][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto4.umap
+[2020.11.06-23.53.32:729][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 2.616
+[2020.11.06-23.53.32:729][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.616
+[2020.11.06-23.53.32:740][883]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.11.06-23.53.32:740][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.11.06-23.53.33:222][883]LogSavePackage: Save=412.78ms
+[2020.11.06-23.53.33:223][883]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto474CE2543443F94661DB119AE92D2DD0C.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto4.uasset'
+[2020.11.06-23.53.33:268][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto4.uasset
+[2020.11.06-23.53.33:268][883]LogFileHelpers: Auto-saving content packages took 0.533
+[2020.11.06-23.54.20:958][493]BlueprintLog: New page: Compilar Personaje
+[2020.11.06-23.54.50:274][833]BlueprintLog: New page: Compilar Personaje
+[2020.11.06-23.55.05:572][  4]BlueprintLog: New page: Compilar Personaje
+[2020.11.07-00.00.24:309][295]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.02.37:175][558]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.04.09:020][808]LogSavePackage: Save=2132.08ms
+[2020.11.07-00.04.09:020][808]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto5E3502369424C341602CC5C8E2305AE94.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto5.umap'
+[2020.11.07-00.04.09:034][808]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto5.umap
+[2020.11.07-00.04.09:050][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 2.486
+[2020.11.07-00.04.09:050][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.486
+[2020.11.07-00.04.09:062][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.11.07-00.04.09:062][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.11.07-00.04.09:588][808]LogSavePackage: Save=432.61ms
+[2020.11.07-00.04.09:588][808]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto572896CF24121553375E6D890CC460902.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto5.uasset'
+[2020.11.07-00.04.09:633][808]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto5.uasset
+[2020.11.07-00.04.09:634][808]LogFileHelpers: Auto-saving content packages took 0.576
+[2020.11.07-00.08.10:652][539]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.09.46:649][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x329)
+[2020.11.07-00.09.47:853][961]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.10.49:108][416]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Personaje_C /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58) from referencer (K2Node_Literal /Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT:EventGraph.K2Node_Literal_15).  Import failed...
+[2020.11.07-00.10.49:108][416]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Personaje_C'/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58''
+[2020.11.07-00.12.58:090][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.11.07-00.12.59:471][422]LogEditorViewport: Clicking on Actor (LMB): Personaje_C (Personaje)
+[2020.11.07-00.13.00:488][430]LogEditorViewport: Clicking on Actor (LMB): Personaje_C (Personaje)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: libcurl info message cache 0 (Connection 37 seems to be dead!)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: libcurl info message cache 1 (Closing connection 37)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.11.07-00.13.23:082][ 11]LogHttp:Warning: 000002C48E18BD00: libcurl info message cache 4 (Closing connection 38)
+[2020.11.07-00.13.40:633][416]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.13.42:734][446]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.13.42:801][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.13.42:801][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.13.42:802][446]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:13:42)
+[2020.11.07-00.13.42:802][446]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.13.43:182][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.379007s)
+[2020.11.07-00.13.43:187][446]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.13.43:188][446]LogPlayLevel: PIE: World Init took: (0.005949s)
+[2020.11.07-00.13.43:190][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.387618s)
+[2020.11.07-00.13.43:460][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.13.43:527][446]LogInit: FAudioDevice initialized.
+[2020.11.07-00.13.43:602][446]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.13.43:645][446]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.13.43
+[2020.11.07-00.13.43:648][446]LogWorld: Bringing up level for play took: 0.043910
+[2020.11.07-00.13.43:668][446]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.07-00.13.43:684][446]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,675
+[2020.11.07-00.13.43:686][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.13.50:060][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.13.51:063][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.14.20:572][207]LogSavePackage: Save=2136.12ms
+[2020.11.07-00.14.20:572][207]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto68267CE904E59FB8A9DB416AC77CF1DD1.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto6.umap'
+[2020.11.07-00.14.20:585][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto6.umap
+[2020.11.07-00.14.20:598][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 2.431
+[2020.11.07-00.14.20:598][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.431
+[2020.11.07-00.14.20:611][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT] ([1] browsable assets)...
+[2020.11.07-00.14.20:793][207]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT]
+[2020.11.07-00.14.20:793][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT]
+[2020.11.07-00.14.21:165][207]LogSavePackage: Save=282.27ms
+[2020.11.07-00.14.21:165][207]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/BOTÓNBLUEPRINT_Auto64F6A4A154856B87DD171079B842F4A47.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT_Auto6.uasset'
+[2020.11.07-00.14.21:175][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT_Auto6.uasset
+[2020.11.07-00.14.21:175][207]LogFileHelpers: Auto-saving content packages took 0.571
+[2020.11.07-00.15.49:729][214]LogActorFactory: Actor Factory created Cube
+[2020.11.07-00.15.51:968][238]LogActorFactory: Actor Factory created Cube
+[2020.11.07-00.16.46:191][624]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.17.30:052][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLA2)
+[2020.11.07-00.17.51:106][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLA)
+[2020.11.07-00.17.56:004][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_005)
+[2020.11.07-00.18.01:109][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_20)
+[2020.11.07-00.18.02:551][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_21)
+[2020.11.07-00.18.03:785][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_008)
+[2020.11.07-00.18.08:426][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_009)
+[2020.11.07-00.18.11:134][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SILLON_CON_TEXTURA2_Cube_007)
+[2020.11.07-00.18.15:445][369]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (indoor_plant_02_6_1_1+2)
+[2020.11.07-00.18.24:065][524]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.18.24:137][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.18.24:137][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.18.24:138][524]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:18:24)
+[2020.11.07-00.18.24:138][524]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.18.24:488][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.349814s)
+[2020.11.07-00.18.24:492][524]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.18.24:493][524]LogPlayLevel: PIE: World Init took: (0.004321s)
+[2020.11.07-00.18.24:493][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.355208s)
+[2020.11.07-00.18.24:672][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.18.24:720][524]LogInit: FAudioDevice initialized.
+[2020.11.07-00.18.24:804][524]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.18.24:845][524]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.18.24
+[2020.11.07-00.18.24:848][524]LogWorld: Bringing up level for play took: 0.042083
+[2020.11.07-00.18.24:868][524]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,14
+[2020.11.07-00.18.24:871][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.18.31:446][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.18.31:961][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.18.32:756][585]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (indoor_plant_02_6_1_1+2)
+[2020.11.07-00.18.36:231][664]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.18.36:313][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.18.36:314][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.18.36:314][664]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:18:36)
+[2020.11.07-00.18.36:314][664]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.18.36:614][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.299829s)
+[2020.11.07-00.18.36:617][664]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.18.36:617][664]LogPlayLevel: PIE: World Init took: (0.002833s)
+[2020.11.07-00.18.36:618][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.303619s)
+[2020.11.07-00.18.36:773][664]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.18.36:818][664]LogInit: FAudioDevice initialized.
+[2020.11.07-00.18.36:903][664]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.18.36:941][664]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.18.36
+[2020.11.07-00.18.36:944][664]LogWorld: Bringing up level for play took: 0.039305
+[2020.11.07-00.18.36:965][664]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,044
+[2020.11.07-00.18.36:967][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.19.03:828][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.19.04:253][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.19.30:784][363]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.11.07-00.19.31:447][393]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProyectoLabApps
+
+[2020.11.07-00.19.31:447][393]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.07-00.19.31:447][393]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2020.11.07-00.19.31:447][393]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2020.11.07-00.19.31:463][394]LogTemp:Display: BranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = BELU/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Belci_3\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2020.11.07-00.19.31:515][397]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2020.11.07-00.20.19:166][  3]BlueprintLog: New page: Compilar Personaje
+[2020.11.07-00.20.24:397][ 68]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.20.24:464][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.20.24:464][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.20.24:465][ 68]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:20:24)
+[2020.11.07-00.20.24:465][ 68]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.20.24:772][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307143s)
+[2020.11.07-00.20.24:775][ 68]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.20.24:776][ 68]LogPlayLevel: PIE: World Init took: (0.003555s)
+[2020.11.07-00.20.24:777][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.311685s)
+[2020.11.07-00.20.24:940][ 68]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.20.24:988][ 68]LogInit: FAudioDevice initialized.
+[2020.11.07-00.20.25:065][ 68]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.20.25:104][ 68]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.20.25
+[2020.11.07-00.20.25:107][ 68]LogWorld: Bringing up level for play took: 0.039579
+[2020.11.07-00.20.25:129][ 68]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,12
+[2020.11.07-00.20.25:131][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.20.34:222][150]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	Personaje_C /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58
+	Function /Game/Peones/Personaje.Personaje_C:ExecuteUbergraph_Personaje:0A16
+[2020.11.07-00.20.34:238][150]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent from function: 'ExecuteUbergraph_Personaje' from node: Rama in graph: EventGraph in object: Personaje with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+[2020.11.07-00.20.35:220][160]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+	Personaje_C /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Personaje_58
+	Function /Game/Peones/Personaje.Personaje_C:ExecuteUbergraph_Personaje:0A16
+[2020.11.07-00.20.35:221][160]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent from function: 'ExecuteUbergraph_Personaje' from node: Rama in graph: EventGraph in object: Personaje with description: Accessed None trying to read property CallFunc_BreakHitResult_HitComponent
+[2020.11.07-00.21.23:130][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.21.23:461][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.21.27:943][738]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.21.28:014][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.21.28:014][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.21.28:014][738]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:21:28)
+[2020.11.07-00.21.28:015][738]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.21.28:324][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.309205s)
+[2020.11.07-00.21.28:326][738]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.21.28:328][738]LogPlayLevel: PIE: World Init took: (0.003613s)
+[2020.11.07-00.21.28:329][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.313807s)
+[2020.11.07-00.21.28:483][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.21.28:530][738]LogInit: FAudioDevice initialized.
+[2020.11.07-00.21.28:615][738]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.21.28:660][738]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.21.28
+[2020.11.07-00.21.28:663][738]LogWorld: Bringing up level for play took: 0.044817
+[2020.11.07-00.21.28:682][738]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default -0,327
+[2020.11.07-00.21.28:684][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.21.58:483][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.21.58:894][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.22.28:211][763]LogBlueprint:Warning: [Minimal_Default] 'Afuera (Apagado)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.28:211][763]LogBlueprint:Warning: [Minimal_Default] 'Afuera (Apagado)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.28:212][763]LogBlueprint:Warning: [Minimal_Default] 'Adentro (Encendido)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.28:212][763]LogBlueprint:Warning: [Minimal_Default] 'Adentro (Encendido)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.28:213][763]LogBlueprint:Warning: [Minimal_Default] 'Boton' variable not found. Base class was probably changed.
+[2020.11.07-00.22.40:383][ 43]LogEditorTransaction: Undo Paste clipboard contents
+[2020.11.07-00.22.49:856][264]LogUObjectHash:Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default.EventGraph.EdGraphNode_Comment_3 or EdGraphNode_Comment /Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default.EventGraph.EdGraphNode_Comment_3
+[2020.11.07-00.22.50:076][264]LogBlueprint:Warning: [Minimal_Default] 'Boton' variable not found. Base class was probably changed.
+[2020.11.07-00.22.50:076][264]LogBlueprint:Warning: [Minimal_Default] 'Afuera (Apagado)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.50:077][264]LogBlueprint:Warning: [Minimal_Default] 'Adentro (Encendido)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.50:164][264]LogBlueprint:Warning: [Minimal_Default] 'Boton' variable not found. Base class was probably changed.
+[2020.11.07-00.22.50:165][264]LogBlueprint:Warning: [Minimal_Default] 'Afuera (Apagado)' variable not found. Base class was probably changed.
+[2020.11.07-00.22.50:165][264]LogBlueprint:Warning: [Minimal_Default] 'Adentro (Encendido)' variable not found. Base class was probably changed.
+[2020.11.07-00.23.45:695][535]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.23.46:018][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.46:018][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Afuera (Apagado)
+[2020.11.07-00.23.46:019][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.23.46:019][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.46:019][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Afuera (Apagado)
+[2020.11.07-00.23.46:019][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.23.46:023][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.46:023][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.23.46:024][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.23.46:068][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.46:069][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.46:070][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.46:071][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.46:071][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.46:072][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.46:072][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.46:072][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.46:073][535]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.47:907][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.47:907][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Afuera (Apagado)
+[2020.11.07-00.23.47:907][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.23.47:907][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.47:907][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Afuera (Apagado)
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Afuera (Apagado)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.47:908][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.23.47:909][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Afuera (Apagado)  no se ha encontrado
+[2020.11.07-00.23.47:909][535]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.23.47:927][535]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso [6051,57] Compile of PersistentLevel.Minimal_Default failed. 9 Fatal Issue(s) 9 Warning(s) [in 2.230 ms] (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2020.11.07-00.24.25:419][391]LogSlate: Took 0.058178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.07-00.25.02:506][ 46]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.25.02:651][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.02:651][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.25.02:651][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.02:651][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.25.02:653][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.02:653][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.25.02:665][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.02:666][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.02:666][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.02:666][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.02:667][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.02:667][ 46]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Adentro (Encendido)
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Adentro (Encendido)" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Ajustar
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Adentro (Encendido)  no se ha encontrado
+[2020.11.07-00.25.03:480][ 46]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.03:481][ 46]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso [6127,12] Compile of PersistentLevel.Minimal_Default failed. 6 Fatal Issue(s) 6 Warning(s) [in 974 ms] (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2020.11.07-00.25.23:956][484]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.25.24:242][484]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.24:242][484]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.24:246][484]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.24:268][484]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.24:269][484]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.24:270][484]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.25:978][484]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.25:978][484]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.25:978][484]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.25.25:978][484]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.25:978][484]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.25:979][484]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.25.25:980][484]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso [6149,62] Compile of PersistentLevel.Minimal_Default failed. 3 Fatal Issue(s) 3 Warning(s) [in 2.023 ms] (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2020.11.07-00.26.42:796][ 62]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.14:548][778]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.15:319][795]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.16:405][820]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.19:128][883]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.20:295][911]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.21:896][951]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.27.41:974][421]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.27.42:249][421]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.42:254][421]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.42:275][421]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.42:277][421]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.44:027][421]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.44:027][421]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.44:027][421]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.44:027][421]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.44:028][421]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso [6287,67] Compile of PersistentLevel.Minimal_Default failed. 2 Fatal Issue(s) 2 Warning(s) [in 2.054 ms] (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2020.11.07-00.27.47:544][507]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.27.47:820][507]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.47:841][507]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.49:539][507]BlueprintEditorCompileResults:Warning: Aviso Could not find a variable named "Boton" in 'Minimal_Default_C'.
+Make sure 'Minimal_Default_C' has been compiled for  Obtener Boton
+[2020.11.07-00.27.49:539][507]BlueprintEditorCompileResults:Error: Error La propiedad asociada con  Boton  no se ha encontrado
+[2020.11.07-00.27.49:540][507]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Aviso [6293,18] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 1.996 ms] (/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2020.11.07-00.28.15:101][ 56]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.28.18:836][135]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.28.18:871][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.28.18:871][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.28.18:871][135]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:28:18)
+[2020.11.07-00.28.18:871][135]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.28.19:022][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150839s)
+[2020.11.07-00.28.19:024][135]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.28.19:024][135]LogPlayLevel: PIE: World Init took: (0.001660s)
+[2020.11.07-00.28.19:025][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.153113s)
+[2020.11.07-00.28.19:101][135]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.28.19:121][135]LogInit: FAudioDevice initialized.
+[2020.11.07-00.28.19:174][135]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.28.19:191][135]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.28.19
+[2020.11.07-00.28.19:192][135]LogWorld: Bringing up level for play took: 0.016833
+[2020.11.07-00.28.19:193][135]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.07-00.28.19:227][135]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2020.11.07-00.28.19:237][135]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,229
+[2020.11.07-00.28.19:238][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.28.37:559][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.28.37:968][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.28.55:634][671]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.30.57:115][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x324)
+[2020.11.07-00.30.59:778][293]LogEditorViewport: Clicking on Actor (LMB): BOTÓNBLUEPRINT_C (BOTÓNBLUEPRINT)
+[2020.11.07-00.31.48:950][402]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.31.51:873][466]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.31.51:948][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.31.51:949][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.31.51:949][466]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:31:51)
+[2020.11.07-00.31.51:950][466]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.31.52:293][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.343329s)
+[2020.11.07-00.31.52:296][466]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.31.52:296][466]LogPlayLevel: PIE: World Init took: (0.003611s)
+[2020.11.07-00.31.52:297][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.347959s)
+[2020.11.07-00.31.52:463][466]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.31.52:518][466]LogInit: FAudioDevice initialized.
+[2020.11.07-00.31.52:612][466]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.31.52:656][466]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.31.52
+[2020.11.07-00.31.52:659][466]LogWorld: Bringing up level for play took: 0.044949
+[2020.11.07-00.31.52:661][466]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.07-00.31.52:665][466]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2020.11.07-00.31.52:699][466]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 1,691
+[2020.11.07-00.31.52:702][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.32.33:942][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.32.34:353][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.33.21:290][846]LogSavePackage: Save=2502.04ms
+[2020.11.07-00.33.21:290][846]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Minimal_Default_Auto7198CAD3F4F7BD40C3F997284A4E8CD6E.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto7.umap'
+[2020.11.07-00.33.21:302][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Niveles/Mapa/Minimal_Default_Auto7.umap
+[2020.11.07-00.33.21:320][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Mapa/Minimal_Default' took 2.896
+[2020.11.07-00.33.21:320][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.896
+[2020.11.07-00.33.21:331][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT] ([1] browsable assets)...
+[2020.11.07-00.33.21:460][846]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT]
+[2020.11.07-00.33.21:460][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT]
+[2020.11.07-00.33.21:780][846]LogSavePackage: Save=233.37ms
+[2020.11.07-00.33.21:781][846]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/BOTÓNBLUEPRINT_Auto75841B5AC49F0E60C76343585C7819504.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT_Auto7.uasset'
+[2020.11.07-00.33.21:791][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT_Auto7.uasset
+[2020.11.07-00.33.21:795][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Peones/Personaje] ([1] browsable assets)...
+[2020.11.07-00.33.21:795][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Peones/Personaje]
+[2020.11.07-00.33.22:322][846]LogSavePackage: Save=432.09ms
+[2020.11.07-00.33.22:322][846]LogSavePackage: Moving '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Personaje_Auto7FA0205E04D072D14699958954B496584.tmp' to '../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto7.uasset'
+[2020.11.07-00.33.22:331][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Belci_3/Documents/GitHub/Proyecto-Laberinto-Grupo-1/ProyectoLabApps/Saved/Autosaves/Game/Peones/Personaje_Auto7.uasset
+[2020.11.07-00.33.22:331][846]LogFileHelpers: Auto-saving content packages took 1.005
+[2020.11.07-00.33.39:248][246]BlueprintLog: New page: Compilar Minimal_Default
+[2020.11.07-00.34.39:663][638]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.34.47:854][825]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.34.47:948][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.34.47:949][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.34.47:949][825]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:34:47)
+[2020.11.07-00.34.47:949][825]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.34.48:263][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.313321s)
+[2020.11.07-00.34.48:267][825]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.34.48:267][825]LogPlayLevel: PIE: World Init took: (0.004140s)
+[2020.11.07-00.34.48:268][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.318369s)
+[2020.11.07-00.34.48:449][825]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.34.48:489][825]LogInit: FAudioDevice initialized.
+[2020.11.07-00.34.48:565][825]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.34.48:593][825]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.34.48
+[2020.11.07-00.34.48:596][825]LogWorld: Bringing up level for play took: 0.029649
+[2020.11.07-00.34.48:613][825]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 1,604
+[2020.11.07-00.34.48:615][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.34.55:429][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.34.55:665][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.35.25:919][633]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.35.29:077][680]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.35.29:144][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.35.29:144][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.35.29:145][680]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:35:29)
+[2020.11.07-00.35.29:145][680]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.35.29:477][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.331198s)
+[2020.11.07-00.35.29:480][680]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.35.29:480][680]LogPlayLevel: PIE: World Init took: (0.003618s)
+[2020.11.07-00.35.29:481][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.335829s)
+[2020.11.07-00.35.29:671][680]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.35.29:717][680]LogInit: FAudioDevice initialized.
+[2020.11.07-00.35.29:781][680]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.35.29:820][680]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.35.29
+[2020.11.07-00.35.29:823][680]LogWorld: Bringing up level for play took: 0.040087
+[2020.11.07-00.35.29:824][680]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.07-00.35.29:836][680]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 0,827
+[2020.11.07-00.35.29:838][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.35.59:170][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.35.59:496][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.36.49:950][165]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.36.50:130][165]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.36.50:133][165]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.36.51:233][165]BlueprintEditorCompileResults:Error: Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.36.51:233][165]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.36.51:234][165]LogBlueprint:Warning: [Compiler BOTÓNBLUEPRINT] Aviso [6834,88] Compile of BOTÓNBLUEPRINT failed. 2 Fatal Issue(s) 0 Warning(s) [in 1.283 ms] (/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT)
+[2020.11.07-00.36.59:592][356]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.36.59:727][356]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.36.59:729][356]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.37.00:820][356]BlueprintEditorCompileResults:Error: Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.37.00:820][356]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.37.00:821][356]LogBlueprint:Warning: [Compiler BOTÓNBLUEPRINT] Aviso [6844,46] Compile of BOTÓNBLUEPRINT failed. 2 Fatal Issue(s) 0 Warning(s) [in 1.229 ms] (/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT)
+[2020.11.07-00.37.21:483][824]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.37.21:613][824]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.37.21:615][824]LogBlueprint:Error: [Compiler BOTÓNBLUEPRINT] Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.37.22:502][824]BlueprintEditorCompileResults:Error: Error El tipo de  Object  no está determinado. Conectar algo a  Proyectar a Personaje  para implicar un tipo específico.
+[2020.11.07-00.37.22:502][824]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.11.07-00.37.22:503][824]LogBlueprint:Warning: [Compiler BOTÓNBLUEPRINT] Aviso [6866,14] Compile of BOTÓNBLUEPRINT failed. 2 Fatal Issue(s) 0 Warning(s) [in 1.019 ms] (/Game/ObjetosBlender/ActorMeshes/BOTON/BOTÓNBLUEPRINT.BOTÓNBLUEPRINT)
+[2020.11.07-00.37.51:043][529]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.38.01:805][772]BlueprintLog: New page: Compilar BOTÓNBLUEPRINT
+[2020.11.07-00.38.05:468][848]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.11.07-00.38.05:538][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.38.05:539][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.07-00.38.05:539][848]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (6/11/2020 18:38:05)
+[2020.11.07-00.38.05:540][848]LogPlayLevel: Creating play world package: /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default
+[2020.11.07-00.38.05:872][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.332015s)
+[2020.11.07-00.38.05:879][848]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.11.07-00.38.05:879][848]LogPlayLevel: PIE: World Init took: (0.007069s)
+[2020.11.07-00.38.05:880][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Mapa/Minimal_Default.Minimal_Default to /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default (0.340338s)
+[2020.11.07-00.38.06:021][848]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.07-00.38.06:066][848]LogInit: FAudioDevice initialized.
+[2020.11.07-00.38.06:130][848]LogLoad: Game class is 'GameModeBase'
+[2020.11.07-00.38.06:160][848]LogWorld: Bringing World /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.11.06-21.38.06
+[2020.11.07-00.38.06:164][848]LogWorld: Bringing up level for play took: 0.031973
+[2020.11.07-00.38.06:165][848]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.07-00.38.06:175][848]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Niveles/Mapa/UEDPIE_0_Minimal_Default 1,167
+[2020.11.07-00.38.06:178][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.38.20:543][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.11.07-00.38.20:875][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/Niveles/Mapa/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
